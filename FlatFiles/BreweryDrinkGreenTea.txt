@@ -1,0 +1,15 @@
+<AutoPage><AutoAlias><ReqPermission>
+GreenTea
+Ingredients:
+- 25 birch_leaves
+
+Cook Time: 10
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 4
+Effects:
+- 0-3 JUMP
+- 0-20 LUCK
+- 0-2 REGENERATION

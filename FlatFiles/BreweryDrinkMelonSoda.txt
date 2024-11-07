@@ -1,0 +1,18 @@
+<AutoPage><AutoAlias><ReqPermission>
+MelonSoda
+Ingredients:
+- 1 glistering_melon_slice
+- 3 sugar
+- 16 melon_slice
+- 1 Brewery:carbonatedWater
+
+Cook Time: 4
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 6
+Effects:
+- 0-4 ABSORPTION
+- 0-6 FAST_DIGGING
+- 0-10 SPEED

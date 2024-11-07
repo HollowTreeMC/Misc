@@ -1,0 +1,13 @@
+<AutoPage><AutoAlias><ReqPermission>
+RedTea
+Ingredients:
+- 20 oak_leaves
+
+Cook Time: 5
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 1
+Effects:
+- 0-4 REGENERATION

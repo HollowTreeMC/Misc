@@ -1,0 +1,21 @@
+<AutoPage><AutoAlias><ReqPermission>
+Cola
+Ingredients:
+- 3 jungle_sapling
+- 4 brown_dye
+- 12 sugar
+- 2 blaze_powder
+- 2 glowstone_dust
+
+Cook Time: 8
+Wood Type: 0
+Age: 1
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 2
+Effects:
+- 0-2 HASTE
+- 0-4 JUMP
+- 0-2 SPEED

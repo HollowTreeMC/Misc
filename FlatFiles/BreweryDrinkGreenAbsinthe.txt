@@ -1,0 +1,22 @@
+<AutoPage><AutoAlias><ReqPermission>
+GreenAbsinthe
+Ingredients:
+- 17 short_grass
+- 2 poisonous_potato
+- 1 Brewery:neutralSpirit
+
+Cook Time: 5
+
+<NextPage>
+
+Alcohol Level: 46
+Difficulty: 9
+Effects:
+- 25-40 POISON
+- 2 HARM
+- 40-60 NIGHT_VISION
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

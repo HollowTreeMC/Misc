@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Ambrosia
+Ingredients:
+- 10 glow_berries
+- 1 yellow_dye
+- 1 carrot
+- 9 honey_bottle
+- 1 Brewery:neutralSpirit
+
+Cook Time: 4
+Wood Type: 2
+Age: 10
+
+<NextPage>
+
+Alcohol Level: 35
+Difficulty: 6
+Effects:
+- 0-1 REGENERATION
+- 1-2 SPEED
+- 0-15 WEAKNESS
+- 3-0 POISON
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

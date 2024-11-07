@@ -1,0 +1,21 @@
+<AutoPage><AutoAlias><ReqPermission>
+RedWine
+Ingredients:
+- 20 sweet_berries
+
+Cook Time: 5
+Wood Type: 0
+Age: 20
+
+<NextPage>
+
+Alcohol Level: 8
+Difficulty: 4
+Effects:
+- 0-3 SLOWNESS
+- 0-1 HEAL
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

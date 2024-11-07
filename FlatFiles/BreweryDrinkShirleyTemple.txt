@@ -1,0 +1,21 @@
+<AutoPage><AutoAlias><ReqPermission>
+ShirleyTemple
+Ingredients:
+- 5 sweet_berries
+- 10 sugar
+- 1 blaze_powder
+- 8 red_dye
+- 1 golden_apple
+
+Cook Time: 13
+Wood Type: 5
+Age: 6
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 10
+Effects:
+- 0-300 GLOWING
+- 0-300 LUCK
+- 0-2 HERO_OF_THE_VILLAGE

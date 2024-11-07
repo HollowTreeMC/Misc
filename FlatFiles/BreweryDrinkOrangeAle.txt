@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+OrangeAle
+Ingredients:
+- 2 orange_tulip
+- 10 sugar
+- 7 wheat
+- 1 orange_dye
+
+Cook Time: 3
+Wood Type: 5
+Age: 3
+
+<NextPage>
+
+Alcohol Level: 7
+Difficulty: 8
+Effects:
+- 0-1 MINING_FATIGUE
+- 0-2 FIRE_RESISTANCE
+- 0-2 JUMP
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

@@ -1,0 +1,16 @@
+<AutoPage><AutoAlias><ReqPermission>
+LimeSoda
+Ingredients:
+- 1 magma_block
+- 10 sugar
+- 5 lime_dye
+
+Cook Time: 5
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 4
+Effects:
+- 0-2 JUMP
+- 0-4 SPEED

@@ -1,0 +1,23 @@
+<AutoPage><AutoAlias><ReqPermission>
+YachtLager
+Ingredients:
+- 1 oak_boat
+- 8 wheat
+- 3 sugar
+
+Cook Time: 3
+Wood Type: 0
+Age: 3
+
+<NextPage>
+
+Alcohol Level: 4
+Difficulty: 3
+Effects:
+- 3 SLOWNESS
+- 1 MINING_FATIGUE
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

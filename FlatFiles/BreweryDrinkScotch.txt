@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Scotch
+Ingredients:
+- 20 wheat
+- 1 lava_bucket
+- 1 golden_apple
+- 1 dragon_breath
+
+Cook Time: 15
+Wood Type: 6
+Age: 21
+
+<NextPage>
+
+Alcohol Level: 55
+Difficulty: 8
+Effects:
+- 0-30 CONFUSION
+- 1-3 WITHER
+- 0-3 RESISTANCE
+- 0-4 STRENGTH
+- 0-6 SPEED
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

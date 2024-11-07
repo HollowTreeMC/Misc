@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+Tequila
+Ingredients:
+- 20 fern
+- 15 sugar
+
+Cook Time: 5
+Wood Type: 2
+Age: 3
+
+<NextPage>
+
+Alcohol Level: 40
+Difficulty: 3
+Effects:
+- 1-3 POISON
+- 0-30 CONFUSION
+- 0-4 FIRE_RESISTANCE
+- 0-3 GLOWING
+- 0-4 SPEED
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

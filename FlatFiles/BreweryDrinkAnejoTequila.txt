@@ -1,0 +1,24 @@
+<AutoPage><AutoAlias><ReqPermission>
+AnejoTequila
+Ingredients:
+- 35 blue_orchid
+- 1 Brewery:Levain
+
+Cook Time: 10
+Wood Type: 2
+Age: 366
+
+<NextPage>
+
+Alcohol Level: 40
+Difficulty: 3
+Effects:
+- 1-3 CONFUSION
+- 1-300 UNLUCK
+- 2-10 ABSORPTION
+- 8-0 HEALTH_BOOST
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

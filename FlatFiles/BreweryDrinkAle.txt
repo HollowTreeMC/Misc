@@ -1,0 +1,22 @@
+<AutoPage><AutoAlias><ReqPermission>
+Ale
+Ingredients:
+- 4 wheat
+- 1 Brewery:Levain
+
+Cook Time: 5
+Wood Type: 1
+Age: 2
+
+<NextPage>
+
+Alcohol Level: 7
+Difficulty: 3
+Effects:
+- 0-2 SLOW
+- 0-2 SATURATION
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

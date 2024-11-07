@@ -1,0 +1,23 @@
+<AutoPage><AutoAlias><ReqPermission>
+IrishStout
+Ingredients:
+- 1 coal
+- 1 black_dye
+- 1 milk_bucket
+- 16 wheat
+
+Cook Time: 7
+Wood Type: 2
+Age: 1
+
+<NextPage>
+
+Alcohol Level: 4
+Difficulty: 7
+Effects:
+- 1-15 SLOWNESS
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

@@ -1,0 +1,23 @@
+<AutoPage><AutoAlias><ReqPermission>
+ChocolatePorter
+Ingredients:
+- 15 wheat
+- 8 cocoa_beans
+
+Cook Time: 4
+Wood Type: 0
+Age: 1
+
+<NextPage>
+
+Alcohol Level: 6
+Difficulty: 10
+Effects:
+- 0-1 WITHER
+- 0-1 STRENGTH
+- 1-4 SPEED
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

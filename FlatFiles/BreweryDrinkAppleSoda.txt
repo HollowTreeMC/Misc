@@ -1,0 +1,17 @@
+<AutoPage><AutoAlias><ReqPermission>
+AppleSoda
+Ingredients:
+- 10 sugar
+- 15 apple
+- 3 red_dye
+
+Cook Time: 7
+Age: 3
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 3
+Effects:
+- 0-3 LEVITATION
+- 0-5 SLOW_FALLING

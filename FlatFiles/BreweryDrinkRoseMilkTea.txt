@@ -1,0 +1,18 @@
+<AutoPage><AutoAlias><ReqPermission>
+RoseMilkTea
+Ingredients:
+- 15 dark_oak_leaves
+- 2 sugar
+- 2 milk_bucket
+- 2 honey_bottle
+- 1 rose_bush
+
+Cook Time: 1
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 4
+Effects:
+- 2-5 FAST_DIGGING
+- 2-5 SPEED

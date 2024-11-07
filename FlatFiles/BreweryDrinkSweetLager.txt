@@ -1,0 +1,23 @@
+<AutoPage><AutoAlias><ReqPermission>
+SweetLager
+Ingredients:
+- 12 wheat
+- 6 sugar
+- 1 glowstone_dust
+
+Cook Time: 5
+Wood Type: 4
+Age: 6
+
+<NextPage>
+
+Alcohol Level: 5
+Difficulty: 4
+Effects:
+- 1 WEAKNESS
+- 0-1 FIRE_RESISTANCE
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

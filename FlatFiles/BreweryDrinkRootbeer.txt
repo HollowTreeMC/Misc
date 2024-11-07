@@ -1,0 +1,22 @@
+<AutoPage><AutoAlias><ReqPermission>
+Rootbeer
+Ingredients:
+- 1 stick
+- 8 mangrove_roots
+- 10 sugar
+- 1 Brewery:carbonatedWater
+
+Cook Time: 5
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 2
+Effects:
+- 0-1 ABSORPTION
+- 0-2 FAST_DIGGING
+- 0-2 JUMP
+- 0-60 NIGHT_VISION
+- 0-1 SLOW_FALLING
+- 0-3 SPEED
+- 0-60 WATER_BREATHING

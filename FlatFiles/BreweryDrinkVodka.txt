@@ -1,0 +1,21 @@
+<AutoPage><AutoAlias><ReqPermission>
+Vodka
+Ingredients:
+- 15 potato
+- 1 Brewery:neutralSpirit
+
+Cook Time: 15
+Age: 0
+
+<NextPage>
+
+Alcohol Level: 20
+Difficulty: 4
+Effects:
+- 15 WEAKNESS
+- 10 POISON
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

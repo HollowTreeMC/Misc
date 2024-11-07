@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+FishyGreenAle
+Ingredients:
+- 20 ice
+- 30 wheat
+- 6 tropical_fish
+- 10 cod
+- 8 salmon
+
+Cook Time: 6
+Wood Type: 3
+Age: 8
+
+<NextPage>
+
+Alcohol Level: 4
+Difficulty: 8
+Effects:
+- 0-1 POISON
+- 0-15 BLINDNESS
+- 0-30 CONFUSION
+- 0-300 CONDUIT_POWER
+- 0-300 DOLPHINS_GRACE
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

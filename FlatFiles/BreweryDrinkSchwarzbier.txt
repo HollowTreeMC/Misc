@@ -1,0 +1,23 @@
+<AutoPage><AutoAlias><ReqPermission>
+Schwarzbier
+Ingredients:
+- 8 sugar
+- 5 cocoa_beans
+
+Cook Time: 9
+Wood Type: 6
+Age: 4
+
+<NextPage>
+
+Alcohol Level: 5
+Difficulty: 10
+Effects:
+- 3 BLINDNESS
+- 2 SLOWNESS
+- 0-1 STRENGTH
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

@@ -1,0 +1,22 @@
+<AutoPage><AutoAlias><ReqPermission>
+OakMead
+Ingredients:
+- 6 Honey_bottle
+- 2 sweet_berries
+
+Cook Time: 5
+Wood Type: 2
+Age: 25
+
+<NextPage>
+
+Alcohol Level: 13
+Difficulty: 3
+Effects:
+- 0-4 SLOW
+- 0-4 DAMAGE_RESISTANCE
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

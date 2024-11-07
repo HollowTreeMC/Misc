@@ -1,0 +1,14 @@
+<AutoPage><AutoAlias><ReqPermission>
+WhiteTea
+Ingredients:
+- 1 lily_of_the_valley
+- 20 birch_leaves
+
+Cook Time: 10
+
+<NextPage>
+
+Alcohol Level: 0
+Difficulty: 5
+Effects:
+- 0-120 CONDUIT_POWER

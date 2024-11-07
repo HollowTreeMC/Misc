@@ -1,0 +1,23 @@
+<AutoPage><AutoAlias><ReqPermission>
+MilkStout
+Ingredients:
+- 20 wheat
+- 15 cocoa_beans
+- 1 milk_bucket
+
+Cook Time: 5
+Wood Type: 6
+Age: 4
+
+<NextPage>
+
+Alcohol Level: 6
+Difficulty: 4
+Effects:
+- 1-3 WEAKNESS
+- 10-15 CONFUSION
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.

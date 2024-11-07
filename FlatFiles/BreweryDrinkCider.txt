@@ -1,0 +1,26 @@
+<AutoPage><AutoAlias><ReqPermission>
+Cider
+Ingredients:
+- 15 apple
+- 5 sugar
+- 10 sweet_berries
+- 1 Brewery:neutralSpirit
+
+Cook Time: 7
+Wood Type: 0
+Age: 3
+
+<NextPage>
+
+Alcohol Level: 7
+Difficulty: 4
+Effects:
+- 2-3 SLOW
+- 0-4 FIRE_RESISTANCE
+- 0-10 ABSORPTION
+- 0-2 JUMP
+
+<NextPage>
+
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe! We do not advocate for underage drinking in real life. Please drink responsibly.
