@@ -1,0 +1,16 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lMocha Milkshake
+Ingredients:
+&o- 5 cocoa_beans
+&o- 1 Brewery:iceCream
+&o- 1 Brewery:coffee
+<NextPage>
+This recipe will require &l6 &0minutes, and is &lone of the most difficult&0 to create.
+Properly brewed, this will have an alcohol density of 0
+
+Effects include:
+&o- damage_resistance
+&o- regeneration
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

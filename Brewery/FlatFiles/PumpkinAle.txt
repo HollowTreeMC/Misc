@@ -1,0 +1,21 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lPumpkin Ale
+Ingredients:
+&o- 4 pumpkin
+&o- 10 pumpkin_seeds
+&o- 3 wheat
+&o- 5 sugar
+&o- 1 Brewery:Levain
+<NextPage>
+This recipe will require &l5 &0minutes, and is &lof intermediate difficulty&0 to create.
+It is best to use a dark oak wood barrel, and age for 3 days.
+Properly brewed, this will have an alcohol density of 4
+
+Effects include:
+&o- slow_digging
+&o- strength
+&o- damage_resistance
+&o- luck
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

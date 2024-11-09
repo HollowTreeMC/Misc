@@ -1,0 +1,17 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lOak Mead
+Ingredients:
+&o- 6 Honey_bottle
+&o- 2 sweet_berries
+&o- 1 Brewery:Levain
+<NextPage>
+This recipe will require &l5 &0minutes, and is &leasy&0 to create.
+It is best to use a jungle wood barrel, and age for 25 days.
+Properly brewed, this will have an alcohol density of 13
+
+Effects include:
+&o- slow
+&o- damage_resistance
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

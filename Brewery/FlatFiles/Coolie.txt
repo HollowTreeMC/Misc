@@ -1,0 +1,18 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lCoolie
+Ingredients:
+&o- 14 sugar
+&o- 6 cactus
+&o- 10 ice
+&o- 1 Brewery:carbonatedWater
+<NextPage>
+This recipe will require &l8 &0minutes, and is &leasy&0 to create.
+Master brewers have found that it must be distilled 6 times for 10 seconds or so...Properly brewed, this will have an alcohol density of 0
+
+Effects include:
+&o- invisibility
+&o- night_vision
+&o- confusion
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

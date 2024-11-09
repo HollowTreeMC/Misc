@@ -1,0 +1,7 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lPumpkin Juice
+Ingredients:
+&o- 5 pumpkin
+&o- 10 sugar
+<NextPage>
+This recipe will require &l3 &0minutes, and is &lrather simple&0 to create.

@@ -1,0 +1,21 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lShirley Temple
+Ingredients:
+&o- 5 sweet_berries
+&o- 10 sugar
+&o- 1 blaze_powder
+&o- 8 red_dye
+&o- 1 golden_apple
+&o- 1 Brewery:carbonatedWater
+<NextPage>
+This recipe will require &l13 &0minutes, and is &lone of the most difficult&0 to create.
+It is best to use a dark oak wood barrel, and age for 6 days.
+Master brewers have found that it must be distilled 7 times for 28 seconds or so...Properly brewed, this will have an alcohol density of 0
+
+Effects include:
+&o- glowing
+&o- luck
+&o- hero_of_the_village
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

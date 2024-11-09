@@ -1,0 +1,15 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lApple Juice
+Ingredients:
+&o- 10 apple
+&o- 2 sugar
+<NextPage>
+This recipe will require &l4 &0minutes, and is &lrather simple&0 to create.
+Properly brewed, this will have an alcohol density of 0
+
+Effects include:
+&o- jump
+&o- slow_falling
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

@@ -1,0 +1,16 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lSour Apple Brandy
+Ingredients:
+&o- 12 apple
+&o- 2 Brewery:neutralSpirit
+<NextPage>
+This recipe will require &l16 &0minutes, and is &lof intermediate difficulty&0 to create.
+It is best to use a dark oak wood barrel, and age for 20 days.
+Master brewers have found that it must be distilled 3 times for 3 seconds or so...Properly brewed, this will have an alcohol density of 14
+
+Effects include:
+&o- weakness
+&o- luck
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

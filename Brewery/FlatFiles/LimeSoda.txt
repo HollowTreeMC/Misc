@@ -1,0 +1,17 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lLime Soda
+Ingredients:
+&o- 1 magma_block
+&o- 10 sugar
+&o- 5 lime_dye
+&o- 1 Brewery:carbonatedWater
+<NextPage>
+This recipe will require &l5 &0minutes, and is &lof moderate difficulty&0 to create.
+Master brewers have found that it must be distilled 3 times for 12 seconds or so...Properly brewed, this will have an alcohol density of 0
+
+Effects include:
+&o- jump
+&o- speed
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

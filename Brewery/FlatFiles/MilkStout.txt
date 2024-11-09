@@ -1,0 +1,18 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lMilk Stout
+Ingredients:
+&o- 20 wheat
+&o- 15 cocoa_beans
+&o- 1 milk_bucket
+&o- 1 Brewery:Levain
+<NextPage>
+This recipe will require &l5 &0minutes, and is &lof moderate difficulty&0 to create.
+It is best to use a crimson wood barrel, and age for 4 days.
+Master brewers have found that it must be distilled 11 times for 60 seconds or so...Properly brewed, this will have an alcohol density of 6
+
+Effects include:
+&o- weakness
+&o- confusion
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

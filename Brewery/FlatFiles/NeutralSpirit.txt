@@ -1,0 +1,11 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lNeutral Spirit
+Ingredients:
+&o- 10 wheat
+&o- 10 beetroot
+<NextPage>
+This recipe will require &l1 &0minutes, and is &leasy&0 to create.
+Properly brewed, this will have an alcohol density of 10
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

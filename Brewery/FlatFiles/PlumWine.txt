@@ -1,0 +1,17 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lPlum Wine
+Ingredients:
+&o- 10 chorus_fruit
+&o- 5 sugar
+<NextPage>
+This recipe will require &l5 &0minutes, and is &lsomewhat challenging&0 to create.
+It is best to use an oak wood barrel, and age for 1 days.
+Properly brewed, this will have an alcohol density of 12
+
+Effects include:
+&o- weakness
+&o- confusion
+&o- regeneration
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

@@ -1,0 +1,17 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lHard Lemonade
+Ingredients:
+&o- 1 golden_apple
+&o- 10 sugar
+&o- 5 wheat
+&o- 2 sunflower
+&o- 1 Brewery:neutralSpirit
+<NextPage>
+This recipe will require &l5 &0minutes, and is &leasy&0 to create.
+One can use any type of barrel, but must age for 1 days.Master brewers have found that it must be distilled 3 times for 12 seconds or so...Properly brewed, this will have an alcohol density of 5
+
+Effects include:
+&o- hunger
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

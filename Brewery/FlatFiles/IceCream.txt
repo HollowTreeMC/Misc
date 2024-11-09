@@ -1,0 +1,7 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lIce Cream
+Ingredients:
+&o- 8 sugar
+&o- 2 milk_bucket
+<NextPage>
+This recipe will require &l1 &0minutes, and is &leasy&0 to create.

@@ -1,0 +1,19 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lRootbeer Float
+Ingredients:
+&o- 4 ice
+&o- 20 sugar
+&o- 2 milk_bucket
+&o- 1 Brewery:iceCream
+&o- 1 Brewery:rootbeer
+<NextPage>
+This recipe will require &l1 &0minutes, and is &lrather simple&0 to create.
+Properly brewed, this will have an alcohol density of 0
+
+Effects include:
+&o- fire_resistance
+&o- speed
+&o- fast_digging
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

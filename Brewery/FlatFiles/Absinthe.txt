@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lAbsinthe
+Ingredients:
+&o- 10 fern
+&o- 2 ender_pearl
+&o- 3 Brewery:neutralSpirit
+<NextPage>
+This recipe will require &l3 &0minutes, and is &lvery complex&0 to create.
+Master brewers have found that it must be distilled 6 times for 80 seconds or so...Properly brewed, this will have an alcohol density of 60
+
+Effects include:
+&o- poison
+&o- bad_omen
+&o- blindness
+&o- confusion
+&o- harm
+&o- levitation
+&o- slow
+&o- slow_digging
+&o- unluck
+&o- wither
+&o- absorption
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
