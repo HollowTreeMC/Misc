@@ -1,0 +1,236 @@
+menu_title: 'Lewis'
+open_command: biomewarps
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+        
+items:
+  'bamboo_forest':
+    material: BAMBOO_BLOCK
+    slot: 2
+    display_name: 'Bamboo Forest'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-BambooForest %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'beach':
+    material: SAND
+    slot: 3
+    display_name: 'Beach'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Beach %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'birch_forest':
+    material: BIRCH_LOG
+    slot: 4
+    display_name: 'Birch Forest'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-BirchForest %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'cherry_grove':
+    material: CHERRY_LOG
+    slot: 5
+    display_name: 'Cherry Grove'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Beach %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'coral':
+    material: TUBE_CORAL_BLOCK
+    slot: 6
+    display_name: 'Coral'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Coral %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'dark_forest':
+    material: DARK_OAK_LOG
+    slot: 9
+    display_name: 'Dark Forest'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-DarkForest %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'desert':
+    material: SANDSTONE
+    slot: 10
+    display_name: 'Desert'
+    lore: 
+      - '&6&oSettlement' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Desert %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'flower_fields':
+    material: CORNFLOWER
+    slot: 11
+    display_name: 'Flower Fields'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-FlowerFields %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'glacier':
+    material: ICE
+    slot: 12
+    display_name: 'Glacier'
+    lore: 
+      - '&6&oSettlement' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Glacier %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'ice_spikes':
+    material: BLUE_ICE
+    slot: 13
+    display_name: 'Ice Spikes'
+    lore: 
+      - '&6&oSettlement' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-IceSpikes %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'mangroves':
+    material: MANGROVE_LOG
+    slot: 14
+    display_name: 'Mangroves'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Mangroves %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'megataiga':
+    material: SPRUCE_LOG
+    slot: 15
+    display_name: 'Mega Taiga'
+    lore: 
+      - '&6&oSettlement' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-MegaTaiga %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'mesa':
+    material: TERRACOTTA
+    slot: 16
+    display_name: 'Mesa'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Mesa %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'oak_forest':
+    material: OAK_LOG
+    slot: 17
+    display_name: 'Oak Forest'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-OakForest %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'plains':
+    material: GRASS_BLOCK
+    slot: 20
+    display_name: 'Plains'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Plains %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'savanna':
+    material: ACACIA_LOG
+    slot: 21
+    display_name: 'Savanna'
+    lore: 
+      - '&6&oSettlement' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Savanna %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'snowfields':
+    material: SNOW_BLOCK
+    slot: 22
+    display_name: 'Snow Fields'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-SnowFields %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'swamp':
+    material: SLIME_BLOCK
+    slot: 23
+    display_name: 'Swamp'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp BW-Swamp %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'pale_forest':
+    material: BEDROCK
+    slot: 24
+    display_name: 'Pale Forest'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
