@@ -10,8 +10,8 @@ open_requirement:
         - '[message] &cYou don''t have permission to do that!'
         
 items:
-  'bamboo_forest':
-    material: GOLD_SHOVEL
+  'claiming_land':
+    material: GOLDEN_SHOVEL
     slot: 14
     display_name: 'Claiming Land'
     lore: 
