@@ -1,0 +1,20 @@
+menu_title: 'Cali'
+open_command: guide
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+        
+items:
+  'bamboo_forest':
+    material: GOLD_SHOVEL
+    slot: 14
+    display_name: 'Claiming Land'
+    lore: 
+      - '&8&oCoins: 500' 
+    left_click_commands:
+      - '[close]'
