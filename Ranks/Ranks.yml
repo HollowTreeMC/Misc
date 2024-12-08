@@ -1,0 +1,435 @@
+# Main server folder spigot.yml and check that stats saving prevention its set to false stats->disable-saving: false
+# Player will get default rank group depending on set permission node cmi.rank.[groupName]
+# Not enabled ranks will be ignored
+# DisplayName section is optional and it will be used to represent rank ingame. This is NOT defining required permission node and you still need to use node name to rankup to this rank
+# DefaultRank section defines if player can be assigned to this rank if he don't have any. There can be more than one default rank, and depending on permision node, first rank will be assigned to that player when needed
+# PermissionRequirement section defines list of permissions player should have to rankup to that rank. Optional - For each permission node you can add its name which will be shown in /cmi rankinfo with : In example cmi.command.fly:Fly
+# McMMORequirement section defines list of McMMO skills and levels player should have to rankup to that rank.
+# AureliumRequirement section defines list of Aurelium skills and levels player should have to rankup to that rank.
+# AuraSkillsRequirement section defines list of Aura skills and levels player should have to rankup to that rank.
+# McMMO and Aurelium sections can use skill name as Power to indicate total sum of all skills
+# JobsRequirement section defines list of Jobs and levels player should have to rankup to that rank.
+# ItemRequirement section defines list of items player should have to rankup to that rank. Items will be taken after succesfull rankup from players inventory.
+# AutoRankup section defines if player will be auto ranked to this rank if possible. Keep in mind that if there is more than one legit rankup, player will have to confirm to which rank he wants to rankup
+# RankupConfirmation section defines if you want to add additional confirmation for this rankup. Usefull to avoid unintentional rankups. Keep in mind that autorankup will request confirmation for rankup to this rank even if there is only one legit rankup option
+# NextRanks is list of possible next ranks from this rank. Can be one or can be dozens. Keep in mind that each rank requirements will be shown in chat and it can clutter quite allot if there is bunch of them at once
+# MoneyCost defines how much player will have to pay to rankup to this rank
+# ExpCost defines how much player will have to pay in exp to rankup to this rank
+# Votes defines how much player will need to have votes to rankup to this rank
+# Commands is list which will be performed on rankup. Can be additional actions, like message broadcast or anything alse
+# Main section is StatsRequirements and it can have allot of different values in it:
+#   In general format goes like this [mainStat](:optionalSubStat):amount
+#   In example MonsterKills:100 will require from player to have 100 monster kills while MonsterKills:Zombie:100 will require to have 100 zombie kills. Both of them can be used if needed.
+#     List of possible requirement and basic explanations:
+#       Distance in blocks:
+#         Travel - travel in total
+#         Walk - has to walk
+#         Sneak - has to sneak
+#         Sprint - has to sprint
+#         Swim - has to swim
+#         Fall - has to fall
+#         Climb - has to climb
+#         Fly - has to fly
+#         Dive - has to walk under water
+#         MinecartTravel - has to travel with minecart
+#         BoatTravel - has to travel with boat
+#         PigTravel - has to ride pig
+#         HorseTravel - has to ride horse
+#         ElytraTravel - has to fly with elytra
+#       Time in sec:
+#         PlayTime - total play time
+#         FromLastDeath - from last death
+#         SneakTime - sneak time
+#       Amounts:
+#         GameQuit - how many times player left game
+#         Jump - jump count
+#         DamageDealt - total damage made
+#         DamageTaken - total damage taken
+#         Deaths - count of deaths
+#         MobKills - total amount of mobs killed by player
+#         PlayerKills - total amount of players killed. Indirect kills don't count
+#         ItemEnchanted - amount of enchanted items
+#         AnimalsBred - animals bred
+#         FishCaught - fish caught
+#         TalkedToVillager - times talked to villager
+#         TradedWithVillager - traded with willager
+#         CakeSlicesEaten - cake slices eaten
+#         CauldronFilled - cauldron filled
+#         CouldronUsed - couldron used
+#         ArmorCleaned - times armor cleaned (leather armor)
+#         BannerCleaned - times banner cleaned
+#         BrewingstandInteractions - brewingstand interactions
+#         BeaconInteractions - beacon interactions
+#         CraftingTableInteractions - crafting table interactions
+#         FurnaceInteractions - furnace interactions
+#         DispenserInspected - dispenser inspected
+#         DropperInspected - dropper inspected
+#         HopperInspected - hopper inspected
+#         ChestOpen - chest open
+#         TrappedChestTriggered - trapped chest triggered
+#         EnderchestOpened - enderchest opened
+#         NoteblockPlayed - noteblock played
+#         NoteblockTuned - noteblock tuned
+#         FlowerPotted - flower potted
+#         RecordPlayed - record played
+#         SleeptInBed - sleept in bed
+#         ShulkerBoxOpened - shulker box opened
+#         ItemDropped - defines amount of dropped items. If specific item is not defined, then total amount is used
+#         ItemPickups - defines amount of picked up items. If specific item is not defined, then total amount is used
+#         BlocksMined - defines amount of blocks mined. If specific block is not defined, then total amount is used
+#         BlocksPlaced - defines amount of blocks placed. If specific block is not defined, then total amount is used
+#         ItemBreaks - defines amount of broken items. If specific item is not defined, then total amount is used
+#         ItemCrafts - defines amount of crafted items. If specific item is not defined, then total amount is used
+#         ItemsUsed - defines amount of item usage. like mining with pickaxe. If specific item is not defined, then total amount is used
+#         MonsterKills - defines amount of monster kills. If specific monster is not defined, then total amount is used
+#         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
+
+Traveller:
+  Enabled: true
+  DefaultRank: true
+  DisplayName: '&7{&fTraveller&7}&f'
+  NextRanks:
+  - Renegade
+Renegade:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&8Renegade&7}&f'
+  NextRanks:
+  - Skyrat
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add renegade
+  - lp user [playerName] parent remove traveller
+  - broadcast! &7[playerName] ranked up to &7{&8Renegade&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Husk
+  MoneyCost: 1000
+  Votes: 1
+  McMMORequirement:
+  - mining:3
+  - power:15
+  StatsRequirements:
+  - Playtime:1800
+  - Walk:100
+  - MonsterKills:husk:1
+  - MonsterKills:spider:5
+  - MonsterKills:creeper:5
+  - MonsterKills:skeleton:5
+  - BlocksMined:stone:32
+  - BlocksMined:wheat:10
+  - BlocksMined:sand:32
+  - BlocksMined:gravel:16
+  - ItemCrafts:barrel:4
+  - SleeptInBed:2
+Skyrat:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&7Skyrat&7}&f'
+  NextRanks:
+  - Aristocrat
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add skyrat
+  - lp user [playerName] parent remove renegade
+  - broadcast! &7[playerName] ranked up to &7{&7Skyrat&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Pillager
+  MoneyCost: 30000
+  Votes: 7
+  McMMORequirement:
+  - woodcutting:5
+  - swords:5
+  StatsRequirements:
+  - Playtime:3600
+  - Sprint:300
+  - MonsterKills:pillager:3
+  - BlocksMined:oak_log:32
+  - BlocksMined:spruce_log:32
+  - BlocksMined:deepslate:32
+  - BlocksMined:bamboo:16
+  - BlocksMined:sweet_berry_bush:8
+  - ItemCrafts:bamboo_raft:1
+  - ItemCrafts:campfire:1
+  - ItemCrafts:bucket:1
+  - ItemCrafts:fishing_rod:1
+  - ItemCrafts:scaffolding:16
+  - FishCaught:10
+  ItemRequirement:
+  - iron:32
+Aristocrat:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&eAristocrat&7}&f'
+  NextRanks:
+  - Gearhead
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add aristocrat
+  - lp user [playerName] parent remove skyrat
+  - broadcast! &7[playerName] ranked up to &7{&eAristocrat&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Villager
+  MoneyCost: 65000
+  Votes: 20
+  McMMORequirement:
+  - herbalism:5
+  - power:30
+  StatsRequirements:
+  - Playtime:7200
+  - Climb:50
+  - MonsterKills:zombie_villager:2
+  - MonsterKills:drowned:15
+  - MonsterKills:zombie:15
+  - MonsterKills:husk:15
+  - BlocksMined:dark_oak_log:16
+  - BlocksMined:red_mushroom_block:8
+  - BlocksMined:brown_mushroom_block:8
+  - BlocksMined:acacia_log:16
+  - BlocksMined:carrots:16
+  - BlocksMined:potatoes:16
+  - BlocksMined:beetroots:16
+  - BlocksMined:pumpkin:8
+  - ItemCrafts:hay_block:8
+  - ItemCrafts:beehive:1
+  - TradedWithVillager:2
+  ItemRequirement:
+  - copper_ingot:64
+Gearhead:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&6Gearhead&7}&f'
+  NextRanks:
+  - Machinist
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add gearhead
+  - lp user [playerName] parent remove aristocrat
+  - broadcast! &7[playerName] ranked up to &7{&6Gearhead&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Skeleton
+  MoneyCost: 100000
+  Votes: 30
+  McMMORequirement:
+  - fishing:7
+  - unarmed:7
+  StatsRequirements:
+  - Playtime:10800
+  - Swim:200
+  - MonsterKills:skeleton:25
+  - MonsterKills:stray:25
+  - MonsterKills:bogged:25
+  - MonsterKills:slime:25
+  - MonsterKills:witch:5
+  - BlocksMined:mangrove_log:32
+  - BlocksMined:mud:64
+  - ItemCrafts:ender_chest:1
+  - ItemCrafts:anvil:1
+  - ItemEnchanted:1
+  ItemRequirement:
+  - ochre_froglight:16
+  JobsRequirement:
+  - scrapper:9
+Machinist:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&3Machinist&7}&f'
+  NextRanks:
+  - Watchmaker
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add machinist
+  - lp user [playerName] parent remove gearhead
+  - broadcast! &7[playerName] ranked up to &7{&3Machinist&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Stray
+  MoneyCost: 150000
+  Votes: 50
+  McMMORequirement:
+  - archery:9
+  - power:45
+  StatsRequirements:
+  - Playtime:14400
+  - BoatTravel:300
+  - MonsterKills:stray:50
+  - BlocksMined:cherry_log:16
+  - BlocksMined:sandstone:64
+  - BlocksMined:dripstone_block:4
+  - BlocksMined:amethyst_block:4
+  - ItemCrafts:wind_charge:5
+  - ItemCrafts:decorated_pot:1
+  - ItemCrafts:candle:4
+  - ItemCrafts:stonecutter:1
+  - ItemCrafts:golden_carrot:4
+  - ItemCrafts:golden_apple:1
+  - ItemCrafts:crafter:1
+  - ItemCrafts:rabbit_stew:1
+  - ItemCrafts:pumpkin_pie:1
+  - CakeSlicesEaten:3
+  ItemRequirement:
+  - trial_key:1
+Watchmaker:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&6Watchmaker&7}&f'
+  NextRanks:
+  - Collector
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add watchmaker
+  - lp user [playerName] parent remove machinist
+  - broadcast! &7[playerName] ranked up to &7{&6Watchmaker&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Drowned
+  - petadmin create [playerName] Zombie
+  MoneyCost: 325000
+  Votes: 60
+  McMMORequirement:
+  - taming:9
+  - excavation:9
+  StatsRequirements:
+  - Playtime:21600
+  - HorseTravel:500
+  - MonsterKills:drowned:50
+  - MonsterKills:zombie:50
+  - MonsterKills:husk:50
+  - MonsterKills:phantom:1
+  - MonsterKills:cave_spider:1
+  - BlocksMined:obsidian:64
+  - ItemCrafts:iron_bars:4
+  - ItemCrafts:lantern:16
+  - ItemCrafts:chain:16
+  - ItemCrafts:copper_bulb:8
+  - ItemCrafts:enchanting_table:1
+  - ItemCrafts:daylight_sensor:16
+  - ItemCrafts:compass:16
+  - ItemCrafts:clock:16
+  ItemRequirement:
+  - ominous_trial_key:1
+  JobsRequirement:
+  - tinkerer:11
+Collector:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&cCollector&7}&f'
+  NextRanks:
+  - Inventor
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add collector
+  - lp user [playerName] parent remove watchmaker
+  - broadcast! &7[playerName] ranked up to &7{&cCollector&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Witch
+  MoneyCost: 450000
+  Votes: 80
+  McMMORequirement:
+  - axes:11
+  - power:60
+  StatsRequirements:
+  - Playtime:28800
+  - MinecartTravel:10
+  - MonsterKills:witch:10
+  - MonsterKills:guardian:20
+  - MonsterKills:elder_guardian:3
+  - BlocksMined:rooted_dirt:16
+  - BlocksMined:snow_block:64
+  - BlocksMined:ice:8
+  - BlocksMined:packed_ice:64
+  - BlocksMined:blue_ice:16
+  - BlocksMined:sea_lantern:3
+  - ItemCrafts:dried_kelp_block:4
+  - ItemCrafts:jukebox:2
+  - ItemCrafts:conduit:1
+  - ItemCrafts:firework_rocket:32
+  - ItemPickups:amethyst_shard:1
+  ItemRequirement:
+  - dragon_head:1
+  JobsRequirement:
+  - smith:13
+Inventor:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&aInventor&7}&f'
+  NextRanks:
+  - Timekeeper
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add inventor
+  - lp user [playerName] parent remove collector
+  - broadcast! &7[playerName] ranked up to &7{&aInventor&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Zombified_Piglin
+  MoneyCost: 575000
+  Votes: 100
+  McMMORequirement:
+  - acrobatics:11
+  - mining:30
+  StatsRequirements:
+  - Playtime:36000
+  - Travel:10000
+  - MonsterKills:zombified_piglin:10
+  - MonsterKills:wither_skeleton:1
+  - MonsterKills:warden:1
+  - MonsterKills:shulker:16
+  - CauldronFilled:1
+  - BlocksMined:sculk:8
+  - BlocksMined:end_stone:64
+  - BlocksMined:purpur_block:32
+  - BlocksPlaced:cherry_sapling:4
+  - BlocksPlaced:azalea_sapling:4
+  - BlocksPlaced:chorus_flower:1
+  - BlocksPlaced:end_crystal:6
+  - BlocksMined:grass_block:64
+  - BlocksMined:podzol:8
+  - ItemCrafts:cauldron:1
+  - ItemCrafts:brewing_stand:3
+  - ItemCrafts:glass_bottle:8
+  - ItemCrafts:blaze_powder:10
+  ItemRequirement:
+  - diamond:16
+  JobsRequirement:
+  - quartermaster:15
+Timekeeper:
+  Enabled: true
+  AutoRankup: false
+  DisplayName: '&7{&5Timekeeper&7}&f'
+  RankupConfirmation: true
+  Commands:
+  - lp user [playerName] parent add timekeeper
+  - lp user [playerName] parent remove inventor
+  - broadcast! &7[playerName] ranked up to &7{&5Timekeeper&7}&f!
+  - msg [playerName] &9You recieved a new pet! &b/pswitch!
+  - petadmin create [playerName] Blaze
+  - petadmin create [playerName] Breeze
+  MoneyCost: 1000000
+  Votes: 150
+  McMMORequirement:
+  - alchemy:3
+  - power:100
+  StatsRequirements:
+  - Playtime:43200
+  - Fly:5000
+  - MonsterKills:blaze:10
+  - MonsterKills:breeze:10
+  - MonsterKills:wither_skeleton:1
+  - MonsterKills:ghast:1
+  - MonsterKills:wither:1
+  - BlocksMined:warped_stem:8
+  - BlocksMined:crimson_stem:8
+  - BlocksMined:magma_block:8
+  - BlocksMined:warped_nylium:16
+  - BlocksMined:crimson_nylium:16
+  - BlocksMined:soul_sand:32
+  - BlocksMined:basalt:32
+  - BlocksMined:blackstone:64
+  - BlocksMined:ancient_debris:16
+  - BlocksPlaced:torchflower:4
+  - BlocksPlaced:pitcher_plant:16
+  - ItemCrafts:mace:1
+  - ItemCrafts:ender_eye:1
+  - ItemCrafts:end_crystal:1
+  ItemRequirement:
+  - netherite_ingot:4
+  JobsRequirement:
+  - explorer:15
+  - fighter:15
