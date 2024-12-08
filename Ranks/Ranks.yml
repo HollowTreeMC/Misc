@@ -103,13 +103,10 @@ Renegade:
   - broadcast! &7[playerName] ranked up to &7{&8Renegade&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Husk
-  MoneyCost: 1000
-  Votes: 1
   McMMORequirement:
   - mining:3
   - power:15
   StatsRequirements:
-  - Playtime:1800
   - Walk:100
   - MonsterKills:husk:1
   - MonsterKills:spider:5
@@ -134,13 +131,10 @@ Skyrat:
   - broadcast! &7[playerName] ranked up to &7{&7Skyrat&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Pillager
-  MoneyCost: 30000
-  Votes: 7
   McMMORequirement:
   - woodcutting:5
   - swords:5
   StatsRequirements:
-  - Playtime:3600
   - Sprint:300
   - MonsterKills:pillager:3
   - BlocksMined:oak_log:32
@@ -169,13 +163,10 @@ Aristocrat:
   - broadcast! &7[playerName] ranked up to &7{&eAristocrat&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Villager
-  MoneyCost: 65000
-  Votes: 20
   McMMORequirement:
   - herbalism:5
   - power:30
   StatsRequirements:
-  - Playtime:7200
   - Climb:50
   - MonsterKills:zombie_villager:2
   - MonsterKills:drowned:15
@@ -207,13 +198,10 @@ Gearhead:
   - broadcast! &7[playerName] ranked up to &7{&6Gearhead&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Skeleton
-  MoneyCost: 100000
-  Votes: 30
   McMMORequirement:
   - fishing:7
   - unarmed:7
   StatsRequirements:
-  - Playtime:10800
   - Swim:200
   - MonsterKills:skeleton:25
   - MonsterKills:stray:25
@@ -242,13 +230,10 @@ Machinist:
   - broadcast! &7[playerName] ranked up to &7{&3Machinist&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Stray
-  MoneyCost: 150000
-  Votes: 50
   McMMORequirement:
   - archery:9
   - power:45
   StatsRequirements:
-  - Playtime:14400
   - BoatTravel:300
   - MonsterKills:stray:50
   - BlocksMined:cherry_log:16
@@ -281,13 +266,10 @@ Watchmaker:
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Drowned
   - petadmin create [playerName] Zombie
-  MoneyCost: 325000
-  Votes: 60
   McMMORequirement:
   - taming:9
   - excavation:9
   StatsRequirements:
-  - Playtime:21600
   - HorseTravel:500
   - MonsterKills:drowned:50
   - MonsterKills:zombie:50
@@ -320,13 +302,10 @@ Collector:
   - broadcast! &7[playerName] ranked up to &7{&cCollector&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Witch
-  MoneyCost: 450000
-  Votes: 80
   McMMORequirement:
   - axes:11
   - power:60
   StatsRequirements:
-  - Playtime:28800
   - MinecartTravel:10
   - MonsterKills:witch:10
   - MonsterKills:guardian:20
@@ -359,13 +338,10 @@ Inventor:
   - broadcast! &7[playerName] ranked up to &7{&aInventor&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Zombified_Piglin
-  MoneyCost: 575000
-  Votes: 100
   McMMORequirement:
   - acrobatics:11
   - mining:30
   StatsRequirements:
-  - Playtime:36000
   - Travel:10000
   - MonsterKills:zombified_piglin:10
   - MonsterKills:wither_skeleton:1
@@ -401,13 +377,10 @@ Timekeeper:
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Blaze
   - petadmin create [playerName] Breeze
-  MoneyCost: 1000000
-  Votes: 150
   McMMORequirement:
   - alchemy:3
   - power:100
   StatsRequirements:
-  - Playtime:43200
   - Fly:5000
   - MonsterKills:blaze:10
   - MonsterKills:breeze:10
