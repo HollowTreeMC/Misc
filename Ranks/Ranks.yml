@@ -1,106 +1,23 @@
 # Main server folder spigot.yml and check that stats saving prevention its set to false stats->disable-saving: false
 # Player will get default rank group depending on set permission node cmi.rank.[groupName]
-# Not enabled ranks will be ignored
-# DisplayName section is optional and it will be used to represent rank ingame. This is NOT defining required permission node and you still need to use node name to rankup to this rank
-# DefaultRank section defines if player can be assigned to this rank if he don't have any. There can be more than one default rank, and depending on permision node, first rank will be assigned to that player when needed
-# PermissionRequirement section defines list of permissions player should have to rankup to that rank. Optional - For each permission node you can add its name which will be shown in /cmi rankinfo with : In example cmi.command.fly:Fly
-# McMMORequirement section defines list of McMMO skills and levels player should have to rankup to that rank.
-# AureliumRequirement section defines list of Aurelium skills and levels player should have to rankup to that rank.
-# AuraSkillsRequirement section defines list of Aura skills and levels player should have to rankup to that rank.
-# McMMO and Aurelium sections can use skill name as Power to indicate total sum of all skills
-# JobsRequirement section defines list of Jobs and levels player should have to rankup to that rank.
-# ItemRequirement section defines list of items player should have to rankup to that rank. Items will be taken after succesfull rankup from players inventory.
-# AutoRankup section defines if player will be auto ranked to this rank if possible. Keep in mind that if there is more than one legit rankup, player will have to confirm to which rank he wants to rankup
-# RankupConfirmation section defines if you want to add additional confirmation for this rankup. Usefull to avoid unintentional rankups. Keep in mind that autorankup will request confirmation for rankup to this rank even if there is only one legit rankup option
-# NextRanks is list of possible next ranks from this rank. Can be one or can be dozens. Keep in mind that each rank requirements will be shown in chat and it can clutter quite allot if there is bunch of them at once
-# MoneyCost defines how much player will have to pay to rankup to this rank
-# ExpCost defines how much player will have to pay in exp to rankup to this rank
-# Votes defines how much player will need to have votes to rankup to this rank
-# Commands is list which will be performed on rankup. Can be additional actions, like message broadcast or anything alse
-# Main section is StatsRequirements and it can have allot of different values in it:
-#   In general format goes like this [mainStat](:optionalSubStat):amount
-#   In example MonsterKills:100 will require from player to have 100 monster kills while MonsterKills:Zombie:100 will require to have 100 zombie kills. Both of them can be used if needed.
-#     List of possible requirement and basic explanations:
-#       Distance in blocks:
-#         Travel - travel in total
-#         Walk - has to walk
-#         Sneak - has to sneak
-#         Sprint - has to sprint
-#         Swim - has to swim
-#         Fall - has to fall
-#         Climb - has to climb
-#         Fly - has to fly
-#         Dive - has to walk under water
-#         MinecartTravel - has to travel with minecart
-#         BoatTravel - has to travel with boat
-#         PigTravel - has to ride pig
-#         HorseTravel - has to ride horse
-#         ElytraTravel - has to fly with elytra
-#       Time in sec:
-#         PlayTime - total play time
-#         FromLastDeath - from last death
-#         SneakTime - sneak time
-#       Amounts:
-#         GameQuit - how many times player left game
-#         Jump - jump count
-#         DamageDealt - total damage made
-#         DamageTaken - total damage taken
-#         Deaths - count of deaths
-#         MobKills - total amount of mobs killed by player
-#         PlayerKills - total amount of players killed. Indirect kills don't count
-#         ItemEnchanted - amount of enchanted items
-#         AnimalsBred - animals bred
-#         FishCaught - fish caught
-#         TalkedToVillager - times talked to villager
-#         TradedWithVillager - traded with willager
-#         CakeSlicesEaten - cake slices eaten
-#         CauldronFilled - cauldron filled
-#         CouldronUsed - couldron used
-#         ArmorCleaned - times armor cleaned (leather armor)
-#         BannerCleaned - times banner cleaned
-#         BrewingstandInteractions - brewingstand interactions
-#         BeaconInteractions - beacon interactions
-#         CraftingTableInteractions - crafting table interactions
-#         FurnaceInteractions - furnace interactions
-#         DispenserInspected - dispenser inspected
-#         DropperInspected - dropper inspected
-#         HopperInspected - hopper inspected
-#         ChestOpen - chest open
-#         TrappedChestTriggered - trapped chest triggered
-#         EnderchestOpened - enderchest opened
-#         NoteblockPlayed - noteblock played
-#         NoteblockTuned - noteblock tuned
-#         FlowerPotted - flower potted
-#         RecordPlayed - record played
-#         SleeptInBed - sleept in bed
-#         ShulkerBoxOpened - shulker box opened
-#         ItemDropped - defines amount of dropped items. If specific item is not defined, then total amount is used
-#         ItemPickups - defines amount of picked up items. If specific item is not defined, then total amount is used
-#         BlocksMined - defines amount of blocks mined. If specific block is not defined, then total amount is used
-#         BlocksPlaced - defines amount of blocks placed. If specific block is not defined, then total amount is used
-#         ItemBreaks - defines amount of broken items. If specific item is not defined, then total amount is used
-#         ItemCrafts - defines amount of crafted items. If specific item is not defined, then total amount is used
-#         ItemsUsed - defines amount of item usage. like mining with pickaxe. If specific item is not defined, then total amount is used
-#         MonsterKills - defines amount of monster kills. If specific monster is not defined, then total amount is used
-#         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
 
 Traveller:
   Enabled: true
   DefaultRank: true
-  DisplayName: '&7{&fTraveller&7}&f'
+  DisplayName: '&7{{#76482d}T{#6d4129}r{#643926}a{#5c3222}v{#532c1e}e{#4a251b}l{#411f17}l{#381913}e{#30130d}r&7}&f'
   NextRanks:
   - Renegade
 Renegade:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&8Renegade&7}&f'
+  DisplayName: '&7{{#2e3f7a}R{#00518e}e{#006083}n{#006d81}e{#00797c}g{#008870}a{#009754}d{#1ba419}e&7}&f'
   NextRanks:
   - Skyrat
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add renegade
   - lp user [playerName] parent remove traveller
-  - broadcast! &7[playerName] ranked up to &7{&8Renegade&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#2e3f7a}R{#00518e}e{#006083}n{#006d81}e{#00797c}g{#008870}a{#009754}d{#1ba419}e&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Husk
   McMMORequirement:
@@ -121,14 +38,14 @@ Renegade:
 Skyrat:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&7Skyrat&7}&f'
+  DisplayName: '&7{{#09b3ce}S{#38aed0}k{#51aad0}y{#64a5cd}r{#73a0c9}a{#7f9cc3}t&7}&f'
   NextRanks:
   - Aristocrat
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add skyrat
   - lp user [playerName] parent remove renegade
-  - broadcast! &7[playerName] ranked up to &7{&7Skyrat&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#09b3ce}S{#38aed0}k{#51aad0}y{#64a5cd}r{#73a0c9}a{#7f9cc3}t&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Pillager
   McMMORequirement:
@@ -153,14 +70,14 @@ Skyrat:
 Aristocrat:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&eAristocrat&7}&f'
+  DisplayName: '&7{{#940562}A{#8c0064}r{#840065}i{#7c0067}s{#730068}t{#690069}o{#5f006a}c{#54006a}r{#49006b}a{#3c006b}t&7}&f'
   NextRanks:
   - Gearhead
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add aristocrat
   - lp user [playerName] parent remove skyrat
-  - broadcast! &7[playerName] ranked up to &7{&eAristocrat&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#940562}A{#8c0064}r{#840065}i{#7c0067}s{#730068}t{#690069}o{#5f006a}c{#54006a}r{#49006b}a{#3c006b}t&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Villager
   McMMORequirement:
@@ -188,14 +105,14 @@ Aristocrat:
 Gearhead:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&6Gearhead&7}&f'
+  DisplayName: '&7{{#404245}G{#3a4a53}e{#2b545b}a{#195e59}r{#1a664c}h{#336c37}e{#546f1e}a{#796d02}d&7}&f'
   NextRanks:
   - Machinist
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add gearhead
   - lp user [playerName] parent remove aristocrat
-  - broadcast! &7[playerName] ranked up to &7{&6Gearhead&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#404245}G{#3a4a53}e{#2b545b}a{#195e59}r{#1a664c}h{#336c37}e{#546f1e}a{#796d02}d&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Skeleton
   McMMORequirement:
@@ -220,14 +137,14 @@ Gearhead:
 Machinist:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&3Machinist&7}&f'
+  DisplayName: '&7{{#c90808}M{#d13c03}a{#d95902}c{#df7209}h{#e58918}i{#df7209}n{#d95902}i{#d13c03}s{#c90808}t&7}&f'
   NextRanks:
   - Watchmaker
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add machinist
   - lp user [playerName] parent remove gearhead
-  - broadcast! &7[playerName] ranked up to &7{&3Machinist&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#c90808}M{#d13c03}a{#d95902}c{#df7209}h{#e58918}i{#df7209}n{#d95902}i{#d13c03}s{#c90808}t&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Stray
   McMMORequirement:
@@ -255,14 +172,14 @@ Machinist:
 Watchmaker:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&6Watchmaker&7}&f'
+  DisplayName: '&7{{#cd9a18}W{#c5911a}a{#bd891b}t{#b5801c}c{#ad781d}h{#a5701d}m{#9c681d}a{#94611d}k{#8b591d}e{#82521c}r&7}&f'
   NextRanks:
   - Collector
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add watchmaker
   - lp user [playerName] parent remove machinist
-  - broadcast! &7[playerName] ranked up to &7{&6Watchmaker&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#cd9a18}W{#c5911a}a{#bd891b}t{#b5801c}c{#ad781d}h{#a5701d}m{#9c681d}a{#94611d}k{#8b591d}e{#82521c}r&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Drowned
   - petadmin create [playerName] Zombie
@@ -292,14 +209,14 @@ Watchmaker:
 Collector:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&cCollector&7}&f'
+  DisplayName: '&7{{#ba0d9d}C{#c20091}o{#c80084}l{#cc0077}l{#cf006a}e{#d1005e}c{#d10051}t{#cf0145}o{#cd1839}r&7}&f'
   NextRanks:
   - Inventor
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add collector
   - lp user [playerName] parent remove watchmaker
-  - broadcast! &7[playerName] ranked up to &7{&cCollector&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#ba0d9d}C{#c20091}o{#c80084}l{#cc0077}l{#cf006a}e{#d1005e}c{#d10051}t{#cf0145}o{#cd1839}r&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Witch
   McMMORequirement:
@@ -328,14 +245,14 @@ Collector:
 Inventor:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&aInventor&7}&f'
+  DisplayName: '&7{{#02079c}I{#0047ac}n{#006dce}v{#1095e0}e{#1095e0}n{#006dce}t{#0047ac}o{#02079c}r&7}&f'
   NextRanks:
   - Timekeeper
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add inventor
   - lp user [playerName] parent remove collector
-  - broadcast! &7[playerName] ranked up to &7{&aInventor&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#02079c}I{#0047ac}n{#006dce}v{#1095e0}e{#1095e0}n{#006dce}t{#0047ac}o{#02079c}r&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Zombified_Piglin
   McMMORequirement:
@@ -368,12 +285,12 @@ Inventor:
 Timekeeper:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&5Timekeeper&7}&f'
+  DisplayName: '&7{{#016016}T{#046f18}i{#097e1a}m{#118e1c}e{#199d1d}k{#22ae1d}e{#2bbe1c}e{#35ce1a}p{#40df16}e{#4bf00f}r&7}&f'
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add timekeeper
   - lp user [playerName] parent remove inventor
-  - broadcast! &7[playerName] ranked up to &7{&5Timekeeper&7}&f!
+  - broadcast! &7[playerName] ranked up to &7{{#016016}T{#046f18}i{#097e1a}m{#118e1c}e{#199d1d}k{#22ae1d}e{#2bbe1c}e{#35ce1a}p{#40df16}e{#4bf00f}r&7}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Blaze
   - petadmin create [playerName] Breeze
