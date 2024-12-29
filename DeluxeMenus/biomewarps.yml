@@ -13,7 +13,7 @@ items:
   'bamboo_forest':
     material: BAMBOO_BLOCK
     slot: 2
-    display_name: 'Bamboo Forest'
+    display_name: '&fBamboo Forest'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -25,7 +25,7 @@ items:
   'beach':
     material: SAND
     slot: 3
-    display_name: 'Beach'
+    display_name: '&fBeach'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -37,7 +37,7 @@ items:
   'birch_forest':
     material: BIRCH_LOG
     slot: 4
-    display_name: 'Birch Forest'
+    display_name: '&fBirch Forest'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -49,7 +49,7 @@ items:
   'cherry_grove':
     material: CHERRY_LOG
     slot: 5
-    display_name: 'Cherry Grove'
+    display_name: '&fCherry Grove'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -61,7 +61,7 @@ items:
   'coral':
     material: TUBE_CORAL_BLOCK
     slot: 6
-    display_name: 'Coral'
+    display_name: '&fCoral'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -73,7 +73,7 @@ items:
   'dark_forest':
     material: DARK_OAK_LOG
     slot: 9
-    display_name: 'Dark Forest'
+    display_name: '&fDark Forest'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -85,7 +85,7 @@ items:
   'desert':
     material: SANDSTONE
     slot: 10
-    display_name: 'Desert'
+    display_name: '&fDesert'
     lore: 
       - '&6&oSettlement' 
     left_click_commands:
@@ -97,7 +97,7 @@ items:
   'flower_fields':
     material: CORNFLOWER
     slot: 11
-    display_name: 'Flower Fields'
+    display_name: '&fFlower Fields'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -109,7 +109,7 @@ items:
   'glacier':
     material: ICE
     slot: 12
-    display_name: 'Glacier'
+    display_name: '&fGlacier'
     lore: 
       - '&6&oSettlement' 
     left_click_commands:
@@ -121,7 +121,7 @@ items:
   'ice_spikes':
     material: BLUE_ICE
     slot: 13
-    display_name: 'Ice Spikes'
+    display_name: '&fIce Spikes'
     lore: 
       - '&6&oSettlement' 
     left_click_commands:
@@ -133,7 +133,7 @@ items:
   'mangroves':
     material: MANGROVE_LOG
     slot: 14
-    display_name: 'Mangroves'
+    display_name: '&fMangroves'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -145,7 +145,7 @@ items:
   'megataiga':
     material: SPRUCE_LOG
     slot: 15
-    display_name: 'Mega Taiga'
+    display_name: '&fMega Taiga'
     lore: 
       - '&6&oSettlement' 
     left_click_commands:
@@ -157,7 +157,7 @@ items:
   'mesa':
     material: TERRACOTTA
     slot: 16
-    display_name: 'Mesa'
+    display_name: '&fMesa'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -169,7 +169,7 @@ items:
   'oak_forest':
     material: OAK_LOG
     slot: 17
-    display_name: 'Oak Forest'
+    display_name: '&fOak Forest'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -181,7 +181,7 @@ items:
   'plains':
     material: GRASS_BLOCK
     slot: 20
-    display_name: 'Plains'
+    display_name: '&fPlains'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -193,7 +193,7 @@ items:
   'savanna':
     material: ACACIA_LOG
     slot: 21
-    display_name: 'Savanna'
+    display_name: '&fSavanna'
     lore: 
       - '&6&oSettlement' 
     left_click_commands:
@@ -205,7 +205,7 @@ items:
   'snowfields':
     material: SNOW_BLOCK
     slot: 22
-    display_name: 'Snow Fields'
+    display_name: '&fSnow Fields'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -217,7 +217,7 @@ items:
   'swamp':
     material: SLIME_BLOCK
     slot: 23
-    display_name: 'Swamp'
+    display_name: '&fSwamp'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
@@ -229,7 +229,7 @@ items:
   'pale_forest':
     material: BEDROCK
     slot: 24
-    display_name: 'Pale Forest'
+    display_name: '&fPale Forest'
     lore: 
       - '&8&oClearing' 
     left_click_commands:
