@@ -4,20 +4,20 @@
 Skyrat:
   Enabled: true
   DefaultRank: true
-  DisplayName: '&7{{#76482d}S{#683c27}k{#5a3121}y{#4c271b}r{#3e1c15}a{#30130d}t&7}&f'
+  DisplayName: '&8{{#76482d}S{#683c27}k{#5a3121}y{#4c271b}r{#3e1c15}a{#30130d}t&8}&f'
   NextRanks:
   - Collector
 Collector:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{{#ba0d9d}C{#c20091}o{#c80084}l{#cc0077}l{#cf006a}e{#d1005e}c{#d10051}t{#cf0145}o{#cd1839}r&7}&f'
+  DisplayName: '&8{{#ba0d9d}C{#c20091}o{#c80084}l{#cc0077}l{#cf006a}e{#d1005e}c{#d10051}t{#cf0145}o{#cd1839}r&8}&f'
   NextRanks:
   - Navigator
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add collector
   - lp user [playerName] parent remove skyrat
-  - broadcast! &7[playerName] ranked up to &7{{#ba0d9d}C{#c20091}o{#c80084}l{#cc0077}l{#cf006a}e{#d1005e}c{#d10051}t{#cf0145}o{#cd1839}r&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{{#ba0d9d}C{#c20091}o{#c80084}l{#cc0077}l{#cf006a}e{#d1005e}c{#d10051}t{#cf0145}o{#cd1839}r&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Husk
   MoneyCost: 1000
@@ -41,14 +41,14 @@ Collector:
 Navigator:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&fN{#d5d4ee}a{#b4b1e0}v&4i{#958fd1}g{#776dc1}a{#594cb0}t{#392b9e}o{#07048b}r&7}&f'
+  DisplayName: '&8{&fN{#d5d4ee}a{#b4b1e0}v&4i{#958fd1}g{#776dc1}a{#594cb0}t{#392b9e}o{#07048b}r&8}&f'
   NextRanks:
   - Renegade
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add navigator
   - lp user [playerName] parent remove renegade
-  - broadcast! &7[playerName] ranked up to &7{&fN{#d5d4ee}a{#b4b1e0}v&4i{#958fd1}g{#776dc1}a{#594cb0}t{#392b9e}o{#07048b}r&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{&fN{#d5d4ee}a{#b4b1e0}v&4i{#958fd1}g{#776dc1}a{#594cb0}t{#392b9e}o{#07048b}r&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Pillager
   MoneyCost: 30000
@@ -76,14 +76,14 @@ Navigator:
 Renegade:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{{#2e3f7a}R{#00518e}e{#006083}n{#006d81}e{#00797c}g{#008870}a{#009754}d{#1ba419}e&7}&f'
+  DisplayName: '&8{{#2e3f7a}R{#00518e}e{#006083}n{#006d81}e{#00797c}g{#008870}a{#009754}d{#1ba419}e&8}&f'
   NextRanks:
   - Gearsmith
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add renegade
   - lp user [playerName] parent remove navigator
-  - broadcast! &7[playerName] ranked up to &7{{#2e3f7a}R{#00518e}e{#006083}n{#006d81}e{#00797c}g{#008870}a{#009754}d{#1ba419}e&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{{#2e3f7a}R{#00518e}e{#006083}n{#006d81}e{#00797c}g{#008870}a{#009754}d{#1ba419}e&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Villager
   MoneyCost: 65000
@@ -114,14 +114,14 @@ Renegade:
 Gearsmith:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{{#833b07}G{#783c1d}e{#6a3d2c}a{#593f37}r{#454140}s{#593f37}m{#6a3d2c}i{#783c1d}t{#833b07}h&7}&f'
+  DisplayName: '&8{{#833b07}G{#783c1d}e{#6a3d2c}a{#593f37}r{#454140}s{#593f37}m{#6a3d2c}i{#783c1d}t{#833b07}h&8}&f'
   NextRanks:
   - Inventor
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add gearsmith
   - lp user [playerName] parent remove renegade
-  - broadcast! &7[playerName] ranked up to &7{{#833b07}G{#783c1d}e{#6a3d2c}a{#593f37}r{#454140}s{#593f37}m{#6a3d2c}i{#783c1d}t{#833b07}h&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{{#833b07}G{#783c1d}e{#6a3d2c}a{#593f37}r{#454140}s{#593f37}m{#6a3d2c}i{#783c1d}t{#833b07}h&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Skeleton
   MoneyCost: 100000
@@ -149,14 +149,14 @@ Gearsmith:
 Inventor:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{&3Inventor&7}&f'
+  DisplayName: '&8{&3Inventor&8}&f'
   NextRanks:
   - Watchmaker
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add inventor
   - lp user [playerName] parent remove gearsmith
-  - broadcast! &7[playerName] ranked up to &7{{#02079c}I{#0047ac}n{#006dce}v{#1095e0}e{#1095e0}n{#006dce}t{#0047ac}o{#02079c}r&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{{#02079c}I{#0047ac}n{#006dce}v{#1095e0}e{#1095e0}n{#006dce}t{#0047ac}o{#02079c}r&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Stray
   MoneyCost: 150000
@@ -187,14 +187,14 @@ Inventor:
 Watchmaker:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{{#cd9a18}W{#c5911a}a{#bd891b}t{#b5801c}c{#ad781d}h{#a5701d}m{#9c681d}a{#94611d}k{#8b591d}e{#82521c}r&7}&f'
+  DisplayName: '&8{{#cd9a18}W{#c5911a}a{#bd891b}t{#b5801c}c{#ad781d}h{#a5701d}m{#9c681d}a{#94611d}k{#8b591d}e{#82521c}r&8}&f'
   NextRanks:
   - Aetherist
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add watchmaker
   - lp user [playerName] parent remove inventor
-  - broadcast! &7[playerName] ranked up to &7{{#cd9a18}W{#c5911a}a{#bd891b}t{#b5801c}c{#ad781d}h{#a5701d}m{#9c681d}a{#94611d}k{#8b591d}e{#82521c}r&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{{#cd9a18}W{#c5911a}a{#bd891b}t{#b5801c}c{#ad781d}h{#a5701d}m{#9c681d}a{#94611d}k{#8b591d}e{#82521c}r&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Drowned
   - petadmin create [playerName] Zombie
@@ -227,14 +227,14 @@ Watchmaker:
 Aetherist:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{{#09b3ce}A{#2fb0d0}e{#44acd0}t{#54a9d0}h{#61a6ce}e{#6da2cb}r{#779fc7}is{#7f9cc3}t&7}&f'
+  DisplayName: '&8{{#09b3ce}A{#2fb0d0}e{#44acd0}t{#54a9d0}h{#61a6ce}e{#6da2cb}r{#779fc7}is{#7f9cc3}t&8}&f'
   NextRanks:
   - Timekeeper
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add aetherist
   - lp user [playerName] parent remove watchmaker
-  - broadcast! &7[playerName] ranked up to &7{{#09b3ce}A{#2fb0d0}e{#44acd0}t{#54a9d0}h{#61a6ce}e{#6da2cb}r{#779fc7}is{#7f9cc3}t&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{{#09b3ce}A{#2fb0d0}e{#44acd0}t{#54a9d0}h{#61a6ce}e{#6da2cb}r{#779fc7}is{#7f9cc3}t&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Witch
   MoneyCost: 450000
@@ -266,14 +266,14 @@ Aetherist:
 Timekeeper:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{{#016016}T{#046f18}i{#097e1a}m{#118e1c}e{#199d1d}k{#22ae1d}e{#2bbe1c}e{#35ce1a}p{#40df16}e{#4bf00f}r&7}&f'
+  DisplayName: '&8{{#016016}T{#046f18}i{#097e1a}m{#118e1c}e{#199d1d}k{#22ae1d}e{#2bbe1c}e{#35ce1a}p{#40df16}e{#4bf00f}r&8}&f'
   NextRanks:
   - Chronarch
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add timekeeper
   - lp user [playerName] parent remove aetherist
-  - broadcast! &7[playerName] ranked up to &7{{#016016}T{#046f18}i{#097e1a}m{#118e1c}e{#199d1d}k{#22ae1d}e{#2bbe1c}e{#35ce1a}p{#40df16}e{#4bf00f}r&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{{#016016}T{#046f18}i{#097e1a}m{#118e1c}e{#199d1d}k{#22ae1d}e{#2bbe1c}e{#35ce1a}p{#40df16}e{#4bf00f}r&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Zombified_Piglin
   MoneyCost: 575000
@@ -309,12 +309,12 @@ Timekeeper:
 Chronarch:
   Enabled: true
   AutoRankup: false
-  DisplayName: '&7{{#530179}C{#890079}h{#b70071}r{#dd0063}o{#f94051}n{#ff6f3b}a{#ff9f31}r{#ffc900}c{#f5f50a}h&7}&f'
+  DisplayName: '&8{{#530179}C{#890079}h{#b70071}r{#dd0063}o{#f94051}n{#ff6f3b}a{#ff9f31}r{#ffc900}c{#f5f50a}h&8}&f'
   RankupConfirmation: true
   Commands:
   - lp user [playerName] parent add chronarch
   - lp user [playerName] parent remove timekeeper
-  - broadcast! &7[playerName] ranked up to &7{{#530179}C{#890079}h{#b70071}r{#dd0063}o{#f94051}n{#ff6f3b}a{#ff9f31}r{#ffc900}c{#f5f50a}h&7}&f!
+  - broadcast! &7[playerName] ranked up to &8{{#530179}C{#890079}h{#b70071}r{#dd0063}o{#f94051}n{#ff6f3b}a{#ff9f31}r{#ffc900}c{#f5f50a}h&8}&f!
   - msg [playerName] &9You recieved a new pet! &b/pswitch!
   - petadmin create [playerName] Blaze
   - petadmin create [playerName] Breeze
