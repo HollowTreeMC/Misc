@@ -10,16 +10,19 @@ open_requirement:
 items:
   # Tier 3 - Item 1
   0:
-    material: DIAMOND_PICKAXE
+    material: NETHERITE_SWORD
     enchantments:
-      - SILK_TOUCH;1
-      - EFFICIENCY;6
-      - UNBREAKING;5
+      - SHARPNESS;8
+      - SWEEPING_EDGE;8
+      - FIRE_ASPECT;8
+      - KNOCKBACK;2
+      - LOOTING;3
+      - UNBREAKING;6
       - MENDING;1
     slot: 0
     update: true
     hide_attributes: true
-    display_name: "&8GearLord Tinker"
+    display_name: "&8Doombringer"
     lore:
       - "&a$500,000"
       - "&b25 EXP Levels"
@@ -29,17 +32,17 @@ items:
         stop_at_success: true
         perm1:
           type: has money
-          amount: 500000
+          amount: 1000000
         perm2:
           type: has exp
-          input: 25
+          input: 100
           level: true
         deny_commands:
           - "[message] &7You don't have 1 of the 2 permissions required."
     left_click_commands:
-      - "[console] eco take %player_name% 500000"
-      - "[console] experience add %player_name% -50L"
-      - "[console] minecraft:give %player_name% diamond_pickaxe"
+      - "[console] eco take %player_name% 1000000"
+      - "[console] experience add %player_name% -100L"
+      - "[console] minecraft:give %player_name% minecraft:give %player_name% netherite_sword{display:{Name:'{"text":"Doombringer","color":"dark_gray","bold":true}',Lore:['{"text":"Black Market Legendary","color":"dark_red"}']},Enchantments:[{id:sharpness,lvl:8},{id:sweeping,lvl:8},{id:fire_aspect,lvl:8},{id:knockback,lvl:2},{id:looting,lvl:3},{id:unbreaking,lvl:6},{id:mending,lvl:1}]} 1"
       - "[message] &8{&fBlack Marketeer&8}&6Xûr<&f>: Take it... may it serve you better than it did its last owner."
       - "[close]"
   filler_item:
