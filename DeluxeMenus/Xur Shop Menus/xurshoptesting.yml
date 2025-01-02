@@ -8,7 +8,7 @@ open_requirement:
       deny_commands:
         - "[message] &cYou don't have permissin to open this menu!"
 items:
-  # Tier 3 - Item 1
+  # Tier 3.5 - Item 1
   0:
     material: NETHERITE_SWORD
     enchantments:
@@ -22,10 +22,10 @@ items:
     slot: 0
     update: true
     hide_attributes: true
-    display_name: "&8Doombringer"
+    display_name: "<#444141>&lDoombringer"
     lore:
-      - "&a$500,000"
-      - "&b25 EXP Levels"
+      - "&a$1,000,000"
+      - "&b100 EXP Levels"
     left_click_requirement:
       requirements:
         minimum_requirements: 2
@@ -42,8 +42,7 @@ items:
     left_click_commands:
       - "[console] eco take %player_name% 1000000"
       - "[console] experience add %player_name% -100L"
-      - "[console] minecraft:give %player_name% minecraft:give %player_name% netherite_sword{display:{Name:'{"text":"Doombringer","color":"dark_gray","bold":true}',Lore:['{"text":"Black Market Legendary","color":"dark_red"}']},Enchantments:[{id:sharpness,lvl:8},{id:sweeping,lvl:8},{id:fire_aspect,lvl:8},{id:knockback,lvl:2},{id:looting,lvl:3},{id:unbreaking,lvl:6},{id:mending,lvl:1}]} 1"
-      - "[message] &8{&fBlack Marketeer&8}&6Xûr<&f>: Take it... may it serve you better than it did its last owner."
+      - "[message] &8{&fBlack Marketeer&8}&6Xûr<&f>: Take it... may it serve you better than it did its last owner. &6DM MENU DIALOGUE"
       - "[close]"
   filler_item:
     material: GRAY_STAINED_GLASS_PANE
