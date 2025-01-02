@@ -6,11 +6,11 @@ open_requirement:
     permission:
       type: has permission
       deny_commands:
-        - "[message] &cYou don't have permissin to open this menu!"
+        - "[message] &cYou don't have permission to open this menu!"
 items:
   # Tier 3.5 - Item 1
-  "0":
-    material: BAMBOO_BLOCK
+  tier_3.5_item_1:
+    material: DIAMOND_PICKAXE
     enchantments:
       - SHARPNESS;8
       - SWEEPING_EDGE;8
