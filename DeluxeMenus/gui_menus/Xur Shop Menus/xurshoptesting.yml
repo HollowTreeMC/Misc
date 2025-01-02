@@ -9,7 +9,7 @@ open_requirement:
         - "[message] &cYou don't have permissin to open this menu!"
 items:
   # Tier 3.5 - Item 1
-  0:
+  "0":
     material: BAMBOO_BLOCK
     enchantments:
       - SHARPNESS;8
