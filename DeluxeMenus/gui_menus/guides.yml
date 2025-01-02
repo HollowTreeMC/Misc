@@ -5,16 +5,16 @@ open_requirement:
   requirements:
     permission:
       type: has permission
-      permission: deluxemenus.admin
       deny_commands:
         - '[message] &cYou don''t have permission to do that!'
         
 items:
   'claiming_land':
     material: GOLDEN_SHOVEL
-    slot: 14
+    slot: 13
     display_name: 'Claiming Land'
     lore: 
       - '&8&oCoins: 500' 
     left_click_commands:
       - '[close]'
+      - '[console] ex run griefprevention_tutorial def:%player_name%'
