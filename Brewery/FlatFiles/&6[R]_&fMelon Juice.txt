@@ -1,0 +1,11 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lMelon Juice
+Ingredients:
+&o- 10 glistering_melon_slice
+&o- 5 sugar
+<NextPage>
+This recipe will require &l5 &0minutes, and is &lrelatively straightforward&0 to create.
+
+Effects include:
+&o- invisibility
+&o- luck

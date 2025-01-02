@@ -1,0 +1,9 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lEggnog
+Ingredients:
+&o- 5 egg
+&o- 2 sugar
+&o- 1 milk_bucket
+&o- 1 Brewery:neutralSpirit
+<NextPage>
+This recipe will require &l2 &0minutes, and is &lof moderate difficulty&0 to create.

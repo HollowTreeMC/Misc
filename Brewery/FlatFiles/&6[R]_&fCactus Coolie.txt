@@ -1,0 +1,12 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lCactus Coolie
+Ingredients:
+&o- 10 cactus
+&o- 5 sugar
+&o- 4 magma_cream
+<NextPage>
+This recipe will require &l10 &0minutes, and is &lof moderate difficulty&0 to create.
+
+Effects include:
+&o- speed
+&o- fast_digging

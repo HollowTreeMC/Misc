@@ -1,0 +1,14 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lChampagne
+Ingredients:
+&o- 24 sweet_berries
+&o- 16 sugar
+&o- 8 glowstone_dust
+&o- 2 Brewery:Levain
+<NextPage>
+This recipe will require &l20 &0minutes, and is &lquite hard&0 to create.
+
+Effects include:
+&o- slowness
+&o- fire_resistance
+&o- weakness

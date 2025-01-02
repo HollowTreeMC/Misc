@@ -1,0 +1,18 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lYacht Lager
+Ingredients:
+&o- 1 oak_boat
+&o- 8 wheat
+&o- 3 sugar
+&o- 1 nautilus_shell
+&o- 1 Brewery:Levain
+<NextPage>
+This recipe will require &l5 &0minutes, and is &lof moderate difficulty&0 to create.
+One can use any type of barrel, but must age for 3 days.Properly brewed, this will have an alcohol density of 4
+
+Effects include:
+&o- slowness
+&o- mining_fatigue
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

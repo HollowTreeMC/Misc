@@ -1,0 +1,24 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lMeadows
+Ingredients:
+&o- 10 blue_ice
+&o- 8 sweet_berries
+&o- 1 pink_petals
+&o- 2 golden_apple
+&o- 1 Brewery:EmpressGin
+&o- 1 Brewery:RussianVodka
+&o- 1 Brewery:SweetAppleRum
+<NextPage>
+This recipe will require &l10 &0minutes, and is &lone of the most difficult&0 to create.
+Properly brewed, this will have an alcohol density of 50
+
+Effects include:
+&o- speed
+&o- luck
+&o- blindness
+&o- slow_digging
+&o- hunger
+&o- poison
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

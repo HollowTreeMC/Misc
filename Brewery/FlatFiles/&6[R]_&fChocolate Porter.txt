@@ -1,0 +1,19 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lChocolate Porter
+Ingredients:
+&o- 25 wheat
+&o- 23 cocoa_beans
+&o- 14 sugar
+&o- 4 brown_dye
+&o- 1 Brewery:Levain
+<NextPage>
+This recipe will require &l7 &0minutes, and is &lsomewhat challenging&0 to create.
+One can use any type of barrel, but must age for 1 days.Properly brewed, this will have an alcohol density of 6
+
+Effects include:
+&o- wither
+&o- strength
+&o- speed
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

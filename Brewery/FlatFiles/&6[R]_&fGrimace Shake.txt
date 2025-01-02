@@ -1,0 +1,15 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lGrimace Shake
+Ingredients:
+&o- 8 milk_bucket
+&o- 4 sugar
+&o- 4 sweet_berries
+&o- 2 purple_dye
+&o- 1 Brewery:iceCream
+<NextPage>
+This recipe will require &l3 &0minutes, and is &lrelatively straightforward&0 to create.
+
+Effects include:
+&o- speed
+&o- heal
+&o- hero_of_the_village

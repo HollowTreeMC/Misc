@@ -1,0 +1,14 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lWhite Wine
+Ingredients:
+&o- 24 sweet_berries
+&o- 16 sugar
+&o- 5 azure_bluet
+&o- 2 Brewery:Levain
+<NextPage>
+This recipe will require &l16 &0minutes, and is &lof intermediate difficulty&0 to create.
+
+Effects include:
+&o- wither
+&o- strength
+&o- speed

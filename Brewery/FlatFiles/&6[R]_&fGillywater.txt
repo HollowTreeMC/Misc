@@ -1,0 +1,11 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lGillywater
+Ingredients:
+&o- 10 glistering_melon_slice
+&o- 5 sugar
+<NextPage>
+This recipe will require &l12 &0minutes, and is &lof moderate difficulty&0 to create.
+
+Effects include:
+&o- water_breathing
+&o- strength

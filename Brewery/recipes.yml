@@ -1,0 +1,1755 @@
+# !!! IMPORTANT: BreweryX configuration files do NOT support external comments! If you add any comments, they will be overwritten !!!
+# -- Recipes for Potions --
+#      
+# Proper guide for this section can be found in our wiki here - https://brewery.lumamc.net/guide/recipies/
+
+# enabled: true if the recipe should be enabled, false if it should be disabled
+#      
+# name: Different names for bad/normal/good (Formatting codes possible: such as &6 or hex as &#123123)
+#   name: "Worst drink/Good Drink/Best drink i had in my entire life!"
+#        
+# ingredients: List of 'material/amount'
+#   With an item in your hand, use /brew ItemName to get its material for use in a recipe
+#   A list of materials can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#   Plugin items with 'plugin:id' (Currently supporting Brewery, Oraxen, ItemsAdder)
+#   Or a custom item defined above
+#      
+# cookingtime: Time in real minutes ingredients have to boil
+#     
+# distillruns: How often it has to be distilled for full alcohol (0=without distilling)
+#     
+# distilltime: How long (in seconds) one distill-run takes (0=Default time of 40 sec) MC Default would be 20 sec
+#     
+# wood: Wood of the barrel 0=any 1=Birch 2=Oak 3=Jungle 4=Spruce 5=Acacia 6=Dark Oak 7=Crimson 8=Warped 9=Mangrove 10=Cherry 11=Bamboo (12=Cut Copper)
+#   The Minecraft barrel is made of oak
+#     
+# age: Time in Minecraft-days, the potion has to age in a barrel 0=no aging
+#     
+# color: Color of the potion after distilling/aging.
+#   Usable Colors: DARK_RED, RED, BRIGHT_RED, ORANGE, YELLOW, PINK, PURPLE, BLUE, CYAN, WATER, TEAL, OLIVE, GREEN, LIME, BLACK, GREY, BRIGHT_GREY, WHITE
+#   Or RGB colors (hex: for example '99FF33') (with '') (search for "HTML color" on the internet)
+#     
+# difficulty: 1-10 accuracy needed to get good quality (1 = unaccurate/easy, 10 = very precise/hard)
+#     
+# alcohol: Absolute amount of alcohol 0-100 in a perfect potion (will be added directly to the player, where 100 means fainting)
+#     
+# lore: List of additional text on the finished brew. (Formatting codes possible: such as &6)
+#   Specific lore for quality possible, using + bad, ++ normal, +++ good, added to the front of the line.
+#   - +++ This is the best drink!
+#   - ++ This is decent drink.
+#   - + This is the worst drink
+#     
+# servercommands: List of Commands executed by the -Server- when drinking the brew (Can use %player_name%  %quality%)
+#   Specific Commands for quality possible, using + bad, ++ normal, +++ good, added to the front of the line.
+#   - +++ op %player%
+#   - ++ money give %player% 10
+#   - + kill %player%
+#   Command execution can be delayed by adding "/ <amount>s" to the end, like this:
+#   - op Jsinco / 3s
+#     
+# playercommands: List of Commands executed by the -Player- when drinking the brew (Can use %player_name%  %quality%)
+#   Specific Commands for quality possible, using + bad, ++ normal, +++ good, added to the front of the line.
+#   - +++ spawn
+#   - ++ home
+#   - + suicide
+#   Command execution can be delayed by adding "/ <amount>s" to the end, like this:
+#   - op Jsinco / 3s
+#     
+# drinkmessage: Chat-message to the Player when drinking the Brew
+#     
+# drinktitle: Title on Screen to the Player when drinking the Brew
+#     
+# glint: Boolean if the item should have a glint (enchant glint)
+#     
+# customModelData: Custom Model Data Tag. This is a number that can be used to add custom textures to the item.
+#   Can specify one for all, or one for each quality, separated by /
+#   customModelData: 1
+#   customModelData: 1/2/3
+#     
+# effects: List of effect/level/duration  Special potion-effect when drinking, duration in seconds.
+#   Possible Effects: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+#   Level or Duration ranges may be specified with a "-", ex. 'SPEED/1-2/30-40' = lvl 1 and 30 sec at worst and lvl 2 and 40 sec at best
+#   Ranges also work high-low, ex. 'POISON/3-1/20-5' for weaker effects at good quality.
+#   Highest possible Duration: 1638 sec. Instant Effects dont need any duration specified.
+
+
+# 'ex' showcases every available option for a recipe:
+recipes:
+  PumpkinAle:
+    name: "&7Weak Pumpkin Ale/Pumpkin Ale/&6Artisan's Pumpkin Ale"
+    cookingtime: 3
+    difficulty: 3
+    ingredients:
+      - pumpkin/4
+      - pumpkin_seeds/10
+      - wheat/3
+      - sugar/16
+      - Brewery:Levain/1
+    wood: 5 # Acacia
+    age: 3
+    alcohol: 4
+    color: ORANGE
+    effects: 
+      - SLOW_DIGGING/3/20
+      - STRENGTH/0-4/0-30
+      - DAMAGE_RESISTANCE/0-4/0-100
+      - LUCK/0-4/3-120
+  PaleAle:
+    name: "&7Weak Pale Ale/Pale Ale/&6Artisan's Pale Ale"
+    cookingtime: 4
+    difficulty: 4
+    ingredients:
+      - wheat/16
+      - tall_grass/5
+      - yellow_dye/1
+      - glowstone_dust/3
+      - Brewery:Levain/1
+    wood: 1 # Birch
+    age: 2
+    alcohol: 5
+    color: YELLOW
+    effects: 
+      - WEAKNESS/0-1/0-12
+      - STRENGTH/0-1/0-100
+      - SATURATION/0-2/0-15
+  OrangeAle:
+    name: "&7Weak Orange Ale/Orange Ale/&6Artisan's Orange Ale"
+    cookingtime: 3
+    difficulty: 3
+    ingredients:
+      - orange_tulip/2
+      - honey_bottle/10
+      - wheat/7
+      - orange_dye/6
+      - Brewery:Levain/1
+    wood: 5 # Acacia
+    age: 3
+    alcohol: 7
+    color: ORANGE
+    effects: 
+      - MINING_FATIGUE/0-1/0-20
+      - FIRE_RESISTANCE/0-2/0-60
+      - JUMP/0-2/0-100
+  BlondeAle:
+    name: "&7Weak Blonde Ale/Blonde Ale/&6Artisan's Blonde Ale"
+    cookingtime: 5
+    difficulty: 3
+    ingredients:
+      - wheat/8
+      - glow_berries/8
+      - Brewery:Levain/1
+    distilltime: 20
+    distillruns: 2
+    wood: 1 # Birch
+    age: 2
+    alcohol: 7
+    color: ORANGE
+    effects: 
+      - SLOW/0-2/0-15
+      - SATURATION/0-2/0-30
+  BelgianAle:
+    name: "&7Weak Belgian Ale/Belgian Ale/&6Artisan's Belgian Ale"
+    cookingtime: 8
+    difficulty: 8
+    ingredients:
+      - golden_apple/8
+      - honey_bottle/10
+      - wheat/52
+      - Brewery:Levain/1
+    wood: 1 # Birch
+    age: 4
+    alcohol: 10
+    color: BRIGHT_GREY
+    effects: 
+      - CONFUSION/0-2/0-30
+      - SLOW/0-4/0-20
+      - ABSORPTION/0-1/0-100
+  Porter:
+    name: "&7Weak Porter/Porter/&6Artisan's Porter"
+    cookingtime: 7
+    difficulty: 5
+    ingredients:
+      - wheat/30
+      - black_dye/21
+      - cocoa_beans/8
+      - sugar/2
+      - Brewery:Levain/1
+    wood: 0 # Any
+    age: 2
+    alcohol: 7
+    color: BLACK
+    effects: 
+      - WEAKNESS/0-1/0-30
+      - SLOWNESS/0-3/0-60
+      - STRENGTH/0-3/0-30
+      - SATURATION/1-2/0-120
+  ChocolatePorter:
+    name: "&7Weak Chocolate Porter/Chocolate Porter/&6Artisan's Chocolate Porter"
+    cookingtime: 7
+    difficulty: 6
+    ingredients:
+      - wheat/25
+      - cocoa_beans/23
+      - sugar/14
+      - brown_dye/4
+      - Brewery:Levain/1
+    wood: 0 # Any
+    age: 1
+    alcohol: 6
+    color: BLACK
+    effects: 
+      - WITHER/0-1/0-10
+      - STRENGTH/0-1/0-30
+      - SPEED/1-4/0-30
+  FishyGreenAle:
+    name: "&7Weak Fishy Green Ale/Fishy Green Ale/&6Artisan's Fishy Green Ale"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - wheat/8
+      - kelp/8
+      - lime_dye/2
+      - tropical_fish/5
+      - Brewery:Levain/1
+    wood: 3 # Jungle
+    age: 8
+    alcohol: 4
+    color: GREEN
+    effects: 
+      - POISON/0-1/0-10
+      - BLINDNESS/0-15
+      - CONFUSION/0-30
+      - CONDUIT_POWER/0-300
+      - DOLPHINS_GRACE/0-300
+  PumpkinIPA:
+    name: "&7Weak Pumpkin IPA/Pumpkin IPA/&6Artisan's Pumpkin IPA"
+    cookingtime: 5
+    difficulty: 5
+    ingredients:
+      - pumpkin/10
+      - pumpkin_seeds/4
+      - wheat/8
+      - orange_dye/3
+      - Brewery:Levain/1
+    distilltime: 10
+    distillruns: 6
+    wood: 5 # Acacia
+    age: 11
+    alcohol: 4
+    color: ORANGE
+    effects: 
+      - SLOWNESS/0-3/0-60
+      - FIRE_RESISTANCE/0-1/0-300
+  Schwarzbier:
+    name: "&7Weak Schwarzbier/Schwarzbier/&6Artisan's Schwarzbier"
+    cookingtime: 6
+    difficulty: 5
+    ingredients:
+      - sugar/8
+      - cocoa_beans/5
+      - Brewery:Levain/1
+    wood: 6 # Dark Oak
+    age: 4
+    alcohol: 5
+    color: BLACK
+    effects: 
+      - BLINDNESS/3
+      - SLOWNESS/2/20
+      - STRENGTH/0-1/0-30
+  Rauchbier:
+    name: "&7Weak Rauchbier/Rauchbier/&6Artisan's Rauchbier"
+    cookingtime: 5
+    difficulty: 4
+    ingredients:
+      - wheat_seeds/20
+      - wheat/34
+      - campfire/1
+      - sugar/5
+      - charcoal/1
+      - Brewery:Levain/1
+    wood: 6 # Dark Oak
+    age: 2
+    alcohol: 6
+    color: GREY
+    effects: 
+      - BAD_OMEN/30
+      - SLOWNESS/2/20
+      - FIRE_RESISTANCE/0-2/0-300
+      - STRENGTH/0-3/0-100
+  SweetLager:
+    name: "&7Weak Sweet Lager/Sweet Lager/&6Artisan's Sweet Lager"
+    cookingtime: 5
+    difficulty: 4
+    ingredients:
+      - wheat/12
+      - sugar/8
+      - glowstone_dust/1
+      - Brewery:Levain/1
+    wood: 4 # Spruce
+    age: 6
+    alcohol: 5
+    color: ORANGE
+    effects: 
+      - WEAKNESS/1/30
+      - FIRE_RESISTANCE/0-1/0-300
+  YachtLager:
+    name: "&7Weak Yacht Lager/Yacht Lager/&6Artisan's Yacht Lager"
+    cookingtime: 5
+    difficulty: 4
+    ingredients:
+      - oak_boat/1
+      - wheat/8
+      - sugar/3
+      - nautilus_shell/1
+      - Brewery:Levain/1
+    wood: 0 # Any
+    age: 3
+    alcohol: 4
+    color: ORANGE
+    effects: 
+      - SLOWNESS/3/20
+      - MINING_FATIGUE/1/30
+  Beer:
+    name: "&7Weak Beer/Beer/&6Artisan's Beer"
+    cookingtime: 8
+    difficulty: 1
+    ingredients:
+      - wheat/15
+      - Brewery:Levain/1
+    wood: 0 # Any
+    age: 3
+    alcohol: 6
+    color: ORANGE
+    effects: 
+      - SLOWNESS/0-3/0-60
+  DarkBeer:
+    name: "&7Weak Dark Beer/Dark Beer/&6Artisan's Dark Beer"
+    cookingtime: 8
+    difficulty: 7
+    ingredients:
+      - wheat/53
+      - wheat_seeds/42
+      - black_dye/8
+      - cocoa_beans/15
+      - Brewery:Levain/1
+    wood: 6 # Dark Oak
+    age: 8
+    alcohol: 7
+    color: BLACK
+    effects: 
+      - SLOWNESS/0-3/0-60
+  MilkStout:
+    name: "&7Weak Milk Stout/Milk Stout/&6Artisan's Milk Stout"
+    cookingtime: 7
+    difficulty: 6
+    ingredients:
+      - wheat/20
+      - cocoa_beans/15
+      - milk_bucket/8
+      - sugar/8
+      - Brewery:Levain/1
+    distilltime: 60
+    distillruns: 11
+    wood: 6 # Dark Oak
+    age: 4
+    alcohol: 6
+    color: BLACK
+    effects: 
+      - WEAKNESS/1-3/10-60
+      - CONFUSION/10-15
+  IrishStout:
+    name: "&7Weak Irish Stout/Irish Stout/&6Artisan's Irish Stout"
+    cookingtime: 7
+    difficulty: 6
+    ingredients:
+      - wheat/20
+      - cocoa_beans/15
+      - brown_dye/16
+      - sugar/8
+      - Brewery:Levain/1
+    distilltime: 84
+    distillruns: 20
+    wood: 2 # Oak
+    age: 1
+    alcohol: 4
+    color: BLACK
+    effects: 
+      - SLOWNESS/1-15
+  HardCider:
+    name: "&7Weak Hard Cider/Hard Cider/&6Artisan's Hard Cider"
+    cookingtime: 2
+    difficulty: 2
+    ingredients:
+      - apple/15
+      - sugar/8
+      - sweet_berries/10
+      - Brewery:neutralSpirit/1
+    wood: 0 # Any
+    age: 3
+    alcohol: 7
+    color: DARK_RED
+    effects: 
+      - SLOW/2-3/5-30
+      - FIRE_RESISTANCE/0-4/0-120
+      - ABSORPTION/0-10/0-120
+      - JUMP/0-2/0-120
+  HardLemonade:
+    name: "&7Weak Hard Lemonade/Hard Lemonade/&6Artisan's Hard Lemonade"
+    cookingtime: 1
+    difficulty: 1
+    ingredients:
+      - honey_bottle/8
+      - sugar/10
+      - wheat/5
+      - sunflower/2
+      - Brewery:neutralSpirit/1
+    distilltime: 12
+    distillruns: 3
+    wood: 0 # Any
+    age: 1
+    alcohol: 5
+    color: YELLOW
+    effects: 
+      - HUNGER/0-20/0-15
+  WheatBeer:
+    name: "&7Weak Wheat Beer/Wheat Beer/&6Artisan's Wheat Beer"
+    cookingtime: 4
+    difficulty: 3
+    ingredients:
+      - wheat/32
+      - brown_dye/8
+      - glowstone_dust/4
+      - Brewery:Levain/1
+    wood: 0 # Any
+    age: 1
+    alcohol: 6
+    color: DARK_RED
+    effects: 
+      - WITHER/0-1/0-10
+      - STRENGTH/0-1/0-30
+      - SPEED/1-4/0-30
+      - SATURATION/0-2/0-15
+  SnowMaiden:
+    name: "&7Weak Snow Maiden/Snow Maiden/&6Artisan's Snow Maiden"
+    cookingtime: 5
+    difficulty: 5
+    ingredients:
+      - wheat/8
+      - sweet_berries/8
+      - snowball/8
+      - white_dye/2
+      - Brewery:Levain/1
+    wood: 0 # Any
+    age: 2
+    alcohol: 4
+    color: WHITE
+    effects: 
+      - POISON/0-1/0-10
+      - BLINDNESS/0-15
+      - CONFUSION/0-30
+      - SATURATION/0-2/0-15
+  Sake:
+    name: "&7Weak Sake/Sake/&6Artisan's Sake"
+    cookingtime: 10
+    difficulty: 10
+    ingredients:
+      - wheat/73
+      - sugar/54
+      - flowering_azalea/4
+      - Brewery:Levain/1
+    wood: 10 # Cherry
+    age: 5
+    alcohol: 40
+    color: WHITE
+    effects: 
+      - SLOWNESS/0-3/0-60
+      - FIRE_RESISTANCE/0-1/0-300
+      - WEAKNESS/0-1/0-12
+      - STRENGTH/0-1/0-100
+  MintJulep:
+    name: "&7Watery Mint Julep/Mint Julep/&6Cooling Mint Julep"
+    cookingtime: 8
+    difficulty: 5
+    ingredients:
+      - ice/10
+      - sugar/5
+      - fern/5
+      - Brewery:Whiskey/2
+    distilltime: 20
+    distillruns: 2
+    wood: 6 # Dark Oak
+    age: 3
+    alcohol: 28
+    color: CYAN
+    effects: 
+      - HUNGER/2-1/30-10
+      - FIRE_RESISTANCE/0-4/0-300
+      - NIGHT_VISION/0-30
+  Meadows:
+    name: "&7Icy Meadows/Meadows/&6Snowy Meadows"
+    cookingtime: 10
+    difficulty: 10
+    ingredients:
+      - blue_ice/10
+      - sweet_berries/8
+      - pink_petals/1
+      - golden_apple/2
+      - Brewery:EmpressGin/1
+      - Brewery:RussianVodka/1
+      - Brewery:SweetAppleRum/1
+    alcohol: 50
+    color: CYAN
+    effects: 
+      - SPEED/1-4/20
+      - LUCK/0-4/120
+      - BLINDNESS/3
+      - SLOW_DIGGING/3/20
+      - HUNGER/42/500
+      - POISON/3-0/16-0
+  JackandGinger:
+    name: "&7Bitter Jack and Ginger/Jack and Ginger/&6Spicy Jack and Ginger"
+    cookingtime: 5
+    difficulty: 3
+    ingredients:
+      - ice/10
+      - sugar/5
+      - Brewery:PaleAle/1
+      - Brewery:Whiskey/1
+    alcohol: 50
+    color: GREEN
+    effects: 
+      - SLOW_DIGGING/3/20
+      - LUCK/0-4/30
+      - DAMAGE_RESISTANCE/1-2/150
+      - BAD_OMEN/30
+  JungleJuice:
+    name: "&7Muddy Jungle Juice/Jungle Juice/&6Tropical Jungle Juice"
+    cookingtime: 7
+    difficulty: 7
+    ingredients:
+      - ice/10
+      - sugar/5
+      - melon/2
+      - Brewery:Rum/1
+      - Brewery:RussianVodka/1
+    alcohol: 50
+    color: LIME
+    effects: 
+      - STRENGTH/0-4/25
+      - LEVITATION/0-8/10
+      - ABSORPTION/0-4/120
+  Screwdriver:
+    name: "&7Bitter Screwdriver/Screwdriver/&6Citrusy Screwdriver"
+    cookingtime: 5
+    difficulty: 2
+    ingredients:
+      - blue_ice/10
+      - sugar/5
+      - orange_dye/4
+      - Brewery:RussianVodka/2
+    alcohol: 50
+    color: YELLOW
+    effects: 
+      - CONFUSION/0-2/30
+      - FIRE_RESISTANCE/0-4/300
+      - SLOWNESS/0-3/60
+  SeaCucumber:
+    name: "&7Sour Sea Cucumber/Sea Cucumber/&6Herbal Sea Cucumber"
+    cookingtime: 7
+    difficulty: 6
+    ingredients:
+      - ice/10
+      - sugar/5
+      - sea_pickle/3
+      - fern/2
+      - Brewery:Gin/2
+    alcohol: 50
+    color: CYAN
+    effects: 
+      - JUMP/0-2/100
+      - WITHER/1-3/20
+      - LUCK/0-4/120
+  SingaporeSling:
+    name: "&7Sour Singapore Sling/Singapore Sling/&6Exotic Singapore Sling"
+    cookingtime: 7
+    difficulty: 7
+    ingredients:
+      - blue_ice/10
+      - sugar/5
+      - red_dye/1
+      - Brewery:LimeSoda/1
+      - Brewery:Gin/2
+    alcohol: 50
+    color: DARK_RED
+    effects: 
+      - WITHER/1-3/20
+      - SPEED/1-4/30
+      - ABSORPTION/0-4/100
+      - UNLUCK/0-300
+  LondonFog:
+    name: "&7Bitter London Fog/London Fog/&6Smooth London Fog"
+    cookingtime: 8
+    difficulty: 5
+    ingredients:
+      - ice/10
+      - sugar/5
+      - milk_bucket/1
+      - Brewery:EarlGrayTea/1
+      - Brewery:RussianVodka/2
+    alcohol: 50
+    color: WHITE
+    effects: 
+      - WITHER/1-3/20
+      - SLOWNESS/0-3/60
+      - LUCK/0-4/120
+  GourmetCoffee:
+    name: "&7Burnt Gourmet Coffee/Gourmet Coffee/&6Smooth Gourmet Coffee"
+    cookingtime: 5
+    difficulty: 3
+    ingredients:
+      - cocoa_beans/8
+      - sugar/4
+    alcohol: 6
+    color: 3c3406
+    effects: 
+      - REGENERATION/1/2-5
+      - SPEED/1-10/20-60
+  PumpkinSpicedLatte:
+    name: "&7Burnt Pumpkin Spiced Latte/Pumpkin Spiced Latte/&6Smooth Pumpkin Spiced Latte"
+    cookingtime: 6
+    difficulty: 6
+    ingredients:
+      - cocoa_beans/8
+      - pumpkin/1
+      - sugar/4
+      - milk_bucket/2
+    alcohol: 0
+    color: BLACK
+    effects: 
+      - INVISIBILITY/0-60
+      - HERO_OF_THE_VILLAGE/1-3/20-60
+      - BAD_OMEN/1-0/1200-0
+      - WITHER/1/35
+  HazelnutCappuccino:
+    name: "&7Burnt Hazelnut Cappuccino/Hazelnut Cappuccino/&6Smooth Hazelnut Cappuccino"
+    cookingtime: 5
+    difficulty: 5
+    ingredients:
+      - cocoa_beans/8
+      - brown_dye/1
+      - sugar/4
+      - sugar/4
+    alcohol: 0
+    color: LIME
+    effects: 
+      - CONDUIT_POWER/20-500
+      - WATER_BREATHING/20-500
+      - HUNGER/42/500
+  AppleJuice:
+    name: "&7From Concentrate Apple Juice/Apple Juice/&6Fresh Apple Juice"
+    cookingtime: 7
+    difficulty: 2
+    ingredients:
+      - apple/10
+      - sugar/5
+    alcohol: 0
+    color: f9d338
+    effects: 
+      - JUMP/0-5/30
+      - SLOW_FALLING/0-3/30
+  CarrotJuice:
+    name: "&7From Concentrate Carrot Juice/Carrot Juice/&6Fresh Carrot Juice"
+    cookingtime: 7
+    difficulty: 3
+    ingredients:
+      - carrot/10
+      - sugar/5
+    alcohol: 0
+    color: faa033
+    effects: 
+      - NIGHT_VISION/0-300
+  WatermelonCoolie:
+    name: "&7From Concentrate Watermelon Coolie/Watermelon Coolie/&6Fresh Watermelon Coolie"
+    cookingtime: 8
+    difficulty: 3
+    ingredients:
+      - glistering_melon_slice/10
+      - sugar/5
+      - magma_cream/4
+    alcohol: 0
+    color: ed6c62
+    effects: 
+      - Health_Boost/0-4
+  CactusCoolie:
+    name: "&7From Concentrate Cactus Coolie/Cactus Coolie/&6Fresh Cactus Coolie"
+    cookingtime: 10
+    difficulty: 4
+    ingredients:
+      - cactus/10
+      - sugar/5
+      - magma_cream/4
+    color: LIME
+    effects: 
+      - SPEED/2-4/30
+      - FAST_DIGGING/2-5/10-50
+  Gillywater:
+    name: "&7From Concentrate Gillywater/Gillywater/&6Fresh Gillywater"
+    cookingtime: 12
+    difficulty: 4
+    ingredients:
+      - glistering_melon_slice/10
+      - sugar/5
+    color: GREEN
+    effects: 
+      - WATER_BREATHING/20-500
+      - STRENGTH/0-2/0-30
+  MelonJuice:
+    name: "&7From Concentrate Melon Juice/Melon Juice/&6Fresh Melon Juice"
+    cookingtime: 5
+    difficulty: 2
+    ingredients:
+      - glistering_melon_slice/10
+      - sugar/5
+    color: GREEN
+    effects: 
+      - INVISIBILITY/0-60
+      - LUCK/0-300
+  OrangeJulius:
+    name: "&7From Concentrate Orange Julius/Orange Julius/&6Fresh Orange Julius"
+    cookingtime: 12
+    difficulty: 5
+    ingredients:
+      - sweet_berries/8
+      - sugar/5
+      - milk_bucket/2
+    color: ORANGE
+    effects: 
+      - WATER_BREATHING/20-500
+      - INVISIBILITY/0-60
+  VegetableJuice:
+    name: "&7From Concentrate Vegetable Juice/Vegetable Juice/&6Fresh Vegetable Juice"
+    cookingtime: 10
+    difficulty: 4
+    ingredients:
+      - carrot/4
+      - beetroot/4
+      - sugar/5
+    color: OLIVE
+    effects: 
+      - FAST_DIGGING/2-5/10-50
+      - STRENGTH/0-2/0-30
+  Rum:
+    name: "&7Cheap Rum/Rum/&6Royal Rum"
+    cookingtime: 10
+    difficulty: 6
+    ingredients:
+      - sugar/24
+      - packed_ice/8
+      - oak_wood/8
+      - Brewery:neutralSpirit/1
+    distilltime: 120
+    distillruns: 2
+    wood: 3 # Jungle
+    age: 3
+    alcohol: 60
+    color: YELLOW
+    effects: 
+      - FIRE_RESISTANCE/1/20-100
+      - POISON/1-0/30-0
+      - dolphins_grace/0-1/0-120
+  SweetAppleRum:
+    name: "&7Cheap Sweet Apple Rum/Sweet Apple Rum/&6Royal Sweet Apple Rum"
+    cookingtime: 10
+    difficulty: 5
+    ingredients:
+      - sugar_cane/12
+      - apple/12
+      - oak_planks/8
+      - Brewery:neutralSpirit/1
+    distilltime: 150
+    distillruns: 3
+    wood: 2 # Oak
+    age: 4
+    alcohol: 50
+    color: YELLOW
+    effects: 
+      - CONFUSION/4-1/15-1
+      - SLOW/5-1/60-5
+      - ABSORPTION/0-3/0-30
+      - INCREASE_DAMAGE/0-3/0-65
+  Tequila:
+    name: "&7Cheap Tequila/Tequila/&6Royal Tequila"
+    cookingtime: 5
+    difficulty: 4
+    ingredients:
+      - cactus/32
+      - sugar/16
+      - packed_ice/8
+      - Brewery:Levain/1
+    distilltime: 180
+    distillruns: 2
+    wood: 5 # Acacia
+    age: 3
+    alcohol: 65
+    color: WHITE
+    effects: 
+      - POISON/1-3/0-20
+      - CONFUSION/0-30
+      - FIRE_RESISTANCE/0-4/0-120
+      - GLOWING/0-3/0-300
+      - SPEED/0-4/0-30
+  ReposadoTequila:
+    name: "&7Cheap Reposado Tequila/Reposado Tequila/&6Royal Reposado Tequila"
+    cookingtime: 9
+    difficulty: 6
+    ingredients:
+      - blue_orchid/35
+      - cactus/32
+      - sugar/16
+      - oak_planks/8
+      - Brewery:Levain/1
+    distilltime: 200
+    distillruns: 3
+    wood: 5 # Acacia
+    age: 7
+    alcohol: 40
+    color: YELLOW
+    effects: 
+      - BLINDNESS/3
+      - CONFUSION/30
+      - SLOWNESS/6/20
+      - FIRE_RESISTANCE/0-4/0-300
+      - INCREASE_DAMAGE/0-6/0-60
+      - HARM/1
+  BlancoTequila:
+    name: "&7Cheap Blanco Tequila/Blanco Tequila/&6Royal Blanco Tequila"
+    cookingtime: 3
+    difficulty: 4
+    ingredients:
+      - cactus/32
+      - sugar/16
+      - packed_ice/8
+      - Brewery:Levain/1
+    distilltime: 120
+    distillruns: 1
+    wood: 1 # Birch
+    age: 1
+    alcohol: 60
+    color: WHITE
+    effects: 
+      - WEAKNESS/1-3/10-60
+      - POISON/0-3/0-20
+      - BLINDNESS/5-2
+      - CONFUSION/30-5
+      - SPEED/1-2/30-140
+  AñejoTequila:
+    name: "&7Cheap Añejo Tequila/Añejo Tequila/&6Royal Añejo Tequila"
+    cookingtime: 18
+    difficulty: 5
+    ingredients:
+      - cactus/32
+      - sugar/16
+      - oak_planks/8
+      - Brewery:Levain/1
+    distilltime: 240
+    distillruns: 4
+    wood: 5 # Acacia
+    age: 15
+    alcohol: 75
+    color: DARK_RED
+    effects: 
+      - CONFUSION/1-3/15-30
+      - UNLUCK/1-300
+      - ABSORPTION/2-10/20-180
+      - HEALTH_BOOST/8-0/180-0
+  Scotch:
+    name: "&7Cheap Scotch/Scotch/&6Royal Scotch"
+    cookingtime: 20
+    difficulty: 8
+    ingredients:
+      - wheat/32
+      - nether_wart/12
+      - golden_apple/1
+      - oak_wood/8
+      - Brewery:Levain/1
+    distilltime: 300
+    distillruns: 4
+    wood: 5 # Acacia
+    age: 30
+    alcohol: 80
+    color: YELLOW
+    effects: 
+      - CONFUSION/0-30
+      - WITHER/1-3/0-20
+      - RESISTANCE/0-3/0-120
+      - STRENGTH/0-4/0-30
+      - SPEED/0-6/0-30
+  Brandy:
+    name: "&7Cheap Brandy/Brandy/&6Royal Brandy"
+    cookingtime: 15
+    difficulty: 7
+    ingredients:
+      - sweet_berries/24
+      - sugar/12
+      - oak_wood/8
+      - Brewery:Levain/1
+    distilltime: 180
+    distillruns: 2
+    wood: 2 # Oak
+    age: 10
+    alcohol: 65
+    color: DARK_RED
+    effects: 
+      - WEAKNESS/0-3/0-60
+      - UNLUCK/0-300
+      - RESISTANCE/0-4/0-300
+      - GLOWING/0-300
+  Whiskey:
+    name: "&7Cheap Whiskey/Whiskey/&6Royal Whiskey"
+    cookingtime: 18
+    difficulty: 7
+    ingredients:
+      - wheat/32
+      - sugar/16
+      - oak_planks/8
+      - Brewery:Levain/1
+    distilltime: 240
+    distillruns: 3
+    wood: 6 # Dark Oak
+    age: 20
+    alcohol: 70
+    color: ORANGE
+    effects: 
+      - POISON/1-3/0-20
+      - FIRE_RESISTANCE/0-2/0-300
+  CinnamonWhiskey:
+    name: "&7Cheap Cinnamon Whiskey/Cinnamon Whiskey/&6Royal Cinnamon Whiskey"
+    cookingtime: 4
+    difficulty: 3
+    ingredients:
+      - wheat/24
+      - blaze_powder/8
+      - sugar/16
+      - Brewery:Levain/2
+    distilltime: 180
+    distillruns: 3
+    wood: 3 # Jungle
+    age: 10
+    alcohol: 65
+    color: RED
+    effects: 
+      - CONFUSION/0-10
+      - FIRE_RESISTANCE/0-5/0-120
+      - ABSORPTION/0-2/0-60
+      - INCREASE_DAMAGE/0-2/0-60
+      - NIGHT_VISION/0-120
+  RussianVodka:
+    name: "&7Cheap Russian Vodka/Russian Vodka/&6Royal Russian Vodka"
+    cookingtime: 3
+    difficulty: 3
+    ingredients:
+      - potato/24
+      - packed_ice/8
+      - ice/4
+      - Brewery:neutralSpirit/1
+    distilltime: 100
+    distillruns: 1
+    wood: 1 # Birch
+    age: 1
+    alcohol: 75
+    color: BRIGHT_GREY
+    effects: 
+      - WEAKNESS/15
+      - POISON/10
+  Absinthe:
+    name: "&7Cheap Absinthe/Absinthe/&6Royal Absinthe"
+    cookingtime: 12
+    difficulty: 6
+    ingredients:
+      - nether_wart/16
+      - spider_eye/8
+      - glowstone_dust/8
+      - Brewery:neutralSpirit/3
+    distilltime: 300
+    distillruns: 4
+    wood: 4 # Spruce
+    age: 10
+    alcohol: 80
+    color: GREEN
+    effects: 
+      - POISON/6
+      - BAD_OMEN/1200
+      - BLINDNESS/3
+      - CONFUSION/30
+      - HARM/1
+      - LEVITATION/3/20
+      - SLOW/6/20
+      - SLOW_DIGGING/3/30
+      - UNLUCK/1200
+      - WITHER/3/10
+      - ABSORPTION/10/0-300
+  Ambrosia:
+    name: "&7Cheap Ambrosia/Ambrosia/&6Royal Ambrosia"
+    cookingtime: 16
+    difficulty: 7
+    ingredients:
+      - golden_apple/4
+      - honey_bottle/16
+      - chorus_fruit/6
+      - Brewery:neutralSpirit/1
+    distilltime: 400
+    distillruns: 5
+    wood: 7 # Crimson
+    age: 30
+    alcohol: 85
+    color: BRIGHT_RED
+    effects: 
+      - REGENERATION/0-1/0-120
+      - SPEED/1-2/30-140
+      - WEAKNESS/0-15
+      - POISON/3-0/16-0
+  Mead:
+    name: "&7Cheap Mead/Mead/&6Royal Mead"
+    cookingtime: 12
+    difficulty: 5
+    ingredients:
+      - honey_bottle/24
+      - sugar/12
+      - wheat_seeds/12
+      - Brewery:Levain/1
+    distilltime: 150
+    distillruns: 2
+    wood: 2 # Oak
+    age: 5
+    alcohol: 50
+    color: ORANGE
+    effects: 
+      - ABSORPTION/0-3/0-300
+      - CONFUSION/0-2/10-30
+  OakMead:
+    name: "&7Cheap Oak Mead/Oak Mead/&6Royal Oak Mead"
+    cookingtime: 16
+    difficulty: 7
+    ingredients:
+      - honey_bottle/24
+      - oak_sapling/8
+      - wheat_seeds/12
+      - Brewery:Levain/1
+    distilltime: 180
+    distillruns: 3
+    wood: 2 # Oak
+    age: 7
+    alcohol: 55
+    color: ORANGE
+    effects: 
+      - SLOW/0-4/0-20
+      - DAMAGE_RESISTANCE/0-4/0-100
+  GoldenAppleMead:
+    name: "&7Cheap Golden Apple Mead/Golden Apple Mead/&6Royal Golden Apple Mead"
+    cookingtime: 14
+    difficulty: 6
+    ingredients:
+      - honey_bottle/24
+      - golden_apple/4
+      - wheat_seeds/12
+      - Brewery:Levain/1
+    distilltime: 200
+    distillruns: 3
+    wood: 2 # Oak
+    age: 10
+    alcohol: 60
+    color: ORANGE
+    effects: 
+      - DAMAGE_RESISTANCE/1-2/150
+      - ABSORPTION/0-3/0-300
+      - CONFUSION/0-2/10-30
+  Gin:
+    name: "&7Cheap Gin/Gin/&6Royal Gin"
+    cookingtime: 5
+    difficulty: 5
+    ingredients:
+      - sweet_berries/24
+      - nether_wart/8
+      - packed_ice/8
+      - Brewery:Levain/1
+    distilltime: 120
+    distillruns: 2
+    wood: 1 # Birch
+    age: 1
+    alcohol: 65
+    color: BRIGHT_GREY
+    effects: 
+      - GLOWING/0-500
+      - INVISIBILITY/0-60
+      - CONFUSION/3-1/150-5
+      - SLOWNESS/6/20
+  EmpressGin:
+    name: "&7Cheap Empress Gin/Empress Gin/&6Royal Empress Gin"
+    cookingtime: 8
+    difficulty: 6
+    ingredients:
+      - sweet_berries/24
+      - lily_of_the_valley/4
+      - packed_ice/8
+      - Brewery:Levain/1
+    distilltime: 180
+    distillruns: 3
+    wood: 1 # Birch
+    age: 3
+    alcohol: 70
+    color: PURPLE
+    effects: 
+      - BLINDNESS/3
+      - CONFUSION/30
+      - SLOWNESS/6/20
+      - FIRE_RESISTANCE/0-4/0-300
+      - INCREASE_DAMAGE/0-6/0-60
+  Moonshine:
+    name: "&7Cheap Moonshine/Moonshine/&6Royal Moonshine"
+    cookingtime: 2
+    difficulty: 2
+    ingredients:
+      - sugar/32
+      - packed_ice/8
+      - wheat_seeds/12
+      - wheat/16
+      - Brewery:Levain/1
+    distilltime: 60
+    distillruns: 1
+    wood: 0 # Any
+    age: 0
+    alcohol: 90
+    color: BRIGHT_GREY
+    effects: 
+      - WEAKNESS/1-3/10-60
+      - POISON/0-3/0-20
+      - BLINDNESS/5-2
+      - CONFUSION/30-5
+      - SPEED/1-2/30-140
+  SpicyRum:
+    name: "&7Cheap Spicy Rum/Spicy Rum/&6Royal Spicy Rum"
+    cookingtime: 6
+    difficulty: 4
+    ingredients:
+      - sugar/24
+      - blaze_powder/6
+      - packed_ice/8
+      - Brewery:Levain/1
+    distilltime: 180
+    distillruns: 2
+    wood: 3 # Jungle
+    age: 4
+    alcohol: 60
+    color: DARK_RED
+    effects: 
+      - CONFUSION/1-3/15-30
+      - UNLUCK/1-300
+      - ABSORPTION/2-10/20-180
+      - HEALTH_BOOST/8-0/180-0
+  XOCognac:
+    name: "&7Cheap XO Cognac/XO Cognac/&6Royal XO Cognac"
+    cookingtime: 20
+    difficulty: 9
+    ingredients:
+      - sweet_berries/24
+      - sugar/16
+      - oak_sapling/8
+      - Brewery:Levain/1
+    distilltime: 400
+    distillruns: 5
+    wood: 6 # Dark Oak
+    age: 32
+    alcohol: 85
+    color: DARK_RED
+    effects: 
+      - CONFUSION/0-30
+      - WITHER/1-3/0-20
+      - RESISTANCE/0-3/0-120
+      - STRENGTH/0-4/0-30
+      - SPEED/0-6/0-30
+  IceCream:
+    name: "&7Iced Milk Ice Cream/Ice Cream/&6 Ice Cream"
+    cookingtime: 1
+    difficulty: 3
+    ingredients:
+      - sugar/8
+      - milk_bucket/2
+    color: f4ece2
+  CarbonatedWater:
+    name: "&7Water Carbonated Water/Carbonated Water/&6 Carbonated Water"
+    cookingtime: 1
+    difficulty: 3
+    ingredients:
+      - sugar/2
+      - wheat/1
+    color: d7e9f1
+  Levain:
+    name: "&7Poor Levain/Levain/&6 Levain"
+    cookingtime: 1
+    difficulty: 3
+    ingredients:
+      - wheat/25
+    age: 3
+    alcohol: 3
+    color: ebe1d2
+    effects: 
+      - UNLUCK/1/30-180
+  NeutralSpirit:
+    name: "&7Poor Neutral Spirit/Neutral Spirit/&6Quality Neutral Spirit"
+    cookingtime: 1
+    difficulty: 3
+    ingredients:
+      - wheat/10
+      - beetroot/10
+    age: 3
+    alcohol: 10
+    color: ebe1d2
+  Eggnog:
+    name: "&7Egg Liquor Eggnog/Eggnog/&6Advocaat Eggnog"
+    cookingtime: 2
+    difficulty: 4
+    ingredients:
+      - egg/5
+      - sugar/2
+      - milk_bucket/1
+      - Brewery:neutralSpirit/1
+    color: ffe680
+  HotCocoa:
+    name: "&7 Hot Cocoa/Hot Cocoa/&6 Hot Cocoa"
+    cookingtime: 5
+    difficulty: 4
+    ingredients:
+      - cocoa_beans/6
+      - sugar/8
+      - milk_bucket/1
+    alcohol: 0
+    color: 864026
+    effects: 
+      - Health_Boost/0-4
+      - SLOW_FALLING/0-2/0-60
+  MochaMilkshake:
+    name: "&7Spoiled Mocha Milkshake/Mocha Milkshake/&6Creamy Mocha Milkshake"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - milk_bucket/8
+      - sugar/4
+      - Brewery:coffee/1
+      - Brewery:iceCream/1
+    alcohol: 0
+    color: 68371a
+    effects: 
+      - DAMAGE_RESISTANCE/0-2/0-120
+      - REGENERATION/0-1/0-25
+  RootbeerFloat:
+    name: "&7Spoiled Rootbeer Float/Rootbeer Float/&6Creamy Rootbeer Float"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - milk_bucket/8
+      - sugar/4
+      - Brewery:rootbeer/1
+      - Brewery:iceCream/1
+    alcohol: 0
+    color: BRIGHT_GREY
+    effects: 
+      - FIRE_RESISTANCE/1-2/30-120
+      - SPEED/1-2/10-30
+      - FAST_DIGGING/0-3/0-60
+  CakeMilkshake:
+    name: "&7Spoiled Cake Milkshake/Cake Milkshake/&6Creamy Cake Milkshake"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - milk_bucket/8
+      - sugar/4
+      - cake/2
+      - Brewery:iceCream/1
+    alcohol: 0
+    color: PINK
+    effects: 
+      - SPEED/2-4/20-60
+  BananaMilkshake:
+    name: "&7Spoiled Banana Milkshake/Banana Milkshake/&6Creamy Banana Milkshake"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - milk_bucket/8
+      - sugar/4
+      - blaze_rod/4
+      - Brewery:iceCream/1
+    color: YELLOW
+    effects: 
+      - SPEED/2-4/30
+      - DAMAGE_RESISTANCE/0-4/0-100
+      - HEALTH_BOOST/0-4
+      - HEAL/0-1
+  ChocolateMilkshake:
+    name: "&7Spoiled Chocolate Milkshake/Chocolate Milkshake/&6Creamy Chocolate Milkshake"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - milk_bucket/8
+      - sugar/4
+      - cocoa_beans/4
+      - Brewery:iceCream/1
+    color: DARK_RED
+    effects: 
+      - REGENERATION/0-1/25
+      - DAMAGE_RESISTANCE/0-4/0-100
+  StrawberryMilkshake:
+    name: "&7Spoiled Strawberry Milkshake/Strawberry Milkshake/&6Creamy Strawberry Milkshake"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - milk_bucket/8
+      - sugar/4
+      - sweet_berries/4
+      - Brewery:iceCream/1
+    color: PINK
+    effects: 
+      - REGENERATION/0-1/25
+      - SPEED/2-4/30
+      - HEAL/0-1
+  VanillaMilkshake:
+    name: "&7Spoiled Vanilla Milkshake/Vanilla Milkshake/&6Creamy Vanilla Milkshake"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - milk_bucket/8
+      - sugar/4
+      - ghast_tear/4
+      - Brewery:iceCream/1
+    color: WHITE
+    effects: 
+      - HEALTH_BOOST/0-4
+      - DAMAGE_RESISTANCE/0-4/0-100
+      - REGENERATION/0-1/25
+  GrimaceShake:
+    name: "&7Spoiled Grimace Shake/Grimace Shake/&6Creamy Grimace Shake"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - milk_bucket/8
+      - sugar/4
+      - sweet_berries/4
+      - purple_dye/2
+      - Brewery:iceCream/1
+    color: PURPLE
+    effects: 
+      - SPEED/2-4/30
+      - HEAL/0-1
+      - HERO_OF_THE_VILLAGE/0-4/0-60
+  AppleSoda:
+    name: "&7Flat Apple Soda/Apple Soda/&6Refreshing Apple Soda"
+    cookingtime: 8
+    difficulty: 4
+    ingredients:
+      - sugar/10
+      - apple/15
+      - red_dye/3
+      - Brewery:carbonatedWater/1
+    distilltime: 10
+    distillruns: 2
+    age: 3
+    alcohol: 0
+    color: RED
+    effects: 
+      - LEVITATION/0-3/0-6
+      - SLOW_FALLING/0-5/0-60
+  MelonSoda:
+    name: "&7Flat Melon Soda/Melon Soda/&6Refreshing Melon Soda"
+    cookingtime: 10
+    difficulty: 6
+    ingredients:
+      - glistering_melon_slice/8
+      - sugar/10
+      - melon_slice/16
+      - Brewery:carbonatedWater/1
+    distilltime: 30
+    distillruns: 6
+    alcohol: 0
+    color: 79df69
+    effects: 
+      - ABSORPTION/0-4/0-120
+      - FAST_DIGGING/0-6/0-60
+      - SPEED/0-10/0-30
+  OrangeSoda:
+    name: "&7Flat Orange Soda/Orange Soda/&6Refreshing Orange Soda"
+    cookingtime: 8
+    difficulty: 4
+    ingredients:
+      - sugar/18
+      - orange_dye/10
+      - glow_berries/10
+      - Brewery:carbonatedWater/1
+    distilltime: 24
+    distillruns: 6
+    alcohol: 0
+    color: ORANGE
+    effects: 
+      - GLOWING/0-100
+      - STRENGTH/0-3/0-300
+  LimeSoda:
+    name: "&7Flat Lime Soda/Lime Soda/&6Refreshing Lime Soda"
+    cookingtime: 6
+    difficulty: 3
+    ingredients:
+      - yellow_dye/5
+      - sugar/10
+      - lime_dye/5
+      - Brewery:carbonatedWater/1
+    distilltime: 12
+    distillruns: 3
+    alcohol: 0
+    color: LIME
+    effects: 
+      - JUMP/0-2/0-300
+      - SPEED/0-4/0-300
+  Rootbeer:
+    name: "&7Flat Rootbeer/Rootbeer/&6Refreshing Rootbeer"
+    cookingtime: 13
+    difficulty: 6
+    ingredients:
+      - stick/1
+      - mangrove_roots/8
+      - sugar/10
+      - Brewery:carbonatedWater/1
+    distilltime: 3
+    distillruns: 3
+    alcohol: 0
+    color: 530709
+    effects: 
+      - ABSORPTION/0-1/0-60
+      - FAST_DIGGING/0-2/0-60
+      - JUMP/0-2/0-60
+      - NIGHT_VISION/0-60
+      - SLOW_FALLING/0-1/0-60
+      - SPEED/0-3/0-30
+      - WATER_BREATHING/0-60
+  CherryCola:
+    name: "&7Flat Cherry Cola/Cherry Cola/&6Refreshing Cherry Cola"
+    cookingtime: 10
+    difficulty: 5
+    ingredients:
+      - jungle_sapling/3
+      - brown_dye/4
+      - sugar/12
+      - blaze_powder/2
+      - glowstone_dust/2
+      - sweet_berries/4
+      - Brewery:carbonatedWater/1
+    distilltime: 4
+    distillruns: 1
+    wood: 0 # Any
+    age: 1
+    alcohol: 0
+    color: RED
+    effects: 
+      - HASTE/0-4/0-60
+      - JUMP/0-8/0-300
+      - SPEED/0-4/0-30
+  Cola:
+    name: "&7Flat Cola/Cola/&6Refreshing Cola"
+    cookingtime: 13
+    difficulty: 7
+    ingredients:
+      - jungle_sapling/3
+      - brown_dye/4
+      - sugar/12
+      - blaze_powder/2
+      - glowstone_dust/2
+      - Brewery:carbonatedWater/1
+    distilltime: 8
+    distillruns: 2
+    wood: 0 # Any
+    age: 1
+    alcohol: 0
+    color: DARK_RED
+    effects: 
+      - HASTE/0-2/0-60
+      - JUMP/0-4/0-300
+      - SPEED/0-2/0-30
+  ShirleyTemple:
+    name: "&7Flat Shirley Temple/Shirley Temple/&6Refreshing Shirley Temple"
+    cookingtime: 3
+    difficulty: 2
+    ingredients:
+      - sweet_berries/5
+      - sugar/10
+      - blaze_powder/1
+      - red_dye/8
+      - golden_apple/1
+      - Brewery:carbonatedWater/1
+    distilltime: 28
+    distillruns: 7
+    wood: 5 # Acacia
+    age: 6
+    alcohol: 0
+    color: BRIGHT_RED
+    effects: 
+      - GLOWING/0-300
+      - LUCK/0-300
+      - HERO_OF_THE_VILLAGE/0-2/0-60
+  GreenTea:
+    name: "&7Bitter Green Tea/Green Tea/&6Soothing Green Tea"
+    cookingtime: 5
+    difficulty: 2
+    ingredients:
+      - birch_leaves/25
+    distilltime: 4
+    distillruns: 1
+    alcohol: 0
+    color: GREEN
+    effects: 
+      - JUMP/0-3/0-60
+      - LUCK/0-20
+      - REGENERATION/0-2/0-5
+  WhiteTea:
+    name: "&7Bitter White Tea/White Tea/&6Soothing White Tea"
+    cookingtime: 7
+    difficulty: 3
+    ingredients:
+      - lily_of_the_valley/1
+      - birch_leaves/20
+    alcohol: 0
+    color: CYAN
+    effects: 
+      - CONDUIT_POWER/0-120
+  BlackTea:
+    name: "&7Bitter Black Tea/Black Tea/&6Soothing Black Tea"
+    cookingtime: 10
+    difficulty: 3
+    ingredients:
+      - spruce_leaves/5
+      - black_dye/2
+    alcohol: 0
+    color: BLACK
+    effects: 
+      - NIGHT_VISION/0-1/0-200
+      - REGENERATION/0-2/0-20
+  BerryTea:
+    name: "&7Bitter Berry Tea/Berry Tea/&6Soothing Berry Tea"
+    cookingtime: 12
+    difficulty: 4
+    ingredients:
+      - oak_leaves/20
+      - sweet_berries/5
+    distilltime: 4
+    distillruns: 1
+    alcohol: 0
+    color: RED
+    effects: 
+      - REGENERATION/0-4/0-15
+  GingerTea:
+    name: "&7Bitter Ginger Tea/Ginger Tea/&6Soothing Ginger Tea"
+    cookingtime: 15
+    difficulty: 4
+    ingredients:
+      - dead_bush/4
+      - sugar/5
+    distilltime: 4
+    distillruns: 1
+    alcohol: 0
+    color: YELLOW
+    effects: 
+      - STRENGTH/0-2/0-30
+      - NIGHT_VISION/0-600
+      - REGENERATION/0-1/0-600
+  PeachTea:
+    name: "&7Bitter Peach Tea/Peach Tea/&6Soothing Peach Tea"
+    cookingtime: 12
+    difficulty: 2
+    ingredients:
+      - oak_leaves/25
+      - golden_apple/1
+      - pink_dye/6
+      - sugar/11
+    distilltime: 12
+    distillruns: 3
+    alcohol: 0
+    color: ORANGE
+    effects: 
+      - REGENERATION/0-2/0-30
+      - SATURATION/0-2/0-30
+      - SLOW_FALLING/0-3/0-30
+  EarlGrayTea:
+    name: "&7Bitter Earl Gray Tea/Earl Gray Tea/&6Soothing Earl Gray Tea"
+    cookingtime: 6
+    difficulty: 4
+    ingredients:
+      - dark_oak_leaves/22
+      - sugar/2
+      - milk_bucket/2
+    distilltime: 5
+    distillruns: 2
+    wood: 6 # Dark Oak
+    age: 2
+    alcohol: 0
+    color: GREY
+    effects: 
+      - INCREASE_DAMAGE/1-3/0-30
+      - JUMP/2-5/30-180
+      - SPEED/2-5/0-30
+  BloomingTea:
+    name: "&7Bitter Blooming Tea/Blooming Tea/&6Soothing Blooming Tea"
+    cookingtime: 10
+    difficulty: 10
+    ingredients:
+      - red_tulip/8
+      - orange_tulip/8
+      - white_tulip/8
+      - pink_tulip/8
+      - birch_leaves/64
+      - lilac/15
+    distilltime: 4
+    distillruns: 1
+    alcohol: 0
+    color: PINK
+    effects: 
+      - HERO_OF_THE_VILLAGE/0-4/0-60
+  HotTea:
+    name: "&7Bitter Hot Tea/Hot Tea/&6Soothing Hot Tea"
+    cookingtime: 18
+    difficulty: 6
+    ingredients:
+      - oak_leaves/25
+      - sugar/3
+      - milk_bucket/1
+    distilltime: 24
+    distillruns: 6
+    alcohol: 0
+    color: ORANGE
+    effects: 
+      - HASTE/0-4/0-30
+      - STRENGTH/0-3/0-30
+      - JUMP/0-8/0-30
+  HibiscusTea:
+    name: "&7Bitter Hibiscus Tea/Hibiscus Tea/&6Soothing Hibiscus Tea"
+    cookingtime: 4
+    difficulty: 3
+    ingredients:
+      - birch_leaves/20
+      - sugar/4
+      - lilac/6
+      - allium/6
+      - magenta_dye/4
+    distilltime: 16
+    distillruns: 4
+    alcohol: 0
+    color: PINK
+    effects: 
+      - ABSORPTION/0-4/0-120
+      - GLOWING/0-120
+      - LUCK/0-120
+  ChaiTea:
+    name: "&7Bitter Chai Tea/Chai Tea/&6Soothing Chai Tea"
+    cookingtime: 9
+    difficulty: 5
+    ingredients:
+      - dark_oak_leaves/10
+      - sugar/5
+      - wither_rose/3
+      - jungle_wood/2
+      - obsidian/1
+    distilltime: 20
+    distillruns: 5
+    wood: 3 # Jungle
+    age: 2
+    alcohol: 0
+    color: ORANGE
+    effects: 
+      - LEVITATION/0-8/0-10
+      - FIRE_RESISTANCE/0-4/0-300
+      - ABSORPTION/0-5/0-300
+  RoseMilkTea:
+    name: "&7Bitter Rose Milk Tea/Rose Milk Tea/&6Soothing Rose Milk Tea"
+    cookingtime: 1
+    difficulty: 4
+    ingredients:
+      - dark_oak_leaves/15
+      - sugar/2
+      - milk_bucket/2
+      - honey_bottle/2
+      - rose_bush/1
+    alcohol: 0
+    color: dca68b
+    effects: 
+      - FAST_DIGGING/2-5/10-50
+      - SPEED/2-5/0-30
+  PlumWine:
+    name: "&7Sour Plum Wine/Plum Wine/&6Vintage Plum Wine"
+    cookingtime: 12
+    difficulty: 4
+    ingredients:
+      - sweet_berries/24
+      - sugar/16
+      - chorus_fruit/5
+      - Brewery:Levain/2
+    wood: 1 # Birch
+    age: 1
+    alcohol: 12
+    color: BLACK
+    effects: 
+      - WEAKNESS/3-0/20-0
+      - CONFUSION/0-3
+      - REGENERATION/0-4/0-45
+  RedWine:
+    name: "&7Sour Red Wine/Red Wine/&6Vintage Red Wine"
+    cookingtime: 18
+    difficulty: 6
+    ingredients:
+      - sweet_berries/24
+      - sugar/16
+      - nether_wart/8
+      - Brewery:Levain/2
+    distillruns: 0
+    wood: 0 # Any
+    age: 20
+    alcohol: 8
+    color: RED
+    effects: 
+      - SLOWNESS/0-3/60-3
+      - HEAL/0-1
+  WhiteWine:
+    name: "&7Sour White Wine/White Wine/&6Vintage White Wine"
+    cookingtime: 16
+    difficulty: 5
+    ingredients:
+      - sweet_berries/24
+      - sugar/16
+      - azure_bluet/5
+      - Brewery:Levain/2
+    color: WHITE
+    effects: 
+      - WITHER/0-1/0-10
+      - STRENGTH/0-1/0-30
+      - SPEED/1-4/0-30
+  RoséWine:
+    name: "&7Sour Rosé Wine/Rosé Wine/&6Vintage Rosé Wine"
+    cookingtime: 14
+    difficulty: 5
+    ingredients:
+      - sweet_berries/24
+      - sugar/16
+      - lily_of_the_valley/8
+      - Brewery:Levain/2
+    color: PINK
+    effects: 
+      - POISON/0-1/0-10
+      - BLINDNESS/0-15
+      - CONFUSION/0-30
+  Champagne:
+    name: "&7Sour Champagne/Champagne/&6Vintage Champagne"
+    cookingtime: 20
+    difficulty: 9
+    ingredients:
+      - sweet_berries/24
+      - sugar/16
+      - glowstone_dust/8
+      - Brewery:Levain/2
+    color: BRIGHT_GREY
+    effects: 
+      - SLOWNESS/0-3/0-60
+      - FIRE_RESISTANCE/0-1/0-300
+      - WEAKNESS/0-1/0-12

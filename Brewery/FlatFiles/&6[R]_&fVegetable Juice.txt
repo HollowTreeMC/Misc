@@ -1,0 +1,12 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lVegetable Juice
+Ingredients:
+&o- 4 carrot
+&o- 4 beetroot
+&o- 5 sugar
+<NextPage>
+This recipe will require &l10 &0minutes, and is &lof moderate difficulty&0 to create.
+
+Effects include:
+&o- fast_digging
+&o- strength

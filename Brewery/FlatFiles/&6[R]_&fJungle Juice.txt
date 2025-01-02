@@ -1,0 +1,19 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lJungle Juice
+Ingredients:
+&o- 10 ice
+&o- 5 sugar
+&o- 2 melon
+&o- 1 Brewery:Rum
+&o- 1 Brewery:RussianVodka
+<NextPage>
+This recipe will require &l7 &0minutes, and is &lrather difficult&0 to create.
+Properly brewed, this will have an alcohol density of 50
+
+Effects include:
+&o- strength
+&o- levitation
+&o- absorption
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

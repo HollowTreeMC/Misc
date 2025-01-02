@@ -1,0 +1,20 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lSweet Apple Rum
+Ingredients:
+&o- 12 sugar_cane
+&o- 12 apple
+&o- 8 oak_planks
+&o- 1 Brewery:neutralSpirit
+<NextPage>
+This recipe will require &l10 &0minutes, and is &lof intermediate difficulty&0 to create.
+It is best to use a jungle wood barrel, and age for 4 days.
+Master brewers have found that it must be distilled 3 times for 150 seconds or so...Properly brewed, this will have an alcohol density of 50
+
+Effects include:
+&o- confusion
+&o- slow
+&o- absorption
+&o- increase_damage
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

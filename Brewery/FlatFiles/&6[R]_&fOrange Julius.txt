@@ -1,0 +1,12 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lOrange Julius
+Ingredients:
+&o- 8 sweet_berries
+&o- 5 sugar
+&o- 2 milk_bucket
+<NextPage>
+This recipe will require &l12 &0minutes, and is &lof intermediate difficulty&0 to create.
+
+Effects include:
+&o- water_breathing
+&o- invisibility

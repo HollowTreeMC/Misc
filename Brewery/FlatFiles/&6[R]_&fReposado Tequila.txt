@@ -1,0 +1,23 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lReposado Tequila
+Ingredients:
+&o- 35 blue_orchid
+&o- 32 cactus
+&o- 16 sugar
+&o- 8 oak_planks
+&o- 1 Brewery:Levain
+<NextPage>
+This recipe will require &l9 &0minutes, and is &lsomewhat challenging&0 to create.
+It is best to use a dark oak wood barrel, and age for 7 days.
+Master brewers have found that it must be distilled 3 times for 200 seconds or so...Properly brewed, this will have an alcohol density of 40
+
+Effects include:
+&o- blindness
+&o- confusion
+&o- slowness
+&o- fire_resistance
+&o- increase_damage
+&o- harm
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

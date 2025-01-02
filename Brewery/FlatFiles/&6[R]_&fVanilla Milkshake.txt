@@ -1,0 +1,14 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lVanilla Milkshake
+Ingredients:
+&o- 8 milk_bucket
+&o- 4 sugar
+&o- 4 ghast_tear
+&o- 1 Brewery:iceCream
+<NextPage>
+This recipe will require &l3 &0minutes, and is &lrelatively straightforward&0 to create.
+
+Effects include:
+&o- health_boost
+&o- damage_resistance
+&o- regeneration

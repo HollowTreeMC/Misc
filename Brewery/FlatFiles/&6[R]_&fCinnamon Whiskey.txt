@@ -1,0 +1,21 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lCinnamon Whiskey
+Ingredients:
+&o- 24 wheat
+&o- 8 blaze_powder
+&o- 16 sugar
+&o- 2 Brewery:Levain
+<NextPage>
+This recipe will require &l4 &0minutes, and is &leasy&0 to create.
+It is best to use a spruce wood barrel, and age for 10 days.
+Master brewers have found that it must be distilled 3 times for 180 seconds or so...Properly brewed, this will have an alcohol density of 65
+
+Effects include:
+&o- confusion
+&o- fire_resistance
+&o- absorption
+&o- increase_damage
+&o- night_vision
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

@@ -1,0 +1,18 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lPeach Tea
+Ingredients:
+&o- 25 oak_leaves
+&o- 1 golden_apple
+&o- 6 pink_dye
+&o- 11 sugar
+<NextPage>
+This recipe will require &l12 &0minutes, and is &lrelatively straightforward&0 to create.
+Master brewers have found that it must be distilled 3 times for 12 seconds or so...Properly brewed, this will have an alcohol density of 0
+
+Effects include:
+&o- regeneration
+&o- saturation
+&o- slow_falling
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

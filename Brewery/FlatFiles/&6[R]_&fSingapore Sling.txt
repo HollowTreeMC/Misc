@@ -1,0 +1,20 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lSingapore Sling
+Ingredients:
+&o- 10 blue_ice
+&o- 5 sugar
+&o- 1 red_dye
+&o- 1 Brewery:LimeSoda
+&o- 2 Brewery:Gin
+<NextPage>
+This recipe will require &l7 &0minutes, and is &lrather difficult&0 to create.
+Properly brewed, this will have an alcohol density of 50
+
+Effects include:
+&o- wither
+&o- speed
+&o- absorption
+&o- unluck
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

@@ -1,0 +1,15 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lGreen Tea
+Ingredients:
+&o- 25 birch_leaves
+<NextPage>
+This recipe will require &l5 &0minutes, and is &lrelatively straightforward&0 to create.
+Master brewers have found that it must be distilled 1 times for 4 seconds or so...Properly brewed, this will have an alcohol density of 0
+
+Effects include:
+&o- jump
+&o- luck
+&o- regeneration
+<NextPage>
+&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
+&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.

@@ -1,0 +1,14 @@
+<AutoPage><AutoAlias><ReqPermission>
+&lRoséWine
+Ingredients:
+&o- 24 sweet_berries
+&o- 16 sugar
+&o- 8 lily_of_the_valley
+&o- 2 Brewery:Levain
+<NextPage>
+This recipe will require &l14 &0minutes, and is &lof intermediate difficulty&0 to create.
+
+Effects include:
+&o- poison
+&o- blindness
+&o- confusion
