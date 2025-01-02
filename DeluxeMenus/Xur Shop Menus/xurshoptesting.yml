@@ -1,5 +1,6 @@
-menu_title: "TEST Xur's Stuff"
-open_command: xurshoptest
+menu_title: "TEST"
+open_command: 
+  - xurshoptest
 size: 9
 open_requirement:
   requirements:
