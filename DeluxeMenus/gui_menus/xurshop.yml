@@ -1,0 +1,76 @@
+menu_title: 'Xur'
+open_command: xurshop
+inventory_type: "HOPPER"
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - "[message] &cYou don't have permission to open this menu!"
+
+items:
+  # Xur Slot Shop 1, Rare Black Market Item
+  "Slot1Item":
+    slot: 0
+    update: true
+    hide_attributes: true
+    #item config
+    material: placeholder-%denizen_<server.flag[xur_shop_slot1].material.name>%
+    display_name: "%denizen_<server.flag[xur_shop_slot1].display>%"
+    lore:
+      - "&a$1,000,000"
+      - "&b100 EXP Levels"
+    # purchase item behavior
+    left_click_requirement:
+      minimum_requirements: 1
+      deny_commands:
+      - "[message] %denizen_<server.flag[pfx_xur]>% Scram!"
+      - "[close]"
+      requirements:
+        perm1:
+          type: has money
+          amount: 1000000
+        perm2:
+          type: has exp
+          input: 100
+          level: true
+    left_click_commands:
+      - "[console] ex give <server.flag[xur_shop_slot1]> player:<server.match_player[%player_name%]>"
+      - "[console] eco take %player_name% 1000000"
+      - "[console] experience add %player_name% -100 levels"
+      - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
+      - "[close]"
+
+  # Xur Slot Shop 2, Rare Black Market Item
+  "Slot2Item":
+    slot: 1
+    update: true
+    hide_attributes: true
+    #item config
+    material: placeholder-%denizen_<server.flag[xur_shop_slot2].material.name>%
+    display_name: "%denizen_<server.flag[xur_shop_slot2].display>%"
+    lore:
+      - "&a$1,000,000"
+      - "&b100 EXP Levels"
+    # purchase item behavior
+    left_click_requirement:
+      minimum_requirements: 1
+      deny_commands:
+      - "[message] %denizen_<server.flag[pfx_xur]>% Scram!"
+      - "[close]"
+      requirements:
+        perm1:
+          type: has money
+          amount: 1000000
+        perm2:
+          type: has exp
+          input: 100
+          level: true
+    left_click_commands:
+      - "[console] ex give <server.flag[xur_shop_slot2]> player:<server.match_player[%player_name%]>"
+      - "[console] eco take %player_name% 1000000"
+      - "[console] experience add %player_name% -100 levels"
+      - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
+      - "[close]"

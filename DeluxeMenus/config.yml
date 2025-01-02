@@ -11,7 +11,5 @@ gui_menus:
     file: biomewarps.yml
   guides_menu:
     file: guides.yml
-  xur_shop_1:
-    file: XurShopTable_1.yml
-  xur_shop_test:
-    file: xurshoptesting.yml
+  xurshop_menu:
+    file: xurshop.yml
