@@ -1,6 +1,5 @@
 menu_title: "TEST"
-open_command: 
-  - xurshoptest
+open_command: xurshoptest
 size: 9
 open_requirement:
   requirements:
@@ -11,7 +10,7 @@ open_requirement:
 items:
   # Tier 3.5 - Item 1
   0:
-    material: NETHERITE_SWORD
+    material: BAMBOO_BLOCK
     enchantments:
       - SHARPNESS;8
       - SWEEPING_EDGE;8
@@ -29,7 +28,6 @@ items:
       - "&b100 EXP Levels"
     left_click_requirement:
       requirements:
-        minimum_requirements: 2
         stop_at_success: true
         perm1:
           type: has money
