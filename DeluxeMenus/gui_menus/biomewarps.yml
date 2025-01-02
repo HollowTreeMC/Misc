@@ -1,11 +1,9 @@
 menu_title: 'Lewis'
-open_command: biomewarps
 size: 27
 open_requirement:
   requirements:
     permission:
       type: has permission
-      permission: deluxemenus.admin
       deny_commands:
         - '[message] &cYou don''t have permission to do that!'
         

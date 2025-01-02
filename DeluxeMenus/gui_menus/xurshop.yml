@@ -1,12 +1,10 @@
 menu_title: 'Xur'
-open_command: xurshop
 inventory_type: "HOPPER"
 
 open_requirement:
   requirements:
     permission:
       type: has permission
-      permission: deluxemenus.admin
       deny_commands:
         - "[message] &cYou don't have permission to open this menu!"
 
@@ -24,18 +22,18 @@ items:
       - "&b100 EXP Levels"
     # purchase item behavior
     left_click_requirement:
-      minimum_requirements: 1
       deny_commands:
       - "[message] %denizen_<server.flag[pfx_xur]>% Scram!"
       - "[close]"
       requirements:
+        stop_at_success: false
         perm1:
           type: has money
           amount: 1000000
         perm2:
-          type: has exp
-          input: 100
-          level: true
+          type: '>'
+          input: '%player_total_exp%'
+          output: '30970'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot1]> player:<server.match_player[%player_name%]>"
       - "[console] eco take %player_name% 1000000"
@@ -56,18 +54,18 @@ items:
       - "&b100 EXP Levels"
     # purchase item behavior
     left_click_requirement:
-      minimum_requirements: 1
       deny_commands:
       - "[message] %denizen_<server.flag[pfx_xur]>% Scram!"
       - "[close]"
       requirements:
+        stop_at_success: false
         perm1:
           type: has money
           amount: 1000000
         perm2:
-          type: has exp
-          input: 100
-          level: true
+          type: '>'
+          input: '%player_total_exp%'
+          output: '30970'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot2]> player:<server.match_player[%player_name%]>"
       - "[console] eco take %player_name% 1000000"
