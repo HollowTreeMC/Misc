@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lNeutral Spirit
+&lNeutral Spirit&0
 Ingredients:
 &o- 10 wheat
 &o- 10 beetroot

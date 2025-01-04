@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPumpkin Spiced Latte
+&lPumpkin Spiced Latte&0
 Ingredients:
 &o- 8 cocoa_beans
 &o- 1 pumpkin

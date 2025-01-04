@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lOrange Julius
+&lOrange Julius&0
 Ingredients:
 &o- 8 sweet_berries
 &o- 5 sugar

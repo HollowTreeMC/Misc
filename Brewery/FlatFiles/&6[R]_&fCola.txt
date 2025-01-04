@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lCola
+&lCola&0
 Ingredients:
 &o- 3 jungle_sapling
 &o- 4 brown_dye

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lFishy Green Ale
+&lFishy Green Ale&0
 Ingredients:
 &o- 8 wheat
 &o- 8 kelp

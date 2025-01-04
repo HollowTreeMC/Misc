@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lVegetable Juice
+&lVegetable Juice&0
 Ingredients:
 &o- 4 carrot
 &o- 4 beetroot

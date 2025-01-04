@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBlooming Tea
+&lBlooming Tea&0
 Ingredients:
 &o- 8 red_tulip
 &o- 8 orange_tulip

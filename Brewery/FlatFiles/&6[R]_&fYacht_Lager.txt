@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lYacht Lager
+&lYacht Lager&0
 Ingredients:
 &o- 1 oak_boat
 &o- 8 wheat

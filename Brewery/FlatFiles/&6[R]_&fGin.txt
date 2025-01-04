@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lGin
+&lGin&0
 Ingredients:
 &o- 24 sweet_berries
 &o- 8 nether_wart

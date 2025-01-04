@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHard Cider
+&lHard Cider&0
 Ingredients:
 &o- 15 apple
 &o- 8 sugar

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lEggnog
+&lEggnog&0
 Ingredients:
 &o- 5 egg
 &o- 2 sugar

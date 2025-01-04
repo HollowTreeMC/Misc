@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lJackand Ginger
+&lJackand Ginger&0
 Ingredients:
 &o- 10 ice
 &o- 5 sugar

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHazelnut Cappuccino
+&lHazelnut Cappuccino&0
 Ingredients:
 &o- 8 cocoa_beans
 &o- 1 brown_dye

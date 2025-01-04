@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBelgian Ale
+&lBelgian Ale&0
 Ingredients:
 &o- 8 golden_apple
 &o- 10 honey_bottle

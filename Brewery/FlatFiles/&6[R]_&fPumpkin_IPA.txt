@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPumpkin IPA
+&lPumpkin IPA&0
 Ingredients:
 &o- 10 pumpkin
 &o- 4 pumpkin_seeds

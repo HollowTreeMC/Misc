@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHot Cocoa
+&lHot Cocoa&0
 Ingredients:
 &o- 6 cocoa_beans
 &o- 8 sugar

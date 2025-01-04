@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lOrange Soda
+&lOrange Soda&0
 Ingredients:
 &o- 18 sugar
 &o- 10 orange_dye

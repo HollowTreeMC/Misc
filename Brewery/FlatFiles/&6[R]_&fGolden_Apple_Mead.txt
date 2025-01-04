@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lGolden Apple Mead
+&lGolden Apple Mead&0
 Ingredients:
 &o- 24 honey_bottle
 &o- 4 golden_apple

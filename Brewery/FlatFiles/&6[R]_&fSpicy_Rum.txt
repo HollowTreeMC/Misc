@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lSpicy Rum
+&lSpicy Rum&0
 Ingredients:
 &o- 24 sugar
 &o- 6 blaze_powder

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lMilk Stout
+&lMilk Stout&0
 Ingredients:
 &o- 20 wheat
 &o- 15 cocoa_beans

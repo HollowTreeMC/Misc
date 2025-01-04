@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lReposado Tequila
+&lReposado Tequila&0
 Ingredients:
 &o- 35 blue_orchid
 &o- 32 cactus

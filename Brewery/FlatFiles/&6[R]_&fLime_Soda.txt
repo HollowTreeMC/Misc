@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lLime Soda
+&lLime Soda&0
 Ingredients:
 &o- 5 yellow_dye
 &o- 10 sugar

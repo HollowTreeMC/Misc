@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lCinnamon Whiskey
+&lCinnamon Whiskey&0
 Ingredients:
 &o- 24 wheat
 &o- 8 blaze_powder

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lEarl Gray Tea
+&lEarl Gray Tea&0
 Ingredients:
 &o- 22 dark_oak_leaves
 &o- 2 sugar

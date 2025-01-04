@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lRauchbier
+&lRauchbier&0
 Ingredients:
 &o- 20 wheat_seeds
 &o- 34 wheat

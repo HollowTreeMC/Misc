@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lRootbeer
+&lRootbeer&0
 Ingredients:
 &o- 1 stick
 &o- 8 mangrove_roots

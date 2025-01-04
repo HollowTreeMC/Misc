@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lSweet Lager
+&lSweet Lager&0
 Ingredients:
 &o- 12 wheat
 &o- 8 sugar

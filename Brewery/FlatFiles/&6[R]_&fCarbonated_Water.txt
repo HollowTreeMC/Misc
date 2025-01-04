@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lCarbonated Water
+&lCarbonated Water&0
 Ingredients:
 &o- 2 sugar
 &o- 1 wheat

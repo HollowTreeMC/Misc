@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lOak Mead
+&lOak Mead&0
 Ingredients:
 &o- 24 honey_bottle
 &o- 8 oak_sapling

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBeer
+&lBeer&0
 Ingredients:
 &o- 15 wheat
 &o- 1 Brewery:Levain

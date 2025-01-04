@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPale Ale
+&lPale Ale&0
 Ingredients:
 &o- 16 wheat
 &o- 5 tall_grass

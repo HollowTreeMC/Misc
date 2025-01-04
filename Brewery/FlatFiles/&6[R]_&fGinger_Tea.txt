@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lGinger Tea
+&lGinger Tea&0
 Ingredients:
 &o- 4 dead_bush
 &o- 5 sugar

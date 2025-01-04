@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lScrewdriver
+&lScrewdriver&0
 Ingredients:
 &o- 10 blue_ice
 &o- 5 sugar

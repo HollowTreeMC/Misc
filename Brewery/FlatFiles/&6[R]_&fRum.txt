@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lRum
+&lRum&0
 Ingredients:
 &o- 24 sugar
 &o- 8 packed_ice

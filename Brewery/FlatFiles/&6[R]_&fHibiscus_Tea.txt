@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHibiscus Tea
+&lHibiscus Tea&0
 Ingredients:
 &o- 20 birch_leaves
 &o- 4 sugar

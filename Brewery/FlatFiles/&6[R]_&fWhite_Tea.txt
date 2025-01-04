@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lWhite Tea
+&lWhite Tea&0
 Ingredients:
 &o- 1 lily_of_the_valley
 &o- 20 birch_leaves

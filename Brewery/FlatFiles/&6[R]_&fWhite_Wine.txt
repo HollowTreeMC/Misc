@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lWhite Wine
+&lWhite Wine&0
 Ingredients:
 &o- 24 sweet_berries
 &o- 16 sugar

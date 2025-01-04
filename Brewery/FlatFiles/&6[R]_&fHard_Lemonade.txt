@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHard Lemonade
+&lHard Lemonade&0
 Ingredients:
 &o- 8 honey_bottle
 &o- 10 sugar

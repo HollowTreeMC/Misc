@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lShirley Temple
+&lShirley Temple&0
 Ingredients:
 &o- 5 sweet_berries
 &o- 10 sugar

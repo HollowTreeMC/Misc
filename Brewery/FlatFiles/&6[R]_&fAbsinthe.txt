@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lAbsinthe
+&lAbsinthe&0
 Ingredients:
 &o- 16 nether_wart
 &o- 8 spider_eye

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHot Tea
+&lHot Tea&0
 Ingredients:
 &o- 25 oak_leaves
 &o- 3 sugar

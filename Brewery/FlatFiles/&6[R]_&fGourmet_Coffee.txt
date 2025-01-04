@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lGourmet Coffee
+&lGourmet Coffee&0
 Ingredients:
 &o- 8 cocoa_beans
 &o- 4 sugar

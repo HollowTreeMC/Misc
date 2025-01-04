@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBrandy
+&lBrandy&0
 Ingredients:
 &o- 24 sweet_berries
 &o- 12 sugar

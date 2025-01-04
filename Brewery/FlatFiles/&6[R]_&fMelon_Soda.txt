@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lMelon Soda
+&lMelon Soda&0
 Ingredients:
 &o- 8 glistering_melon_slice
 &o- 10 sugar

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lJungle Juice
+&lJungle Juice&0
 Ingredients:
 &o- 10 ice
 &o- 5 sugar

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lOrange Ale
+&lOrange Ale&0
 Ingredients:
 &o- 2 orange_tulip
 &o- 10 honey_bottle

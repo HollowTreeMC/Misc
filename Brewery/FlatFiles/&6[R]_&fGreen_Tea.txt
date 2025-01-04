@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lGreen Tea
+&lGreen Tea&0
 Ingredients:
 &o- 25 birch_leaves
 <NextPage>

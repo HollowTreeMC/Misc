@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lSake
+&lSake&0
 Ingredients:
 &o- 73 wheat
 &o- 54 sugar

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lChocolate Porter
+&lChocolate Porter&0
 Ingredients:
 &o- 25 wheat
 &o- 23 cocoa_beans

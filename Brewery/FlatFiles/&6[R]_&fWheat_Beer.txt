@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lWheat Beer
+&lWheat Beer&0
 Ingredients:
 &o- 32 wheat
 &o- 8 brown_dye

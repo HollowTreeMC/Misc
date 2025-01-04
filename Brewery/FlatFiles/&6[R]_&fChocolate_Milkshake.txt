@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lChocolate Milkshake
+&lChocolate Milkshake&0
 Ingredients:
 &o- 8 milk_bucket
 &o- 4 sugar

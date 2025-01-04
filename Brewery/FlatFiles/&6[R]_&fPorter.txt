@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPorter
+&lPorter&0
 Ingredients:
 &o- 30 wheat
 &o- 21 black_dye

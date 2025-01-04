@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBerry Tea
+&lBerry Tea&0
 Ingredients:
 &o- 20 oak_leaves
 &o- 5 sweet_berries

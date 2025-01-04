@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lCactus Coolie
+&lCactus Coolie&0
 Ingredients:
 &o- 10 cactus
 &o- 5 sugar

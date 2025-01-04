@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBlack Tea
+&lBlack Tea&0
 Ingredients:
 &o- 5 spruce_leaves
 &o- 2 black_dye

@@ -1,5 +1,5 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPeach Tea
+&lPeach Tea&0
 Ingredients:
 &o- 25 oak_leaves
 &o- 1 golden_apple
