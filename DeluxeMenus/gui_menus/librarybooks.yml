@@ -1,0 +1,30 @@
+menu_title: 'Library Books'
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+        
+items:
+  'Best Seller':
+    material: BOOK
+    slot: 5
+    display_name: '&Great Novel'
+    lore: 
+      - '&2&oOnly $29' 
+      # Purchase requirements
+    left_click_requirement:
+      deny_commands:
+      - "[message] %denizen_<server.flag[pfx_watson]>% I would love to share these wonderful stories with you, but I can't just give them away."
+      - "[close]"
+      requirements:
+        stop_at_success: false
+        perm1:
+          type: has money
+          amount: 29
+    left_click_commands:
+      - '[close]'
+      - '[console] give book %player_name%'
+      - '[console] eco take %player_name% 29'
