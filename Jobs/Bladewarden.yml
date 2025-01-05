@@ -1,0 +1,132 @@
+Bladewarden:
+  fullname: Bladewarden
+  shortname: B
+  description: Embrace Auriel’s blessing; defend the skies and lands from the monsters that threaten peace.
+  FullDescription:
+  - 'Fight with precision and power, using \n advanced gear to protect the realm from \n dangerous foes.'
+  max-level: 100
+  leveling-progression-equation: 9*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.0089)-((baseincome+(baseincome*(joblevel-1)*0.0089))
+    * ((numjobs-1)*0.0089))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  Gui:
+    ItemStack: iron_sword
+
+  Kill:
+    Blaze:
+      income: 10
+      experience: 5
+    Bogged:
+      income: 7
+      experience: 3.5
+    Breeze:
+      income: 10
+      experience: 5
+    Cave_Spider:
+      income: 8
+      experience: 4
+    Creeper:
+      income: 9
+      experience: 4.5
+    Drowned:
+      income: 5
+      experience: 2.5
+    Elder_Guardian:
+      income: 100
+      experience: 50
+    Ender_Dragon:
+      income: 1000
+      experience: 500
+    Enderman:
+      income: 20
+      experience: 10
+    Endermite:
+      income: 1
+      experience: 0.5
+    Evoker:
+      income: 10
+      experience: 5
+    Ghast:
+      income: 15
+      experience: 7.5
+    Guardian:
+      income: 15
+      experience: 7.5
+    Hoglin:
+      income: 35
+      experience: 17.5
+    Husk:
+      income: 5
+      experience: 2.5
+    Illusioner:
+      income: 20
+      experience: 10
+    Magma_Cube:
+      income: 2
+      experience: 1
+    Phantom:
+      income: 7
+      experience: 3.5
+    Piglin:
+      income: 10
+      experience: 5
+    Piglin_Brute:
+      income: 25
+      experience: 12.5
+    Pillager:
+      income: 15
+      experience: 7.5
+    Ravager:
+      income: 35
+      experience: 17.5
+    Shulker:
+      income: 15
+      experience: 7.5
+    Silverfish:
+      income: 3
+      experience: 1.5
+    Skeleton:
+      income: 7
+      experience: 3.5
+    Slime:
+      income: 2
+      experience: 1
+    Spider:
+      income: 7
+      experience: 3.5
+    Stray:
+      income: 7
+      experience: 3.5
+    Vex:
+      income: 10
+      experience: 5
+    Vindicator:
+      income: 35
+      experience: 17.5
+    Warden:
+      income: 500
+      experience: 250
+    Witch:
+      income: 20
+      experience: 10
+    Wither:
+      income: 750
+      experience: 375
+    Wither_Skeleton:
+      income: 20
+      experience: 10
+    Zoglin:
+      income: 18
+      experience: 9
+    Zombie:
+      income: 5
+      experience: 2.5
+    Zombified_Piglin:
+      income: 5
+      experience: 2.5
+    Player:
+      income: 40
+      experience: 20

@@ -1,0 +1,102 @@
+Scrapper:
+  fullname: Scrapper
+  shortname: S
+  description: Why throw away what could be turned into treasure?
+  FullDescription:
+  - 'Scrapper specializes in collecting and \n repurposing materials from the world \n around them!'
+  max-level: 100
+  leveling-progression-equation: 9*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.0089)-((baseincome+(baseincome*(joblevel-1)*0.0089))
+    * ((numjobs-1)*0.0089))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  Gui:
+    ItemStack: copper_ingot
+
+  Break:
+    log-all:
+      income: 3
+      experience: 1.5
+  Shear:
+    WOOL:
+      income: 1.5
+      experience: 3
+  Fish:
+    cod:
+      income: 5
+      experience: 5
+    salmon:
+      income: 5
+      experience: 7.5
+  Kill:
+    Bogged:
+      income: 7.5
+      experience: 3.75
+    Drowned:
+      income: 7.5
+      experience: 3.75
+    Enderman:
+      income: 30
+      experience: 15
+    Husk:
+      income: 7.5
+      experience: 3.75
+    Pillager:
+      income: 22.5
+      experience: 11.25
+    Skeleton:
+      income: 10.5
+      experience: 5.25
+    Spider:
+      income: 10.5
+      experience: 5.25
+    Zombie:
+      income: 7.5
+      experience: 3.75
+    Player:
+      income: 
+      experience: 20
+  Craft:
+    iron_sword:
+      income: 4
+      experience: 2
+    iron_pickaxe:
+      income: 4
+      experience: 2
+    iron_chestplate:
+      income: 7
+      experience: 3.5
+  Break:
+    iron_ore:
+      income: 6
+      experience: 3
+    coal_ore:
+      income: 3
+      experience: 1.5
+    copper_ore:
+      income: 5
+      experience: 2.5
+    diamond_ore:
+      income: 10
+      experience: 5
+  Breed:
+    sheep:
+      income: 3
+      experience: 3
+  Tame:
+    Wolf:
+      income: 15
+      experience: 7.5
+  Explore :
+    '1':
+      income: 1
+      experience: 0.5
+  Smelt:
+    iron_nugget:
+      income: 2
+      experience: 4
+    gold_nugget:
+      income: 1
+      experience: 2

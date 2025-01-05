@@ -1,0 +1,90 @@
+Quartermaster:
+  fullname: Quartermaster
+  shortname: Q
+  description: Keep the gears of the realm turning by managing supplies and equipment.
+  FullDescription:
+  - 'Oversee the inventory of all essential \n gear and resources. You ensure \n that every explorer is well- \n equipped and ready for the challenges \n of the steampunk frontier.'
+  max-level: 100
+  leveling-progression-equation: 9*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.0089)-((baseincome+(baseincome*(joblevel-1)*0.0089))
+    * ((numjobs-1)*0.0089))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  Gui:
+    ItemStack: bread
+
+  Shear:
+    beehive:
+      income: 1
+      experience: 1
+    bee_nest:
+      income: 2
+      experience: 2
+  Collect:
+    glow_berries:
+      income: 0.5
+      experience: 0.5
+    sweet_berries-2:
+      income: 0.5
+      experience: 0.5
+    sweet_berries-3:
+      income: 1
+      experience: 1
+    bonemeal:
+      income: 1
+      experience: 1
+    honeybottle:
+      income: 2
+      experience: 2
+  Smelt:
+    cooked_chicken:
+      income: 2
+      experience: 2
+    cooked_porkchop:
+      income: 3
+      experience: 3
+    cooked_mutton:
+      income: 3.5
+      experience: 3.5
+    cooked_rabbit:
+      income: 4
+      experience: 4
+    cooked_cod:
+      income: 2
+      experience: 2
+    cooked_salmon:
+      income: 3
+      experience: 3
+  Milk:
+    Cow:
+      income: 3
+      experience: 3
+  Breed:
+    Cow:
+      income: 5
+      experience: 5
+    Pig:
+      income: 4
+      experience: 4
+    Chicken:
+      income: 3
+      experience: 3
+    Rabbit:
+      income: 2
+      experience: 2
+  Break:
+    wheat-7:
+      income: 2
+      experience: 2
+    potatoes-7:
+      income: 1.5
+      experience: 1.5
+  Fish:
+    cod:
+      income: 8
+      experience: 4
+    salmon:
+      income: 10
+      experience: 5
