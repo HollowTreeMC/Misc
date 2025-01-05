@@ -82,7 +82,7 @@ Trailblazer:
     suspicious_gravel:
       income: 20
       experience: 10
-    armadillo:
+    armadillo_scute:
       income: 30
       experience: 15
   Breed:
