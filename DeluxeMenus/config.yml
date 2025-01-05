@@ -13,3 +13,5 @@ gui_menus:
     file: guides.yml
   xurshop_menu:
     file: xurshop.yml
+  librarybooks_menu:
+    file: librarybooks.yml
