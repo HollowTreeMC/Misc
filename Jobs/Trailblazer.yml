@@ -1,0 +1,113 @@
+Trailblazer:
+  fullname: Trailblazer
+  shortname: T
+  description: Venture into the unknown, seeking lost cities and ancient treasures in the wilds.
+  FullDescription:
+  - 'Brave the untamed lands, searching for \n forgotten relics and long-lost secrets. \n Equipped with your trusty gear, you’ll \n chart new territory, uncover hidden \n artifacts, and bring back riches to \n fuel the steam-driven future.'
+  max-level: 100
+  leveling-progression-equation: 9*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.0089)-((baseincome+(baseincome*(joblevel-1)*0.0089))
+    * ((numjobs-1)*0.0089))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  Gui:
+    ItemStack: compass
+
+  Explore :
+    '1':
+      income: 2
+      experience: 1
+    '2':
+      income: 1.5
+      experience: 0.75
+    '3':
+      income: 1
+      experience: 0.5
+    '4':
+      income: 0.5
+      experience: 0.25
+    '5':
+      income: 0.25
+      experience: 0.125
+  Tame:
+    Allay:
+      income: 20
+      experience: 10
+    Camel:
+      income: 15
+      experience: 7.5
+    Donkey:
+      income: 30
+      experience: 15
+    Fox:
+      income: 15
+      experience: 7.5
+    Horse:
+      income: 30
+      experience: 15
+    Llama:
+      income: 25
+      experience: 12.5
+    Mule:
+      income: 30
+      experience: 15
+    Ocelot:
+      income: 20
+      experience: 10
+    Parrot:
+      income: 10
+      experience: 5
+    Wolf:
+      income: 20
+      experience: 10
+  Fish:
+    cod:
+      income: 10
+      experience: 5
+    salmon:
+      income: 15
+      experience: 7.5
+    tropical_fish:
+      income: 25
+      experience: 12.5
+    pufferfish:
+      income: 20
+      experience: 10
+  Brush:
+    suspicious_sand:
+      income: 20
+      experience: 10
+    suspicious_gravel:
+      income: 20
+      experience: 10
+    armadillo:
+      income: 30
+      experience: 15
+  Breed:
+    Horse:
+      income: 7
+      experience: 
+    Wolf:
+      income: 5
+      experience: 
+    Donkey:
+      income: 8
+      experience: 
+    Camel:
+      income: 10
+      experience: 
+    Mule:
+      income: 10
+      experience: 
+  Craft:
+    campfire:
+      income: 3
+      experience: 3
+    wolf_armor:
+      income: 7
+      experience: 14
+    tnt:
+      income: 2
+      experience: 1.5

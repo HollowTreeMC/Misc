@@ -1,0 +1,139 @@
+Artificer:
+  fullname: Artificer
+  shortname: A
+  description: Where iron meets innovation; turn dreams to reality by crafting the finest steam-tech gear.
+
+  FullDescription:
+  - 'Shape metal into mighty tools and \n weapons using steam-powered forges. \n Whether it’s crafting armor or \n designing intricate machinery, your \n creations fuel the advancement of \n the steampunk world, one spark at a time.'
+  max-level: 100
+  leveling-progression-equation: 9*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.0089)-((baseincome+(baseincome*(joblevel-1)*0.0089))
+    * ((numjobs-1)*0.0089))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  Gui:
+    ItemStack: anvil
+
+  Smelt:
+    copper_ingot:
+      income: 1
+      experience: 0.5
+    iron_ingot:
+      income: 4
+      experience: 2
+    gold_ingot:
+      income: 5
+      experience: 2.5
+    netherite_scrap:
+      income: 40
+      experience: 20
+  Craft:
+    diamond_sword:
+      income: 10
+      experience: 10
+    diamond_helment:
+      income: 15
+      experience: 15
+    diamond_chestplate:
+      income: 20
+      experience: 20
+    diamond_leggings:
+      income: 15
+      experience: 15
+    diamond_boots:
+      income: 10
+      experience: 10
+    anvil:
+      income: 30
+      experience: 30
+    mace:
+      income: 40
+      experience: 40
+  Enchant:
+    diamond_sword:
+      income: 10
+      experience: 5
+    diamond_helment:
+      income: 15
+      experience: 7.5
+    diamond_chestplate:
+      income: 20
+      experience: 10
+    diamond_leggings:
+      income: 15
+      experience: 7.5
+    diamond_boots:
+      income: 10
+      experience: 5
+    THORNS-2:
+      income: 15
+      experience: 7.5
+    DAMAGE_ALL-3:
+      income: 12
+      experience: 6
+    DAMAGE_ALL-4:
+      income: 20
+      experience: 10
+    DAMAGE_UNDEAD-3:
+      income: 12
+      experience: 6
+    DAMAGE_UNDEAD-4:
+      income: 20
+      experience: 10
+    DAMAGE_ARTHROPODS-3:
+      income: 12
+      experience: 6
+    DAMAGE_ARTHROPODS-4:
+      income: 20
+      experience: 10
+    SWEEPING_EDGE-2:
+      income: 10
+      experience: 5
+    SWEEPING_EDGE-3:
+      income: 15
+      experience: 7.5
+    CHANNELING:
+      income: 10
+      experience: 5
+    RIPTIDE-3:
+      income: 15
+      experience: 7.5
+    IMPALING-4:
+      income: 12
+      experience: 6
+    IMPALING-5:
+      income: 20
+      experience: 10
+    KNOCKBACK-2:
+      income: 15
+      experience: 7.5
+  Break:
+    deepslate:
+      income: 0.5
+      experience: 0.25
+    coal_ore:
+      income: 2
+      experience: 1
+    deepslate_coal_ore:
+      income: 2
+      experience: 1
+    copper_ore:
+      income: 3
+      experience: 1.5
+    deepslate_copper_ore:
+      income: 3
+      experience: 1.5
+    iron_ore:
+      income: 5
+      experience: 2.5
+    deepslate_iron_ore:
+      income: 5
+      experience: 2.5
+    gold_ore:
+      income: 4
+      experience: 2
+    deepslate_gold_ore:
+      income: 4
+      experience: 2

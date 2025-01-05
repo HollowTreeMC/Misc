@@ -1,0 +1,80 @@
+Tinkerer:
+  fullname: Tinkerer
+  shortname: T
+  description: Invent, modify, and repair high-tech gadgets to keep the realm running smoothly.
+  FullDescription:
+  - 'With a curious mind and steady hands, \n you bring old machines back to life, \n and build new, intricate gadgets from \n scraps. Every gear, wire, and piston \n is your canvas, crafting innovations \n that drive the steampunk age forward.'
+  max-level: 100
+  leveling-progression-equation: 9*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.0089)-((baseincome+(baseincome*(joblevel-1)*0.0089))
+    * ((numjobs-1)*0.0089))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  Gui:
+    ItemStack: copper_bulb
+
+  Break:
+    copper_ore:
+      income: 5
+      experience: 5
+    deepslate_copper_ore:
+      income: 5
+      experience: 5
+    redstone_ore:
+      income: 5
+      experience: 5
+    deepslate_redstone_ore:
+      income: 5
+      experience: 5
+  Smelt:
+    copper_ingot:
+      income: 2.5
+      experience: 2
+    redstone:
+      income: 1
+      experience: 1
+  Craft:
+    rail:
+      income: 1
+      experience: 0.5
+    jukebox:
+      income: 5
+      experience: 2.5
+    hopper:
+      income: 3
+      experience: 1.5
+    daylight_detector:
+      income: 4
+      experience: 2
+    activator_rail:
+      income: 3
+      experience: 1.5
+    dropper:
+      income: 5
+      experience: 2.5
+    lightning_rod:
+      income: 12
+      experience: 6
+    crafter:
+      income: 10
+      experience: 5
+    chiseled_copper:
+      income: 2
+      experience: 1
+    copper_grate:
+      income: 3
+      experience: 1.5
+    copper_bulb:
+      income: 4
+      experience: 2
+    observer:
+      income: 2
+      experience: 1
+    redstone_comparator:
+      income: 3
+      experience: 1.5
+    redstone_repeater:
+      income: 2
+      experience: 1

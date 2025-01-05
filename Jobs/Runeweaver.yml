@@ -1,0 +1,201 @@
+Runeweaver:
+  fullname: Runeweaver
+  shortname: R
+  description: The threads of the arcane are yours to weave, unravel, and alter; master the arcane arts and harness the power of steam and magic to shape reality.
+  FullDescription:
+  - 'Unlock the secrets of ancient spells \n and steam-infused magic, blending \n mysticism with machinery. Use your \n arcane knowledge to control the forces \n of nature, bend time, and wield \n enchanted steam-tech to reshape the world.'
+  max-level: 100
+  leveling-progression-equation: 9*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.0089)-((baseincome+(baseincome*(joblevel-1)*0.0089))
+    * ((numjobs-1)*0.0089))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  Gui:
+    ItemStack: blaze_powder
+
+  Breed:
+    Cat:
+      income: 10
+      experience: 5
+  Tame:
+    Cat:
+      income: 30
+      experience: 15
+  Brew:
+    nether_wart:
+      income: 4
+      experience: 2
+    redstone:
+      income: 2
+      experience: 1
+    glowstone_dust:
+      income: 2
+      experience: 1
+    gunpowder:
+      income: 2
+      experience: 1
+    sugar:
+      income: 2
+      experience: 1
+    fermented_spider_eye:
+      income: 4
+      experience: 2
+    dragon_breath:
+      income: 6
+      experience: 3
+    blaze_powder:
+      income: 6
+      experience: 3
+    ghast_tear:
+      income: 6
+      experience: 3
+    turtle_helmet:
+      income: 6
+      experience: 3
+    phantom_membrane:
+      income: 6
+      experience: 3
+  Enchant:
+    diamond_sword:
+      income: 25
+      experience: 12.5
+    diamond_spade:
+      income: 20
+      experience: 10
+    diamond_pickaxe:
+      income: 30
+      experience: 15
+    diamond_axe:
+      income: 30
+      experience: 15
+    diamond_helment:
+      income: 35
+      experience: 17.5
+    diamond_chestplate:
+      income: 45
+      experience: 22.5
+    diamond_leggings:
+      income: 40
+      experience: 20
+    diamond_boots:
+      income: 30
+      experience: 15
+    Efficiency-3:
+      income: 12
+      experience: 6
+    Efficiency-4:
+      income: 20
+      experience: 10
+    Unbreaking-3:
+      income: 10
+      experience: 5
+    SILK_TOUCH:
+      income: 20
+      experience: 10
+    LOOT_BONUS_BLOCKS-3:
+      income: 20
+      experience: 10
+    ARROW_DAMAGE-3:
+      income: 12
+      experience: 6
+    ARROW_DAMAGE-4:
+      income: 20
+      experience: 10
+    ARROW_FIRE:
+      income: 10
+      experience: 5
+    ARROW_INFINITE:
+      income: 15
+      experience: 7.5
+    ARROW_KNOCKBACK-2:
+      income: 15
+      experience: 7.5
+    LURE-3:
+      income: 15
+      experience: 7.5
+    LUCK-3:
+      income: 15
+      experience: 7.5
+    PROTECTION_FIRE-3:
+      income: 12
+      experience: 6
+    PROTECTION_FIRE-4:
+      income: 20
+      experience: 10
+    PROTECTION_FALL-3:
+      income: 12
+      experience: 6
+    PROTECTION_FALL-4:
+      income: 20
+      experience: 10
+    FIRE_ASPECT-2:
+      income: 15
+      experience: 7.5
+    LOOT_BONUS_MOBS-3:
+      income: 20
+      experience: 10
+    PROTECTION_ENVIRONMENTAL-4:
+      income: 20
+      experience: 10
+    PROTECTION_ENVIRONMENTAL-3:
+      income: 12
+      experience: 6
+    Book:
+      income: 5
+      experience: 2.5
+    FROST_WALKER-2:
+      income: 15
+      experience: 7.5
+    MENDING:
+      income: 50
+      experience: 25
+    MULTISHOT:
+      income: 15
+      experience: 7.5
+    PIERCING-3:
+      income: 12
+      experience: 6
+    PIERCING-4:
+      income: 20
+      experience: 10
+  Kill:
+    Blaze:
+      income: 5
+      experience: 2.5
+    Cave_Spider:
+      income: 4
+      experience: 2
+    Phantom:
+      income: 3
+      experience: 1.5
+    Magma_Cube:
+      income: 2
+      experience: 1
+    Witch:
+      income: 40
+      experience: 20
+  Break:
+    lapis_ore:
+      income: 4
+      experience: 4
+    deepslate_lapis_ore:
+      income: 4
+      experience: 4
+    emerald_ore:
+      income: 5
+      experience: 5
+    deepslate_emerald_ore:
+      income: 5
+      experience: 5
+  Craft:
+    cauldron:
+      income: 5
+      experience: 2.5
+    brewing_stand:
+      income: 3
+      experience: 1.5
+    book:
+      income: 1.5
+      experience: 3
