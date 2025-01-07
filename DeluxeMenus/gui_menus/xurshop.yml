@@ -39,6 +39,7 @@ items:
       - "[console] eco take %player_name% 1000000"
       - "[console] experience add %player_name% -100 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
+      - "[console] ex flag %player_name% xur_obtained expire:3d"
       - "[close]"
 
   # Xur Slot Shop 2, Rare Black Market Item
@@ -71,6 +72,7 @@ items:
       - "[console] eco take %player_name% 1000000"
       - "[console] experience add %player_name% -100 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
+      - "[console] ex flag %player_name% xur_obtained expire:3d"
       - "[close]"
 
   # Xur Slot Shop 3, Tier 3 Crate Item
@@ -83,7 +85,7 @@ items:
     display_name: "%denizen_<server.flag[xur_shop_slot3].display>%"
     lore:
       - "&a$25,000"
-      - "&b40 EXP Levels"
+      - "&b50 EXP Levels"
     # purchase item behavior
     left_click_requirement:
       deny_commands:
@@ -93,16 +95,17 @@ items:
         stop_at_success: false
         perm1:
           type: has money
-          amount: 25000
+          amount: 75000
         perm2:
           type: '>'
           input: '%player_total_exp%'
           output: '2920'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot3]> player:<server.match_player[%player_name%]>"
-      - "[console] eco take %player_name% 25000"
-      - "[console] experience add %player_name% -40 levels"
+      - "[console] eco take %player_name% 75000"
+      - "[console] experience add %player_name% -50 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
+      - "[console] ex flag %player_name% xur_obtained expire:3d"
       - "[close]"
 
   # Xur Slot Shop 4, Tier 3 Crate Item
@@ -115,7 +118,7 @@ items:
     display_name: "%denizen_<server.flag[xur_shop_slot4].display>%"
     lore:
       - "&a$25,000"
-      - "&b40 EXP Levels"
+      - "&b50 EXP Levels"
     # purchase item behavior
     left_click_requirement:
       deny_commands:
@@ -125,16 +128,17 @@ items:
         stop_at_success: false
         perm1:
           type: has money
-          amount: 25000
+          amount: 75000
         perm2:
           type: '>'
           input: '%player_total_exp%'
           output: '2920'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot4]> player:<server.match_player[%player_name%]>"
-      - "[console] eco take %player_name% 25000"
-      - "[console] experience add %player_name% -40 levels"
+      - "[console] eco take %player_name% 75000"
+      - "[console] experience add %player_name% -50 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
+      - "[console] ex flag %player_name% xur_obtained expire:3d"
       - "[close]"
 
   # Xur Slot Shop 5, Tier 3 Crate Item
@@ -147,7 +151,7 @@ items:
     display_name: "%denizen_<server.flag[xur_shop_slot5].display>%"
     lore:
       - "&a$25,000"
-      - "&b40 EXP Levels"
+      - "&b50 EXP Levels"
     # purchase item behavior
     left_click_requirement:
       deny_commands:
@@ -157,14 +161,15 @@ items:
         stop_at_success: false
         perm1:
           type: has money
-          amount: 25000
+          amount: 75000
         perm2:
           type: '>'
           input: '%player_total_exp%'
           output: '2920'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot5]> player:<server.match_player[%player_name%]>"
-      - "[console] eco take %player_name% 25000"
-      - "[console] experience add %player_name% -40 levels"
+      - "[console] eco take %player_name% 75000"
+      - "[console] experience add %player_name% -50 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
+      - "[console] ex flag %player_name% xur_obtained expire:3d"
       - "[close]"
