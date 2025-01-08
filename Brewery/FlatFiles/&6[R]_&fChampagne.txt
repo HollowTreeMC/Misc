@@ -1,14 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lChampagne&0
-Ingredients:
-&o- 24 sweet_berries
-&o- 16 sugar
-&o- 8 glowstone_dust
-&o- 2 Brewery:Levain
-<NextPage>
-This recipe will require &l20 &0minutes, and is &lquite hard&0 to create.
+&6[R] &0Champagne&0
 
-Effects include:
-&o- slowness
-&o- fire_resistance
-&o- weakness
+Effects:
+  &oslowness
+  &ofire_resistance
+  &oweakness
+
+It is quite hard to create!
+
+<NextPage>
+&6[R] &0Champagne&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o8 glowstone dust
+  &o2 &6&oLevain
+&0&o
+Ferment for 20 min(s)
+<NextPage>
+&6[R] &0Champagne&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

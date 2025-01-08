@@ -1,17 +1,26 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBlonde Ale&0
-Ingredients:
-&o- 8 wheat
-&o- 8 glow_berries
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l5 &0minutes, and is &leasy&0 to create.
-It is best to use an oak wood barrel, and age for 2 days.
-Master brewers have found that it must be distilled 2 times for 20 seconds or so...Properly brewed, this will have an alcohol density of 7
+&6[R] &0Blonde Ale&0
 
-Effects include:
-&o- slow
-&o- saturation
+Effects:
+  &oslow
+  &osaturation
+
+It is easy to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Blonde Ale&0
+
+Ingredients:
+  &o8 wheat
+  &o8 glow berries
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+&6[R] &0Blonde Ale&0
+
+Distill this brew 2 time(s) for 20 seconds or so...
+
+It is best to age with a birch wood barrel for 2 days.
+
+Properly brewed, this will have an alcohol density of 7.

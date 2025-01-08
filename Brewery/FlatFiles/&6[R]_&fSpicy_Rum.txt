@@ -1,20 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lSpicy Rum&0
-Ingredients:
-&o- 24 sugar
-&o- 6 blaze_powder
-&o- 8 packed_ice
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l6 &0minutes, and is &lof moderate difficulty&0 to create.
-It is best to use a spruce wood barrel, and age for 4 days.
-Master brewers have found that it must be distilled 2 times for 180 seconds or so...Properly brewed, this will have an alcohol density of 60
+&6[R] &0Spicy Rum&0
 
-Effects include:
-&o- confusion
-&o- unluck
-&o- absorption
-&o- health_boost
+Effects:
+  &oconfusion
+  &ounluck
+  &oabsorption
+  &ohealth_boost
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Spicy Rum&0
+
+Ingredients:
+  &o24 sugar
+  &o6 blaze powder
+  &o8 packed ice
+  &o1 &6&oLevain
+&0&o
+Ferment for 6 min(s)
+<NextPage>
+&6[R] &0Spicy Rum&0
+
+Distill this brew 2 time(s) for 180 seconds or so...
+
+It is best to age with a jungle wood barrel for 4 days.
+
+Properly brewed, this will have an alcohol density of 60.

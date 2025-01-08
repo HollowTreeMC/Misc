@@ -1,19 +1,28 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBelgian Ale&0
-Ingredients:
-&o- 8 golden_apple
-&o- 10 honey_bottle
-&o- 52 wheat
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l8 &0minutes, and is &lvery complex&0 to create.
-It is best to use an oak wood barrel, and age for 4 days.
-Properly brewed, this will have an alcohol density of 10
+&6[R] &0Belgian Ale&0
 
-Effects include:
-&o- confusion
-&o- slow
-&o- absorption
+Effects:
+  &oconfusion
+  &oslow
+  &oabsorption
+
+It is very complex to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Belgian Ale&0
+
+Ingredients:
+  &o8 golden apple
+  &o10 honey bottle
+  &o52 wheat
+  &o1 &6&oLevain
+&0&o
+Ferment for 8 min(s)
+<NextPage>
+&6[R] &0Belgian Ale&0
+
+No distilling is required for this brew.
+
+It is best to age with a birch wood barrel for 4 days.
+
+Properly brewed, this will have an alcohol density of 10.

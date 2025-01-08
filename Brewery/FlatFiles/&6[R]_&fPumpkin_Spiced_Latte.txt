@@ -1,19 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPumpkin Spiced Latte&0
-Ingredients:
-&o- 8 cocoa_beans
-&o- 1 pumpkin
-&o- 4 sugar
-&o- 2 milk_bucket
-<NextPage>
-This recipe will require &l6 &0minutes, and is &lsomewhat challenging&0 to create.
-Properly brewed, this will have an alcohol density of 0
+&6[R] &0Pumpkin Spiced Latte&0
 
-Effects include:
-&o- invisibility
-&o- hero_of_the_village
-&o- bad_omen
-&o- wither
+Effects:
+  &oinvisibility
+  &ohero_of_the_village
+  &obad_omen
+  &owither
+
+It is somewhat challenging to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Pumpkin Spiced Latte&0
+
+Ingredients:
+  &o8 cocoa beans
+  &o1 pumpkin
+  &o4 sugar
+  &o2 milk bucket
+&0&o
+Ferment for 6 min(s)
+<NextPage>
+&6[R] &0Pumpkin Spiced Latte&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

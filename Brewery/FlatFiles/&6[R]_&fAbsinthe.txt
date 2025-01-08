@@ -1,27 +1,36 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lAbsinthe&0
-Ingredients:
-&o- 16 nether_wart
-&o- 8 spider_eye
-&o- 8 glowstone_dust
-&o- 3 Brewery:neutralSpirit
-<NextPage>
-This recipe will require &l12 &0minutes, and is &lsomewhat challenging&0 to create.
-It is best to use an acacia wood barrel, and age for 10 days.
-Master brewers have found that it must be distilled 4 times for 300 seconds or so...Properly brewed, this will have an alcohol density of 80
+&6[R] &0Absinthe&0
 
-Effects include:
-&o- poison
-&o- bad_omen
-&o- blindness
-&o- confusion
-&o- harm
-&o- levitation
-&o- slow
-&o- slow_digging
-&o- unluck
-&o- wither
-&o- absorption
+Effects:
+  &opoison
+  &obad_omen
+  &oblindness
+  &oconfusion
+  &oharm
+  &olevitation
+  &oslow
+  &oslow_digging
+  &ounluck
+  &owither
+  &oabsorption
+
+It is somewhat challenging to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Absinthe&0
+
+Ingredients:
+  &o16 nether wart
+  &o8 spider eye
+  &o8 glowstone dust
+  &o3 &6&oneutralSpirit
+&0&o
+Ferment for 12 min(s)
+<NextPage>
+&6[R] &0Absinthe&0
+
+Distill this brew 4 time(s) for 300 seconds or so...
+
+It is best to age with a spruce wood barrel for 10 days.
+
+Properly brewed, this will have an alcohol density of 80.

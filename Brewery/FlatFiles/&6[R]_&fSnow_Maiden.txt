@@ -1,20 +1,30 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lSnow Maiden&0
-Ingredients:
-&o- 8 wheat
-&o- 8 sweet_berries
-&o- 8 snowball
-&o- 2 white_dye
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l5 &0minutes, and is &lof intermediate difficulty&0 to create.
-One can use any type of barrel, but must age for 2 days.Properly brewed, this will have an alcohol density of 4
+&6[R] &0Snow Maiden&0
 
-Effects include:
-&o- poison
-&o- blindness
-&o- confusion
-&o- saturation
+Effects:
+  &opoison
+  &oblindness
+  &oconfusion
+  &osaturation
+
+It is of intermediate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Snow Maiden&0
+
+Ingredients:
+  &o8 wheat
+  &o8 sweet berries
+  &o8 snowball
+  &o2 white dye
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+&6[R] &0Snow Maiden&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 2 days.
+
+Properly brewed, this will have an alcohol density of 4.

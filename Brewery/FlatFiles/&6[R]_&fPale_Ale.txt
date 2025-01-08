@@ -1,20 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPale Ale&0
-Ingredients:
-&o- 16 wheat
-&o- 5 tall_grass
-&o- 1 yellow_dye
-&o- 3 glowstone_dust
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l4 &0minutes, and is &lof moderate difficulty&0 to create.
-It is best to use an oak wood barrel, and age for 2 days.
-Properly brewed, this will have an alcohol density of 5
+&6[R] &0Pale Ale&0
 
-Effects include:
-&o- weakness
-&o- strength
-&o- saturation
+Effects:
+  &oweakness
+  &ostrength
+  &osaturation
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Pale Ale&0
+
+Ingredients:
+  &o16 wheat
+  &o5 tall grass
+  &o1 yellow dye
+  &o3 glowstone dust
+  &o1 &6&oLevain
+&0&o
+Ferment for 4 min(s)
+<NextPage>
+&6[R] &0Pale Ale&0
+
+No distilling is required for this brew.
+
+It is best to age with a birch wood barrel for 2 days.
+
+Properly brewed, this will have an alcohol density of 5.

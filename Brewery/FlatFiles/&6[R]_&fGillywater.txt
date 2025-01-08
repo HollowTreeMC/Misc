@@ -1,11 +1,24 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lGillywater&0
-Ingredients:
-&o- 10 glistering_melon_slice
-&o- 5 sugar
-<NextPage>
-This recipe will require &l12 &0minutes, and is &lof moderate difficulty&0 to create.
+&6[R] &0Gillywater&0
 
-Effects include:
-&o- water_breathing
-&o- strength
+Effects:
+  &owater_breathing
+  &ostrength
+
+It is of moderate difficulty to create!
+
+<NextPage>
+&6[R] &0Gillywater&0
+
+Ingredients:
+  &o10 glistering melon slice
+  &o5 sugar
+&0&o
+Ferment for 12 min(s)
+<NextPage>
+&6[R] &0Gillywater&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

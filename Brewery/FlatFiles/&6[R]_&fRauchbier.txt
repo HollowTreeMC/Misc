@@ -1,22 +1,31 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lRauchbier&0
-Ingredients:
-&o- 20 wheat_seeds
-&o- 34 wheat
-&o- 1 campfire
-&o- 5 sugar
-&o- 1 charcoal
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l5 &0minutes, and is &lof moderate difficulty&0 to create.
-It is best to use a crimson wood barrel, and age for 2 days.
-Properly brewed, this will have an alcohol density of 6
+&6[R] &0Rauchbier&0
 
-Effects include:
-&o- bad_omen
-&o- slowness
-&o- fire_resistance
-&o- strength
+Effects:
+  &obad_omen
+  &oslowness
+  &ofire_resistance
+  &ostrength
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Rauchbier&0
+
+Ingredients:
+  &o20 wheat seeds
+  &o34 wheat
+  &o1 campfire
+  &o5 sugar
+  &o1 charcoal
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+&6[R] &0Rauchbier&0
+
+No distilling is required for this brew.
+
+It is best to age with a dark oak wood barrel for 2 days.
+
+Properly brewed, this will have an alcohol density of 6.

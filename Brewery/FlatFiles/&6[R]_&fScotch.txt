@@ -1,22 +1,31 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lScotch&0
-Ingredients:
-&o- 32 wheat
-&o- 12 nether_wart
-&o- 1 golden_apple
-&o- 8 oak_wood
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l20 &0minutes, and is &lvery complex&0 to create.
-It is best to use a dark oak wood barrel, and age for 30 days.
-Master brewers have found that it must be distilled 4 times for 300 seconds or so...Properly brewed, this will have an alcohol density of 80
+&6[R] &0Scotch&0
 
-Effects include:
-&o- confusion
-&o- wither
-&o- resistance
-&o- strength
-&o- speed
+Effects:
+  &oconfusion
+  &owither
+  &oresistance
+  &ostrength
+  &ospeed
+
+It is very complex to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Scotch&0
+
+Ingredients:
+  &o32 wheat
+  &o12 nether wart
+  &o1 golden apple
+  &o8 oak wood
+  &o1 &6&oLevain
+&0&o
+Ferment for 20 min(s)
+<NextPage>
+&6[R] &0Scotch&0
+
+Distill this brew 4 time(s) for 300 seconds or so...
+
+It is best to age with an acacia wood barrel for 30 days.
+
+Properly brewed, this will have an alcohol density of 80.

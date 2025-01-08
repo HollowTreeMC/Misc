@@ -1,20 +1,30 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPorter&0
-Ingredients:
-&o- 30 wheat
-&o- 21 black_dye
-&o- 8 cocoa_beans
-&o- 2 sugar
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l7 &0minutes, and is &lof intermediate difficulty&0 to create.
-One can use any type of barrel, but must age for 2 days.Properly brewed, this will have an alcohol density of 7
+&6[R] &0Porter&0
 
-Effects include:
-&o- weakness
-&o- slowness
-&o- strength
-&o- saturation
+Effects:
+  &oweakness
+  &oslowness
+  &ostrength
+  &osaturation
+
+It is of intermediate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Porter&0
+
+Ingredients:
+  &o30 wheat
+  &o21 black dye
+  &o8 cocoa beans
+  &o2 sugar
+  &o1 &6&oLevain
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+&6[R] &0Porter&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 2 days.
+
+Properly brewed, this will have an alcohol density of 7.

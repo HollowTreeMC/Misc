@@ -1,19 +1,28 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPlum Wine&0
-Ingredients:
-&o- 24 sweet_berries
-&o- 16 sugar
-&o- 5 chorus_fruit
-&o- 2 Brewery:Levain
-<NextPage>
-This recipe will require &l12 &0minutes, and is &lof moderate difficulty&0 to create.
-It is best to use an oak wood barrel, and age for 1 days.
-Properly brewed, this will have an alcohol density of 12
+&6[R] &0Plum Wine&0
 
-Effects include:
-&o- weakness
-&o- confusion
-&o- regeneration
+Effects:
+  &oweakness
+  &oconfusion
+  &oregeneration
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Plum Wine&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o5 chorus fruit
+  &o2 &6&oLevain
+&0&o
+Ferment for 12 min(s)
+<NextPage>
+&6[R] &0Plum Wine&0
+
+No distilling is required for this brew.
+
+It is best to age with a birch wood barrel for 1 days.
+
+Properly brewed, this will have an alcohol density of 12.

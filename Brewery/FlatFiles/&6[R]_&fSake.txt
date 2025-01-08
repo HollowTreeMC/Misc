@@ -1,20 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lSake&0
-Ingredients:
-&o- 73 wheat
-&o- 54 sugar
-&o- 4 flowering_azalea
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l10 &0minutes, and is &lone of the most difficult&0 to create.
-It is best to use a bamboo wood barrel, and age for 5 days.
-Properly brewed, this will have an alcohol density of 40
+&6[R] &0Sake&0
 
-Effects include:
-&o- slowness
-&o- fire_resistance
-&o- weakness
-&o- strength
+Effects:
+  &oslowness
+  &ofire_resistance
+  &oweakness
+  &ostrength
+
+It is one of the most difficult to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Sake&0
+
+Ingredients:
+  &o73 wheat
+  &o54 sugar
+  &o4 flowering azalea
+  &o1 &6&oLevain
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+&6[R] &0Sake&0
+
+No distilling is required for this brew.
+
+It is best to age with a cherry wood barrel for 5 days.
+
+Properly brewed, this will have an alcohol density of 40.

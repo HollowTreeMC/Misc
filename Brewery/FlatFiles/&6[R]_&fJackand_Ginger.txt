@@ -1,19 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lJackand Ginger&0
-Ingredients:
-&o- 10 ice
-&o- 5 sugar
-&o- 1 Brewery:PaleAle
-&o- 1 Brewery:Whiskey
-<NextPage>
-This recipe will require &l5 &0minutes, and is &leasy&0 to create.
-Properly brewed, this will have an alcohol density of 50
+&6[R] &0Jackand Ginger&0
 
-Effects include:
-&o- slow_digging
-&o- luck
-&o- damage_resistance
-&o- bad_omen
+Effects:
+  &oslow_digging
+  &oluck
+  &odamage_resistance
+  &obad_omen
+
+It is easy to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Jackand Ginger&0
+
+Ingredients:
+  &o10 ice
+  &o5 sugar
+  &o1 &6&oPaleAle
+  &o1 &6&oWhiskey
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+&6[R] &0Jackand Ginger&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

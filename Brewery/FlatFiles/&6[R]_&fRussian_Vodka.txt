@@ -1,18 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lRussian Vodka&0
-Ingredients:
-&o- 24 potato
-&o- 8 packed_ice
-&o- 4 ice
-&o- 1 Brewery:neutralSpirit
-<NextPage>
-This recipe will require &l3 &0minutes, and is &leasy&0 to create.
-It is best to use an oak wood barrel, and age for 1 days.
-Master brewers have found that it must be distilled 1 times for 100 seconds or so...Properly brewed, this will have an alcohol density of 75
+&6[R] &0Russian Vodka&0
 
-Effects include:
-&o- weakness
-&o- poison
+Effects:
+  &oweakness
+  &opoison
+
+It is easy to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Russian Vodka&0
+
+Ingredients:
+  &o24 potato
+  &o8 packed ice
+  &o4 ice
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+&6[R] &0Russian Vodka&0
+
+Distill this brew 1 time(s) for 100 seconds or so...
+
+It is best to age with a birch wood barrel for 1 days.
+
+Properly brewed, this will have an alcohol density of 75.

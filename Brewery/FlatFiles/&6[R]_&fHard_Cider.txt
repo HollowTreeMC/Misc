@@ -1,19 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHard Cider&0
-Ingredients:
-&o- 15 apple
-&o- 8 sugar
-&o- 10 sweet_berries
-&o- 1 Brewery:neutralSpirit
-<NextPage>
-This recipe will require &l2 &0minutes, and is &lrelatively straightforward&0 to create.
-One can use any type of barrel, but must age for 3 days.Properly brewed, this will have an alcohol density of 7
+&6[R] &0Hard Cider&0
 
-Effects include:
-&o- slow
-&o- fire_resistance
-&o- absorption
-&o- jump
+Effects:
+  &oslow
+  &ofire_resistance
+  &oabsorption
+  &ojump
+
+It is relatively straightforward to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Hard Cider&0
+
+Ingredients:
+  &o15 apple
+  &o8 sugar
+  &o10 sweet berries
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 2 min(s)
+<NextPage>
+&6[R] &0Hard Cider&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 3 days.
+
+Properly brewed, this will have an alcohol density of 7.

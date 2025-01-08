@@ -1,16 +1,26 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHot Cocoa&0
-Ingredients:
-&o- 6 cocoa_beans
-&o- 8 sugar
-&o- 1 milk_bucket
-<NextPage>
-This recipe will require &l5 &0minutes, and is &lof moderate difficulty&0 to create.
-Properly brewed, this will have an alcohol density of 0
+&6[R] &0Hot Cocoa&0
 
-Effects include:
-&o- health_boost
-&o- slow_falling
+Effects:
+  &ohealth_boost
+  &oslow_falling
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Hot Cocoa&0
+
+Ingredients:
+  &o6 cocoa beans
+  &o8 sugar
+  &o1 milk bucket
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+&6[R] &0Hot Cocoa&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

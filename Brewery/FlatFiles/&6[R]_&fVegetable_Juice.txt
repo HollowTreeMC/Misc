@@ -1,12 +1,25 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lVegetable Juice&0
-Ingredients:
-&o- 4 carrot
-&o- 4 beetroot
-&o- 5 sugar
-<NextPage>
-This recipe will require &l10 &0minutes, and is &lof moderate difficulty&0 to create.
+&6[R] &0Vegetable Juice&0
 
-Effects include:
-&o- fast_digging
-&o- strength
+Effects:
+  &ofast_digging
+  &ostrength
+
+It is of moderate difficulty to create!
+
+<NextPage>
+&6[R] &0Vegetable Juice&0
+
+Ingredients:
+  &o4 carrot
+  &o4 beetroot
+  &o5 sugar
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+&6[R] &0Vegetable Juice&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

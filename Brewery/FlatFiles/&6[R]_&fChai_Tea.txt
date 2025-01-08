@@ -1,20 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lChai Tea&0
-Ingredients:
-&o- 10 dark_oak_leaves
-&o- 5 sugar
-&o- 3 wither_rose
-&o- 2 jungle_wood
-&o- 1 obsidian
-<NextPage>
-This recipe will require &l9 &0minutes, and is &lof intermediate difficulty&0 to create.
-It is best to use a spruce wood barrel, and age for 2 days.
-Master brewers have found that it must be distilled 5 times for 20 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Chai Tea&0
 
-Effects include:
-&o- levitation
-&o- fire_resistance
-&o- absorption
+Effects:
+  &olevitation
+  &ofire_resistance
+  &oabsorption
+
+It is of intermediate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Chai Tea&0
+
+Ingredients:
+  &o10 dark oak leaves
+  &o5 sugar
+  &o3 wither rose
+  &o2 jungle wood
+  &o1 obsidian
+&0&o
+Ferment for 9 min(s)
+<NextPage>
+&6[R] &0Chai Tea&0
+
+Distill this brew 5 time(s) for 20 seconds or so...
+
+It is best to age with a jungle wood barrel for 2 days.
+
+Properly brewed, this will have an alcohol density of 0.

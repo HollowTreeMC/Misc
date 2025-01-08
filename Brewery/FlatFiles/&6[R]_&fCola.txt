@@ -1,20 +1,30 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lCola&0
-Ingredients:
-&o- 3 jungle_sapling
-&o- 4 brown_dye
-&o- 12 sugar
-&o- 2 blaze_powder
-&o- 2 glowstone_dust
-&o- 1 Brewery:carbonatedWater
-<NextPage>
-This recipe will require &l13 &0minutes, and is &lrather difficult&0 to create.
-One can use any type of barrel, but must age for 1 days.Master brewers have found that it must be distilled 2 times for 8 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Cola&0
 
-Effects include:
-&o- haste
-&o- jump
-&o- speed
+Effects:
+  &ohaste
+  &ojump
+  &ospeed
+
+It is rather difficult to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Cola&0
+
+Ingredients:
+  &o3 jungle sapling
+  &o4 brown dye
+  &o12 sugar
+  &o2 blaze powder
+  &o2 glowstone dust
+  &o1 &6&ocarbonatedWater
+&0&o
+Ferment for 13 min(s)
+<NextPage>
+&6[R] &0Cola&0
+
+Distill this brew 2 time(s) for 8 seconds or so...
+
+One can use any type of barrel, but must age for 1 days.
+
+Properly brewed, this will have an alcohol density of 0.

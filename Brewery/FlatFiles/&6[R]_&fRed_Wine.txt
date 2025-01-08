@@ -1,17 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lRed Wine&0
-Ingredients:
-&o- 24 sweet_berries
-&o- 16 sugar
-&o- 8 nether_wart
-&o- 2 Brewery:Levain
-<NextPage>
-This recipe will require &l18 &0minutes, and is &lsomewhat challenging&0 to create.
-One can use any type of barrel, but must age for 20 days.Master brewers have found that it must be distilled 0 times for None seconds or so...Properly brewed, this will have an alcohol density of 8
+&6[R] &0Red Wine&0
 
-Effects include:
-&o- slowness
-&o- heal
+Effects:
+  &oslowness
+  &oheal
+
+It is somewhat challenging to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Red Wine&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o8 nether wart
+  &o2 &6&oLevain
+&0&o
+Ferment for 18 min(s)
+<NextPage>
+&6[R] &0Red Wine&0
+
+Distill this brew 0 time(s) for None seconds or so...
+
+One can use any type of barrel, but must age for 20 days.
+
+Properly brewed, this will have an alcohol density of 8.

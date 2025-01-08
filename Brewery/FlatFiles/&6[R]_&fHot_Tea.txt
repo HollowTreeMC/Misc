@@ -1,17 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHot Tea&0
-Ingredients:
-&o- 25 oak_leaves
-&o- 3 sugar
-&o- 1 milk_bucket
-<NextPage>
-This recipe will require &l18 &0minutes, and is &lsomewhat challenging&0 to create.
-Master brewers have found that it must be distilled 6 times for 24 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Hot Tea&0
 
-Effects include:
-&o- haste
-&o- strength
-&o- jump
+Effects:
+  &ohaste
+  &ostrength
+  &ojump
+
+It is somewhat challenging to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Hot Tea&0
+
+Ingredients:
+  &o25 oak leaves
+  &o3 sugar
+  &o1 milk bucket
+&0&o
+Ferment for 18 min(s)
+<NextPage>
+&6[R] &0Hot Tea&0
+
+Distill this brew 6 time(s) for 24 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

@@ -1,17 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHard Lemonade&0
-Ingredients:
-&o- 8 honey_bottle
-&o- 10 sugar
-&o- 5 wheat
-&o- 2 sunflower
-&o- 1 Brewery:neutralSpirit
-<NextPage>
-This recipe will require &l1 &0minutes, and is &lrather simple&0 to create.
-One can use any type of barrel, but must age for 1 days.Master brewers have found that it must be distilled 3 times for 12 seconds or so...Properly brewed, this will have an alcohol density of 5
+&6[R] &0Hard Lemonade&0
 
-Effects include:
-&o- hunger
+Effects:
+  &ohunger
+
+It is rather simple to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Hard Lemonade&0
+
+Ingredients:
+  &o8 honey bottle
+  &o10 sugar
+  &o5 wheat
+  &o2 sunflower
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 1 min(s)
+<NextPage>
+&6[R] &0Hard Lemonade&0
+
+Distill this brew 3 time(s) for 12 seconds or so...
+
+One can use any type of barrel, but must age for 1 days.
+
+Properly brewed, this will have an alcohol density of 5.

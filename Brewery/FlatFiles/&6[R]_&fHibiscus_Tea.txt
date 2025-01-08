@@ -1,19 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lHibiscus Tea&0
-Ingredients:
-&o- 20 birch_leaves
-&o- 4 sugar
-&o- 6 lilac
-&o- 6 allium
-&o- 4 magenta_dye
-<NextPage>
-This recipe will require &l4 &0minutes, and is &leasy&0 to create.
-Master brewers have found that it must be distilled 4 times for 16 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Hibiscus Tea&0
 
-Effects include:
-&o- absorption
-&o- glowing
-&o- luck
+Effects:
+  &oabsorption
+  &oglowing
+  &oluck
+
+It is easy to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Hibiscus Tea&0
+
+Ingredients:
+  &o20 birch leaves
+  &o4 sugar
+  &o6 lilac
+  &o6 allium
+  &o4 magenta dye
+&0&o
+Ferment for 4 min(s)
+<NextPage>
+&6[R] &0Hibiscus Tea&0
+
+Distill this brew 4 time(s) for 16 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

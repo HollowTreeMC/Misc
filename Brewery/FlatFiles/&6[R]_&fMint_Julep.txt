@@ -1,19 +1,28 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lMint Julep&0
-Ingredients:
-&o- 10 ice
-&o- 5 sugar
-&o- 5 fern
-&o- 2 Brewery:Whiskey
-<NextPage>
-This recipe will require &l8 &0minutes, and is &lof intermediate difficulty&0 to create.
-It is best to use a crimson wood barrel, and age for 3 days.
-Master brewers have found that it must be distilled 2 times for 20 seconds or so...Properly brewed, this will have an alcohol density of 28
+&6[R] &0Mint Julep&0
 
-Effects include:
-&o- hunger
-&o- fire_resistance
-&o- night_vision
+Effects:
+  &ohunger
+  &ofire_resistance
+  &onight_vision
+
+It is of intermediate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Mint Julep&0
+
+Ingredients:
+  &o10 ice
+  &o5 sugar
+  &o5 fern
+  &o2 &6&oWhiskey
+&0&o
+Ferment for 8 min(s)
+<NextPage>
+&6[R] &0Mint Julep&0
+
+Distill this brew 2 time(s) for 20 seconds or so...
+
+It is best to age with a dark oak wood barrel for 3 days.
+
+Properly brewed, this will have an alcohol density of 28.

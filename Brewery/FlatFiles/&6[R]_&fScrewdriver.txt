@@ -1,18 +1,28 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lScrewdriver&0
-Ingredients:
-&o- 10 blue_ice
-&o- 5 sugar
-&o- 4 orange_dye
-&o- 2 Brewery:RussianVodka
-<NextPage>
-This recipe will require &l5 &0minutes, and is &lrelatively straightforward&0 to create.
-Properly brewed, this will have an alcohol density of 50
+&6[R] &0Screwdriver&0
 
-Effects include:
-&o- confusion
-&o- fire_resistance
-&o- slowness
+Effects:
+  &oconfusion
+  &ofire_resistance
+  &oslowness
+
+It is relatively straightforward to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Screwdriver&0
+
+Ingredients:
+  &o10 blue ice
+  &o5 sugar
+  &o4 orange dye
+  &o2 &6&oRussianVodka
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+&6[R] &0Screwdriver&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

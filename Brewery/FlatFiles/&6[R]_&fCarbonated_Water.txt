@@ -1,7 +1,21 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lCarbonated Water&0
-Ingredients:
-&o- 2 sugar
-&o- 1 wheat
+&6[R] &0Carbonated Water&0
+
+
+It is easy to create!
+
 <NextPage>
-This recipe will require &l1 &0minutes, and is &leasy&0 to create.
+&6[R] &0Carbonated Water&0
+
+Ingredients:
+  &o2 sugar
+  &o1 wheat
+&0&o
+Ferment for 1 min(s)
+<NextPage>
+&6[R] &0Carbonated Water&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

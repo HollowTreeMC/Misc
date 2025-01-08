@@ -1,16 +1,26 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lGinger Tea&0
-Ingredients:
-&o- 4 dead_bush
-&o- 5 sugar
-<NextPage>
-This recipe will require &l15 &0minutes, and is &lof moderate difficulty&0 to create.
-Master brewers have found that it must be distilled 1 times for 4 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Ginger Tea&0
 
-Effects include:
-&o- strength
-&o- night_vision
-&o- regeneration
+Effects:
+  &ostrength
+  &onight_vision
+  &oregeneration
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Ginger Tea&0
+
+Ingredients:
+  &o4 dead bush
+  &o5 sugar
+&0&o
+Ferment for 15 min(s)
+<NextPage>
+&6[R] &0Ginger Tea&0
+
+Distill this brew 1 time(s) for 4 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

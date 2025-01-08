@@ -1,14 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lWhite Wine&0
-Ingredients:
-&o- 24 sweet_berries
-&o- 16 sugar
-&o- 5 azure_bluet
-&o- 2 Brewery:Levain
-<NextPage>
-This recipe will require &l16 &0minutes, and is &lof intermediate difficulty&0 to create.
+&6[R] &0White Wine&0
 
-Effects include:
-&o- wither
-&o- strength
-&o- speed
+Effects:
+  &owither
+  &ostrength
+  &ospeed
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+&6[R] &0White Wine&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o5 azure bluet
+  &o2 &6&oLevain
+&0&o
+Ferment for 16 min(s)
+<NextPage>
+&6[R] &0White Wine&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

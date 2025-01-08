@@ -1,18 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lWhiskey&0
-Ingredients:
-&o- 32 wheat
-&o- 16 sugar
-&o- 8 oak_planks
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l18 &0minutes, and is &lrather difficult&0 to create.
-It is best to use a crimson wood barrel, and age for 20 days.
-Master brewers have found that it must be distilled 3 times for 240 seconds or so...Properly brewed, this will have an alcohol density of 70
+&6[R] &0Whiskey&0
 
-Effects include:
-&o- poison
-&o- fire_resistance
+Effects:
+  &opoison
+  &ofire_resistance
+
+It is rather difficult to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Whiskey&0
+
+Ingredients:
+  &o32 wheat
+  &o16 sugar
+  &o8 oak planks
+  &o1 &6&oLevain
+&0&o
+Ferment for 18 min(s)
+<NextPage>
+&6[R] &0Whiskey&0
+
+Distill this brew 3 time(s) for 240 seconds or so...
+
+It is best to age with a dark oak wood barrel for 20 days.
+
+Properly brewed, this will have an alcohol density of 70.

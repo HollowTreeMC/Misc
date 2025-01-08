@@ -1,17 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lApple Soda&0
-Ingredients:
-&o- 10 sugar
-&o- 15 apple
-&o- 3 red_dye
-&o- 1 Brewery:carbonatedWater
-<NextPage>
-This recipe will require &l8 &0minutes, and is &lof moderate difficulty&0 to create.
-Master brewers have found that it must be distilled 2 times for 10 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Apple Soda&0
 
-Effects include:
-&o- levitation
-&o- slow_falling
+Effects:
+  &olevitation
+  &oslow_falling
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Apple Soda&0
+
+Ingredients:
+  &o10 sugar
+  &o15 apple
+  &o3 red dye
+  &o1 &6&ocarbonatedWater
+&0&o
+Ferment for 8 min(s)
+<NextPage>
+&6[R] &0Apple Soda&0
+
+Distill this brew 2 time(s) for 10 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

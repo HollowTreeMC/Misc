@@ -1,18 +1,28 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lRose Milk Tea&0
-Ingredients:
-&o- 15 dark_oak_leaves
-&o- 2 sugar
-&o- 2 milk_bucket
-&o- 2 honey_bottle
-&o- 1 rose_bush
-<NextPage>
-This recipe will require &l1 &0minutes, and is &lof moderate difficulty&0 to create.
-Properly brewed, this will have an alcohol density of 0
+&6[R] &0Rose Milk Tea&0
 
-Effects include:
-&o- fast_digging
-&o- speed
+Effects:
+  &ofast_digging
+  &ospeed
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Rose Milk Tea&0
+
+Ingredients:
+  &o15 dark oak leaves
+  &o2 sugar
+  &o2 milk bucket
+  &o2 honey bottle
+  &o1 rose bush
+&0&o
+Ferment for 1 min(s)
+<NextPage>
+&6[R] &0Rose Milk Tea&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

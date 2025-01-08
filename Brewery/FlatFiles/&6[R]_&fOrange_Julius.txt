@@ -1,12 +1,25 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lOrange Julius&0
-Ingredients:
-&o- 8 sweet_berries
-&o- 5 sugar
-&o- 2 milk_bucket
-<NextPage>
-This recipe will require &l12 &0minutes, and is &lof intermediate difficulty&0 to create.
+&6[R] &0Orange Julius&0
 
-Effects include:
-&o- water_breathing
-&o- invisibility
+Effects:
+  &owater_breathing
+  &oinvisibility
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+&6[R] &0Orange Julius&0
+
+Ingredients:
+  &o8 sweet berries
+  &o5 sugar
+  &o2 milk bucket
+&0&o
+Ferment for 12 min(s)
+<NextPage>
+&6[R] &0Orange Julius&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

@@ -1,20 +1,29 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lAmbrosia&0
-Ingredients:
-&o- 4 golden_apple
-&o- 16 honey_bottle
-&o- 6 chorus_fruit
-&o- 1 Brewery:neutralSpirit
-<NextPage>
-This recipe will require &l16 &0minutes, and is &lrather difficult&0 to create.
-It is best to use a warped wood barrel, and age for 30 days.
-Master brewers have found that it must be distilled 5 times for 400 seconds or so...Properly brewed, this will have an alcohol density of 85
+&6[R] &0Ambrosia&0
 
-Effects include:
-&o- regeneration
-&o- speed
-&o- weakness
-&o- poison
+Effects:
+  &oregeneration
+  &ospeed
+  &oweakness
+  &opoison
+
+It is rather difficult to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Ambrosia&0
+
+Ingredients:
+  &o4 golden apple
+  &o16 honey bottle
+  &o6 chorus fruit
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 16 min(s)
+<NextPage>
+&6[R] &0Ambrosia&0
+
+Distill this brew 5 time(s) for 400 seconds or so...
+
+It is best to age with a crimson wood barrel for 30 days.
+
+Properly brewed, this will have an alcohol density of 85.

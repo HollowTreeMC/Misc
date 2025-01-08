@@ -1,17 +1,27 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lOrange Soda&0
-Ingredients:
-&o- 18 sugar
-&o- 10 orange_dye
-&o- 10 glow_berries
-&o- 1 Brewery:carbonatedWater
-<NextPage>
-This recipe will require &l8 &0minutes, and is &lof moderate difficulty&0 to create.
-Master brewers have found that it must be distilled 6 times for 24 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Orange Soda&0
 
-Effects include:
-&o- glowing
-&o- strength
+Effects:
+  &oglowing
+  &ostrength
+
+It is of moderate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Orange Soda&0
+
+Ingredients:
+  &o18 sugar
+  &o10 orange dye
+  &o10 glow berries
+  &o1 &6&ocarbonatedWater
+&0&o
+Ferment for 8 min(s)
+<NextPage>
+&6[R] &0Orange Soda&0
+
+Distill this brew 6 time(s) for 24 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

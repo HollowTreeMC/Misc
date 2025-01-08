@@ -1,18 +1,28 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lMelon Soda&0
-Ingredients:
-&o- 8 glistering_melon_slice
-&o- 10 sugar
-&o- 16 melon_slice
-&o- 1 Brewery:carbonatedWater
-<NextPage>
-This recipe will require &l10 &0minutes, and is &lsomewhat challenging&0 to create.
-Master brewers have found that it must be distilled 6 times for 30 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Melon Soda&0
 
-Effects include:
-&o- absorption
-&o- fast_digging
-&o- speed
+Effects:
+  &oabsorption
+  &ofast_digging
+  &ospeed
+
+It is somewhat challenging to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Melon Soda&0
+
+Ingredients:
+  &o8 glistering melon slice
+  &o10 sugar
+  &o16 melon slice
+  &o1 &6&ocarbonatedWater
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+&6[R] &0Melon Soda&0
+
+Distill this brew 6 time(s) for 30 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

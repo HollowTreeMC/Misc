@@ -1,22 +1,31 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lFishy Green Ale&0
-Ingredients:
-&o- 8 wheat
-&o- 8 kelp
-&o- 2 lime_dye
-&o- 5 tropical_fish
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l3 &0minutes, and is &lrelatively straightforward&0 to create.
-It is best to use a spruce wood barrel, and age for 8 days.
-Properly brewed, this will have an alcohol density of 4
+&6[R] &0Fishy Green Ale&0
 
-Effects include:
-&o- poison
-&o- blindness
-&o- confusion
-&o- conduit_power
-&o- dolphins_grace
+Effects:
+  &opoison
+  &oblindness
+  &oconfusion
+  &oconduit_power
+  &odolphins_grace
+
+It is relatively straightforward to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Fishy Green Ale&0
+
+Ingredients:
+  &o8 wheat
+  &o8 kelp
+  &o2 lime dye
+  &o5 tropical fish
+  &o1 &6&oLevain
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+&6[R] &0Fishy Green Ale&0
+
+No distilling is required for this brew.
+
+It is best to age with a jungle wood barrel for 8 days.
+
+Properly brewed, this will have an alcohol density of 4.

@@ -1,19 +1,28 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lPumpkin IPA&0
-Ingredients:
-&o- 10 pumpkin
-&o- 4 pumpkin_seeds
-&o- 8 wheat
-&o- 3 orange_dye
-&o- 1 Brewery:Levain
-<NextPage>
-This recipe will require &l5 &0minutes, and is &lof intermediate difficulty&0 to create.
-It is best to use a dark oak wood barrel, and age for 11 days.
-Master brewers have found that it must be distilled 6 times for 10 seconds or so...Properly brewed, this will have an alcohol density of 4
+&6[R] &0Pumpkin IPA&0
 
-Effects include:
-&o- slowness
-&o- fire_resistance
+Effects:
+  &oslowness
+  &ofire_resistance
+
+It is of intermediate difficulty to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Pumpkin IPA&0
+
+Ingredients:
+  &o10 pumpkin
+  &o4 pumpkin seeds
+  &o8 wheat
+  &o3 orange dye
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+&6[R] &0Pumpkin IPA&0
+
+Distill this brew 6 time(s) for 10 seconds or so...
+
+It is best to age with an acacia wood barrel for 11 days.
+
+Properly brewed, this will have an alcohol density of 4.

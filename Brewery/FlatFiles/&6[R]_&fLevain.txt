@@ -1,13 +1,23 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lLevain&0
-Ingredients:
-&o- 25 wheat
-<NextPage>
-This recipe will require &l1 &0minutes, and is &leasy&0 to create.
-Properly brewed, this will have an alcohol density of 3
+&6[R] &0Levain&0
 
-Effects include:
-&o- unluck
+Effects:
+  &ounluck
+
+It is easy to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Levain&0
+
+Ingredients:
+  &o25 wheat
+&0&o
+Ferment for 1 min(s)
+<NextPage>
+&6[R] &0Levain&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 3.

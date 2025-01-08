@@ -1,14 +1,24 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lWhite Tea&0
-Ingredients:
-&o- 1 lily_of_the_valley
-&o- 20 birch_leaves
-<NextPage>
-This recipe will require &l7 &0minutes, and is &leasy&0 to create.
-Properly brewed, this will have an alcohol density of 0
+&6[R] &0White Tea&0
 
-Effects include:
-&o- conduit_power
+Effects:
+  &oconduit_power
+
+It is easy to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0White Tea&0
+
+Ingredients:
+  &o1 lily of the valley
+  &o20 birch leaves
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+&6[R] &0White Tea&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

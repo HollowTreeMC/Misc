@@ -1,15 +1,25 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBlack Tea&0
-Ingredients:
-&o- 5 spruce_leaves
-&o- 2 black_dye
-<NextPage>
-This recipe will require &l10 &0minutes, and is &leasy&0 to create.
-Properly brewed, this will have an alcohol density of 0
+&6[R] &0Black Tea&0
 
-Effects include:
-&o- night_vision
-&o- regeneration
+Effects:
+  &onight_vision
+  &oregeneration
+
+It is easy to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Black Tea&0
+
+Ingredients:
+  &o5 spruce leaves
+  &o2 black dye
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+&6[R] &0Black Tea&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

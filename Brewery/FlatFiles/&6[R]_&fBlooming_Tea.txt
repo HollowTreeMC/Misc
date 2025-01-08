@@ -1,18 +1,28 @@
 <AutoPage><AutoAlias><ReqPermission>
-&lBlooming Tea&0
-Ingredients:
-&o- 8 red_tulip
-&o- 8 orange_tulip
-&o- 8 white_tulip
-&o- 8 pink_tulip
-&o- 64 birch_leaves
-&o- 15 lilac
-<NextPage>
-This recipe will require &l10 &0minutes, and is &lone of the most difficult&0 to create.
-Master brewers have found that it must be distilled 1 times for 4 seconds or so...Properly brewed, this will have an alcohol density of 0
+&6[R] &0Blooming Tea&0
 
-Effects include:
-&o- hero_of_the_village
+Effects:
+  &ohero_of_the_village
+
+It is one of the most difficult to create!
+
 <NextPage>
-&9Tip: Eating bread or drinking milk may sober you at a slightly increased rate!
-&1This is a virtual alcoholic beverage recipe!We do not advocate for underage drinking in real life. Please drink responsibly.
+&6[R] &0Blooming Tea&0
+
+Ingredients:
+  &o8 red tulip
+  &o8 orange tulip
+  &o8 white tulip
+  &o8 pink tulip
+  &o64 birch leaves
+  &o15 lilac
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+&6[R] &0Blooming Tea&0
+
+Distill this brew 1 time(s) for 4 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.
