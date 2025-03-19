@@ -8,7 +8,7 @@ open_requirement:
         - '[message] &cYou don''t have permission to do that!'
         
 items:
-  'first_floor':
+  'first_floor_a':
     material: GRASS_BLOCK
     slot: 10
     display_name: '&fFloor 1 - Natural Blocks'
@@ -20,7 +20,7 @@ items:
       - '[console] warp AdminShopFloor1A %player_name% -s'
       - '[console] sound block_fire_ambient %player_name%'
 
-  'beach':
+  'second_floor_a':
     material: OAK_LOG
     slot: 12
     display_name: '&fFloor 2 - Bulding Blocks'
@@ -32,7 +32,7 @@ items:
       - '[console] warp AdminShopFloor2A %player_name% -s'
       - '[console] sound block_fire_ambient %player_name%'
 
-  'birch_forest':
+  'third_floor_a':
     material: WHITE_WOOL
     slot: 14
     display_name: '&fFloor 3 - Colored Blocks'
@@ -44,7 +44,7 @@ items:
       - '[console] warp AdminShopFloor3A %player_name% -s'
       - '[console] sound block_fire_ambient %player_name%'
 
-  'cherry_grove':
+  'forth_floor_a':
     material: CRAFTING_TABLE
     slot: 16
     display_name: '&fFloor 4 - Functional Blocks'
