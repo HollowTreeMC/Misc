@@ -1,5 +1,8 @@
-menu_title: 'LordWestwood'
+menu_title: 'Lord Westwood'
+#If you need a larger selection menu, change type to "CHEST" and set sizes: 9, 18, 27, 36
+inventory_type: "CHEST"
 size: 27
+
 open_requirement:
   requirements:
     permission:
