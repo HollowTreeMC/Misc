@@ -15,3 +15,5 @@ gui_menus:
     file: xurshop.yml
   librarybooks_menu:
     file: librarybooks.yml
+  adminshop_menu:
+    file: adminshopfloorwarps.yml

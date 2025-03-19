@@ -1,0 +1,57 @@
+menu_title: 'LordWestwood'
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+        
+items:
+  'first_floor':
+    material: GRASS_BLOCK
+    slot: 10
+    display_name: '&fFloor 1 - Natural Blocks'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp AdminShopFloor1A %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'beach':
+    material: OAK_LOG
+    slot: 12
+    display_name: '&fFloor 2 - Bulding Blocks'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp AdminShopFloor2A %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'birch_forest':
+    material: WHITE_WOOL
+    slot: 14
+    display_name: '&fFloor 3 - Colored Blocks'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp AdminShopFloor3A %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
+
+  'cherry_grove':
+    material: CRAFTING_TABLE
+    slot: 16
+    display_name: '&fFloor 4 - Functional Blocks'
+    lore: 
+      - '&8&oClearing' 
+    left_click_commands:
+      - '[close]'
+      - '[console] effect %player_name% Blindness 3 255'
+      - '[console] warp AdminShopFloor4A %player_name% -s'
+      - '[console] sound block_fire_ambient %player_name%'
