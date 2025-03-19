@@ -12,8 +12,6 @@ items:
     material: GRASS_BLOCK
     slot: 10
     display_name: '&fFloor 1 - Natural Blocks'
-    lore: 
-      - '&8&oClearing' 
     left_click_commands:
       - '[close]'
       - '[console] effect %player_name% Blindness 3 255'
@@ -24,8 +22,6 @@ items:
     material: OAK_LOG
     slot: 12
     display_name: '&fFloor 2 - Bulding Blocks'
-    lore: 
-      - '&8&oClearing' 
     left_click_commands:
       - '[close]'
       - '[console] effect %player_name% Blindness 3 255'
@@ -36,8 +32,6 @@ items:
     material: WHITE_WOOL
     slot: 14
     display_name: '&fFloor 3 - Colored Blocks'
-    lore: 
-      - '&8&oClearing' 
     left_click_commands:
       - '[close]'
       - '[console] effect %player_name% Blindness 3 255'
@@ -48,8 +42,6 @@ items:
     material: CRAFTING_TABLE
     slot: 16
     display_name: '&fFloor 4 - Functional Blocks'
-    lore: 
-      - '&8&oClearing' 
     left_click_commands:
       - '[close]'
       - '[console] effect %player_name% Blindness 3 255'
