@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+Black Tea &6[R]&0
+
+Effects:
+  &onight_vision
+  &oregeneration
+
+It is easy to create!
+
+<NextPage>
+Black Tea &6[R]&0
+
+Ingredients:
+  &o5 spruce leaves
+  &o2 black dye
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+Black Tea &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

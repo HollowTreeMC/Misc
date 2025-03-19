@@ -1,0 +1,26 @@
+<AutoPage><AutoAlias><ReqPermission>
+Ginger Tea &6[R]&0
+
+Effects:
+  &ostrength
+  &onight_vision
+  &oregeneration
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Ginger Tea &6[R]&0
+
+Ingredients:
+  &o4 dead bush
+  &o5 sugar
+&0&o
+Ferment for 15 min(s)
+<NextPage>
+Ginger Tea &6[R]&0
+
+Distill this brew 1 time(s) for 4 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

@@ -1,0 +1,24 @@
+<AutoPage><AutoAlias><ReqPermission>
+Berry Tea &6[R]&0
+
+Effects:
+  &oregeneration
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Berry Tea &6[R]&0
+
+Ingredients:
+  &o20 oak leaves
+  &o5 sweet berries
+&0&o
+Ferment for 12 min(s)
+<NextPage>
+Berry Tea &6[R]&0
+
+Distill this brew 1 time(s) for 4 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

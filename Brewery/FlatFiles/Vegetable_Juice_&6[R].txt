@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+Vegetable Juice &6[R]&0
+
+Effects:
+  &ofast_digging
+  &ostrength
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Vegetable Juice &6[R]&0
+
+Ingredients:
+  &o4 carrot
+  &o4 beetroot
+  &o5 sugar
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+Vegetable Juice &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

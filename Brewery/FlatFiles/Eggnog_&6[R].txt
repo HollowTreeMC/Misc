@@ -1,0 +1,23 @@
+<AutoPage><AutoAlias><ReqPermission>
+Eggnog &6[R]&0
+
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Eggnog &6[R]&0
+
+Ingredients:
+  &o5 egg
+  &o2 sugar
+  &o1 milk bucket
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 2 min(s)
+<NextPage>
+Eggnog &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

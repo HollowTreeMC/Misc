@@ -1,0 +1,30 @@
+<AutoPage><AutoAlias><ReqPermission>
+Pumpkin Ale &6[R]&0
+
+Effects:
+  &oslow_digging
+  &ostrength
+  &odamage_resistance
+  &oluck
+
+It is easy to create!
+
+<NextPage>
+Pumpkin Ale &6[R]&0
+
+Ingredients:
+  &o4 pumpkin
+  &o10 pumpkin seeds
+  &o3 wheat
+  &o16 sugar
+  &o1 &6&oLevain
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+Pumpkin Ale &6[R]&0
+
+No distilling is required for this brew.
+
+It is best to age with an acacia wood barrel for 3 days.
+
+Properly brewed, this will have an alcohol density of 4.

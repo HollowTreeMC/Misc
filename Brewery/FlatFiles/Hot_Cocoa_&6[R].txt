@@ -1,0 +1,26 @@
+<AutoPage><AutoAlias><ReqPermission>
+Hot Cocoa &6[R]&0
+
+Effects:
+  &ohealth_boost
+  &oslow_falling
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Hot Cocoa &6[R]&0
+
+Ingredients:
+  &o6 cocoa beans
+  &o8 sugar
+  &o1 milk bucket
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Hot Cocoa &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

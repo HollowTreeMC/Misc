@@ -1,0 +1,36 @@
+<AutoPage><AutoAlias><ReqPermission>
+Absinthe &6[R]&0
+
+Effects:
+  &opoison
+  &obad_omen
+  &oblindness
+  &oconfusion
+  &oharm
+  &olevitation
+  &oslow
+  &oslow_digging
+  &ounluck
+  &owither
+  &oabsorption
+
+It is somewhat challenging to create!
+
+<NextPage>
+Absinthe &6[R]&0
+
+Ingredients:
+  &o16 nether wart
+  &o8 spider eye
+  &o8 glowstone dust
+  &o3 &6&oneutralSpirit
+&0&o
+Ferment for 12 min(s)
+<NextPage>
+Absinthe &6[R]&0
+
+Distill this brew 4 time(s) for 300 seconds or so...
+
+It is best to age with a spruce wood barrel for 10 days.
+
+Properly brewed, this will have an alcohol density of 80.

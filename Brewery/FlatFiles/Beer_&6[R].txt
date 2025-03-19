@@ -1,0 +1,24 @@
+<AutoPage><AutoAlias><ReqPermission>
+Beer &6[R]&0
+
+Effects:
+  &oslowness
+
+It is rather simple to create!
+
+<NextPage>
+Beer &6[R]&0
+
+Ingredients:
+  &o15 wheat
+  &o1 &6&oLevain
+&0&o
+Ferment for 8 min(s)
+<NextPage>
+Beer &6[R]&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 3 days.
+
+Properly brewed, this will have an alcohol density of 6.

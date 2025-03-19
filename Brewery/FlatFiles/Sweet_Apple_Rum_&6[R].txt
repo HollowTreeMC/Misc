@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Sweet Apple Rum &6[R]&0
+
+Effects:
+  &oconfusion
+  &oslow
+  &oabsorption
+  &oincrease_damage
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+Sweet Apple Rum &6[R]&0
+
+Ingredients:
+  &o12 sugar cane
+  &o12 apple
+  &o8 oak planks
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+Sweet Apple Rum &6[R]&0
+
+Distill this brew 3 time(s) for 150 seconds or so...
+
+It is best to age with an oak wood barrel for 4 days.
+
+Properly brewed, this will have an alcohol density of 50.

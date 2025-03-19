@@ -1,0 +1,30 @@
+<AutoPage><AutoAlias><ReqPermission>
+Snow Maiden &6[R]&0
+
+Effects:
+  &opoison
+  &oblindness
+  &oconfusion
+  &osaturation
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+Snow Maiden &6[R]&0
+
+Ingredients:
+  &o8 wheat
+  &o8 sweet berries
+  &o8 snowball
+  &o2 white dye
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Snow Maiden &6[R]&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 2 days.
+
+Properly brewed, this will have an alcohol density of 4.

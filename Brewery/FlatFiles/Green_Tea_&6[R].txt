@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+Green Tea &6[R]&0
+
+Effects:
+  &ojump
+  &oluck
+  &oregeneration
+
+It is relatively straightforward to create!
+
+<NextPage>
+Green Tea &6[R]&0
+
+Ingredients:
+  &o25 birch leaves
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Green Tea &6[R]&0
+
+Distill this brew 1 time(s) for 4 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

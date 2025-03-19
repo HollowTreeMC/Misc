@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Pale Ale &6[R]&0
+
+Effects:
+  &oweakness
+  &ostrength
+  &osaturation
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Pale Ale &6[R]&0
+
+Ingredients:
+  &o16 wheat
+  &o5 tall grass
+  &o1 yellow dye
+  &o3 glowstone dust
+  &o1 &6&oLevain
+&0&o
+Ferment for 4 min(s)
+<NextPage>
+Pale Ale &6[R]&0
+
+No distilling is required for this brew.
+
+It is best to age with a birch wood barrel for 2 days.
+
+Properly brewed, this will have an alcohol density of 5.

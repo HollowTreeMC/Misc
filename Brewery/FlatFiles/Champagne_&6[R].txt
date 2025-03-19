@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Champagne &6[R]&0
+
+Effects:
+  &oslowness
+  &ofire_resistance
+  &oweakness
+
+It is quite hard to create!
+
+<NextPage>
+Champagne &6[R]&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o8 glowstone dust
+  &o2 &6&oLevain
+&0&o
+Ferment for 20 min(s)
+<NextPage>
+Champagne &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

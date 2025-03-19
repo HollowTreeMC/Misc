@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Red Wine &6[R]&0
+
+Effects:
+  &oslowness
+  &oheal
+
+It is somewhat challenging to create!
+
+<NextPage>
+Red Wine &6[R]&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o8 nether wart
+  &o2 &6&oLevain
+&0&o
+Ferment for 18 min(s)
+<NextPage>
+Red Wine &6[R]&0
+
+Distill this brew 0 time(s) for None seconds or so...
+
+One can use any type of barrel, but must age for 20 days.
+
+Properly brewed, this will have an alcohol density of 8.

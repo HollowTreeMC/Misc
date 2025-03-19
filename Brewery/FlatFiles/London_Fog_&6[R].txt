@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+London Fog &6[R]&0
+
+Effects:
+  &owither
+  &oslowness
+  &oluck
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+London Fog &6[R]&0
+
+Ingredients:
+  &o10 ice
+  &o5 sugar
+  &o1 milk bucket
+  &o1 &6&oEarlGrayTea
+  &o2 &6&oRussianVodka
+&0&o
+Ferment for 8 min(s)
+<NextPage>
+London Fog &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

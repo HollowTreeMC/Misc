@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Rose Milk Tea &6[R]&0
+
+Effects:
+  &ofast_digging
+  &ospeed
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Rose Milk Tea &6[R]&0
+
+Ingredients:
+  &o15 dark oak leaves
+  &o2 sugar
+  &o2 milk bucket
+  &o2 honey bottle
+  &o1 rose bush
+&0&o
+Ferment for 1 min(s)
+<NextPage>
+Rose Milk Tea &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

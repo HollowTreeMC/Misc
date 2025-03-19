@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Screwdriver &6[R]&0
+
+Effects:
+  &oconfusion
+  &ofire_resistance
+  &oslowness
+
+It is relatively straightforward to create!
+
+<NextPage>
+Screwdriver &6[R]&0
+
+Ingredients:
+  &o10 blue ice
+  &o5 sugar
+  &o4 orange dye
+  &o2 &6&oRussianVodka
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Screwdriver &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

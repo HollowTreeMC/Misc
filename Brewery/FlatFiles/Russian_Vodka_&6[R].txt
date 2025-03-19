@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Russian Vodka &6[R]&0
+
+Effects:
+  &oweakness
+  &opoison
+
+It is easy to create!
+
+<NextPage>
+Russian Vodka &6[R]&0
+
+Ingredients:
+  &o24 potato
+  &o8 packed ice
+  &o4 ice
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+Russian Vodka &6[R]&0
+
+Distill this brew 1 time(s) for 100 seconds or so...
+
+It is best to age with a birch wood barrel for 1 days.
+
+Properly brewed, this will have an alcohol density of 75.

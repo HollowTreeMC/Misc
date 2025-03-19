@@ -1,0 +1,30 @@
+<AutoPage><AutoAlias><ReqPermission>
+Cinnamon Whiskey &6[R]&0
+
+Effects:
+  &oconfusion
+  &ofire_resistance
+  &oabsorption
+  &oincrease_damage
+  &onight_vision
+
+It is easy to create!
+
+<NextPage>
+Cinnamon Whiskey &6[R]&0
+
+Ingredients:
+  &o24 wheat
+  &o8 blaze powder
+  &o16 sugar
+  &o2 &6&oLevain
+&0&o
+Ferment for 4 min(s)
+<NextPage>
+Cinnamon Whiskey &6[R]&0
+
+Distill this brew 3 time(s) for 180 seconds or so...
+
+It is best to age with a jungle wood barrel for 10 days.
+
+Properly brewed, this will have an alcohol density of 65.

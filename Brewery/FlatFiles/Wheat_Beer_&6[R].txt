@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Wheat Beer &6[R]&0
+
+Effects:
+  &owither
+  &ostrength
+  &ospeed
+  &osaturation
+
+It is easy to create!
+
+<NextPage>
+Wheat Beer &6[R]&0
+
+Ingredients:
+  &o32 wheat
+  &o8 brown dye
+  &o4 glowstone dust
+  &o1 &6&oLevain
+&0&o
+Ferment for 4 min(s)
+<NextPage>
+Wheat Beer &6[R]&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 1 days.
+
+Properly brewed, this will have an alcohol density of 6.

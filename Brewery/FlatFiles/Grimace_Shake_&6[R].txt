@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Grimace Shake &6[R]&0
+
+Effects:
+  &ospeed
+  &oheal
+  &ohero_of_the_village
+
+It is relatively straightforward to create!
+
+<NextPage>
+Grimace Shake &6[R]&0
+
+Ingredients:
+  &o8 milk bucket
+  &o4 sugar
+  &o4 sweet berries
+  &o2 purple dye
+  &o1 &6&oiceCream
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+Grimace Shake &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

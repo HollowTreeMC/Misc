@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+Gourmet Coffee &6[R]&0
+
+Effects:
+  &oregeneration
+  &ospeed
+
+It is easy to create!
+
+<NextPage>
+Gourmet Coffee &6[R]&0
+
+Ingredients:
+  &o8 cocoa beans
+  &o4 sugar
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Gourmet Coffee &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 6.

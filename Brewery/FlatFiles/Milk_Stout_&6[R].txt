@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Milk Stout &6[R]&0
+
+Effects:
+  &oweakness
+  &oconfusion
+
+It is somewhat challenging to create!
+
+<NextPage>
+Milk Stout &6[R]&0
+
+Ingredients:
+  &o20 wheat
+  &o15 cocoa beans
+  &o8 milk bucket
+  &o8 sugar
+  &o1 &6&oLevain
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Milk Stout &6[R]&0
+
+Distill this brew 11 time(s) for 60 seconds or so...
+
+It is best to age with a dark oak wood barrel for 4 days.
+
+Properly brewed, this will have an alcohol density of 6.

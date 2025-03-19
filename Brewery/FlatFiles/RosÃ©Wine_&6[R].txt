@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+RoséWine &6[R]&0
+
+Effects:
+  &opoison
+  &oblindness
+  &oconfusion
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+RoséWine &6[R]&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o8 lily of the valley
+  &o2 &6&oLevain
+&0&o
+Ferment for 14 min(s)
+<NextPage>
+RoséWine &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

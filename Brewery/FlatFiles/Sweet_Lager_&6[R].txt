@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Sweet Lager &6[R]&0
+
+Effects:
+  &oweakness
+  &ofire_resistance
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Sweet Lager &6[R]&0
+
+Ingredients:
+  &o12 wheat
+  &o8 sugar
+  &o1 glowstone dust
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Sweet Lager &6[R]&0
+
+No distilling is required for this brew.
+
+It is best to age with a spruce wood barrel for 6 days.
+
+Properly brewed, this will have an alcohol density of 5.

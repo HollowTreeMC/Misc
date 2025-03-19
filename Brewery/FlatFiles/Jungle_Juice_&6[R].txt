@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Jungle Juice &6[R]&0
+
+Effects:
+  &ostrength
+  &olevitation
+  &oabsorption
+
+It is rather difficult to create!
+
+<NextPage>
+Jungle Juice &6[R]&0
+
+Ingredients:
+  &o10 ice
+  &o5 sugar
+  &o2 melon
+  &o1 &6&oRum
+  &o1 &6&oRussianVodka
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Jungle Juice &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

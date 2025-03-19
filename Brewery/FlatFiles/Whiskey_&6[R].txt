@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Whiskey &6[R]&0
+
+Effects:
+  &opoison
+  &ofire_resistance
+
+It is rather difficult to create!
+
+<NextPage>
+Whiskey &6[R]&0
+
+Ingredients:
+  &o32 wheat
+  &o16 sugar
+  &o8 oak planks
+  &o1 &6&oLevain
+&0&o
+Ferment for 18 min(s)
+<NextPage>
+Whiskey &6[R]&0
+
+Distill this brew 3 time(s) for 240 seconds or so...
+
+It is best to age with a dark oak wood barrel for 20 days.
+
+Properly brewed, this will have an alcohol density of 70.

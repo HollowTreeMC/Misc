@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Gin &6[R]&0
+
+Effects:
+  &oglowing
+  &oinvisibility
+  &oconfusion
+  &oslowness
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+Gin &6[R]&0
+
+Ingredients:
+  &o24 sweet berries
+  &o8 nether wart
+  &o8 packed ice
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Gin &6[R]&0
+
+Distill this brew 2 time(s) for 120 seconds or so...
+
+It is best to age with a birch wood barrel for 1 days.
+
+Properly brewed, this will have an alcohol density of 65.

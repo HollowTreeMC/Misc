@@ -1,0 +1,32 @@
+<AutoPage><AutoAlias><ReqPermission>
+Reposado Tequila &6[R]&0
+
+Effects:
+  &oblindness
+  &oconfusion
+  &oslowness
+  &ofire_resistance
+  &oincrease_damage
+  &oharm
+
+It is somewhat challenging to create!
+
+<NextPage>
+Reposado Tequila &6[R]&0
+
+Ingredients:
+  &o35 blue orchid
+  &o32 cactus
+  &o16 sugar
+  &o8 oak planks
+  &o1 &6&oLevain
+&0&o
+Ferment for 9 min(s)
+<NextPage>
+Reposado Tequila &6[R]&0
+
+Distill this brew 3 time(s) for 200 seconds or so...
+
+It is best to age with an acacia wood barrel for 7 days.
+
+Properly brewed, this will have an alcohol density of 40.

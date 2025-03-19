@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Orange Ale &6[R]&0
+
+Effects:
+  &omining_fatigue
+  &ofire_resistance
+  &ojump
+
+It is easy to create!
+
+<NextPage>
+Orange Ale &6[R]&0
+
+Ingredients:
+  &o2 orange tulip
+  &o10 honey bottle
+  &o7 wheat
+  &o6 orange dye
+  &o1 &6&oLevain
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+Orange Ale &6[R]&0
+
+No distilling is required for this brew.
+
+It is best to age with an acacia wood barrel for 3 days.
+
+Properly brewed, this will have an alcohol density of 7.

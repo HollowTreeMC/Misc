@@ -1,0 +1,24 @@
+<AutoPage><AutoAlias><ReqPermission>
+Melon Juice &6[R]&0
+
+Effects:
+  &oinvisibility
+  &oluck
+
+It is relatively straightforward to create!
+
+<NextPage>
+Melon Juice &6[R]&0
+
+Ingredients:
+  &o10 glistering melon slice
+  &o5 sugar
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Melon Juice &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

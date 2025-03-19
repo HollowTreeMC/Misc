@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+Orange Julius &6[R]&0
+
+Effects:
+  &owater_breathing
+  &oinvisibility
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+Orange Julius &6[R]&0
+
+Ingredients:
+  &o8 sweet berries
+  &o5 sugar
+  &o2 milk bucket
+&0&o
+Ferment for 12 min(s)
+<NextPage>
+Orange Julius &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

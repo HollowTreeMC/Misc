@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Apple Soda &6[R]&0
+
+Effects:
+  &olevitation
+  &oslow_falling
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Apple Soda &6[R]&0
+
+Ingredients:
+  &o10 sugar
+  &o15 apple
+  &o3 red dye
+  &o1 &6&ocarbonatedWater
+&0&o
+Ferment for 8 min(s)
+<NextPage>
+Apple Soda &6[R]&0
+
+Distill this brew 2 time(s) for 10 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

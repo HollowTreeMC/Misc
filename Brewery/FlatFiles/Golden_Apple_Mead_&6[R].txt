@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Golden Apple Mead &6[R]&0
+
+Effects:
+  &odamage_resistance
+  &oabsorption
+  &oconfusion
+
+It is somewhat challenging to create!
+
+<NextPage>
+Golden Apple Mead &6[R]&0
+
+Ingredients:
+  &o24 honey bottle
+  &o4 golden apple
+  &o12 wheat seeds
+  &o1 &6&oLevain
+&0&o
+Ferment for 14 min(s)
+<NextPage>
+Golden Apple Mead &6[R]&0
+
+Distill this brew 3 time(s) for 200 seconds or so...
+
+It is best to age with an oak wood barrel for 10 days.
+
+Properly brewed, this will have an alcohol density of 60.

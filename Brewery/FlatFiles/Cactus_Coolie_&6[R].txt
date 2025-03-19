@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+Cactus Coolie &6[R]&0
+
+Effects:
+  &ospeed
+  &ofast_digging
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Cactus Coolie &6[R]&0
+
+Ingredients:
+  &o10 cactus
+  &o5 sugar
+  &o4 magma cream
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+Cactus Coolie &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

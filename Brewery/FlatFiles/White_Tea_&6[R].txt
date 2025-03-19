@@ -1,0 +1,24 @@
+<AutoPage><AutoAlias><ReqPermission>
+White Tea &6[R]&0
+
+Effects:
+  &oconduit_power
+
+It is easy to create!
+
+<NextPage>
+White Tea &6[R]&0
+
+Ingredients:
+  &o1 lily of the valley
+  &o20 birch leaves
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+White Tea &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

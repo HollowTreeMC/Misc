@@ -1,0 +1,32 @@
+<AutoPage><AutoAlias><ReqPermission>
+Rootbeer &6[R]&0
+
+Effects:
+  &oabsorption
+  &ofast_digging
+  &ojump
+  &onight_vision
+  &oslow_falling
+  &ospeed
+  &owater_breathing
+
+It is somewhat challenging to create!
+
+<NextPage>
+Rootbeer &6[R]&0
+
+Ingredients:
+  &o1 stick
+  &o8 mangrove roots
+  &o10 sugar
+  &o1 &6&ocarbonatedWater
+&0&o
+Ferment for 13 min(s)
+<NextPage>
+Rootbeer &6[R]&0
+
+Distill this brew 3 time(s) for 3 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

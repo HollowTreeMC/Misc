@@ -1,0 +1,24 @@
+<AutoPage><AutoAlias><ReqPermission>
+Carrot Juice &6[R]&0
+
+Effects:
+  &onight_vision
+
+It is easy to create!
+
+<NextPage>
+Carrot Juice &6[R]&0
+
+Ingredients:
+  &o10 carrot
+  &o5 sugar
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Carrot Juice &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

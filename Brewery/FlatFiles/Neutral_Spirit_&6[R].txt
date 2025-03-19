@@ -1,0 +1,22 @@
+<AutoPage><AutoAlias><ReqPermission>
+Neutral Spirit &6[R]&0
+
+
+It is easy to create!
+
+<NextPage>
+Neutral Spirit &6[R]&0
+
+Ingredients:
+  &o10 wheat
+  &o10 beetroot
+&0&o
+Ferment for 1 min(s)
+<NextPage>
+Neutral Spirit &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 10.

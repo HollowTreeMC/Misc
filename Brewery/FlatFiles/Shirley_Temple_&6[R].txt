@@ -1,0 +1,30 @@
+<AutoPage><AutoAlias><ReqPermission>
+Shirley Temple &6[R]&0
+
+Effects:
+  &oglowing
+  &oluck
+  &ohero_of_the_village
+
+It is relatively straightforward to create!
+
+<NextPage>
+Shirley Temple &6[R]&0
+
+Ingredients:
+  &o5 sweet berries
+  &o10 sugar
+  &o1 blaze powder
+  &o8 red dye
+  &o1 golden apple
+  &o1 &6&ocarbonatedWater
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+Shirley Temple &6[R]&0
+
+Distill this brew 7 time(s) for 28 seconds or so...
+
+It is best to age with an acacia wood barrel for 6 days.
+
+Properly brewed, this will have an alcohol density of 0.

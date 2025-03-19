@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Hard Cider &6[R]&0
+
+Effects:
+  &oslow
+  &ofire_resistance
+  &oabsorption
+  &ojump
+
+It is relatively straightforward to create!
+
+<NextPage>
+Hard Cider &6[R]&0
+
+Ingredients:
+  &o15 apple
+  &o8 sugar
+  &o10 sweet berries
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 2 min(s)
+<NextPage>
+Hard Cider &6[R]&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 3 days.
+
+Properly brewed, this will have an alcohol density of 7.

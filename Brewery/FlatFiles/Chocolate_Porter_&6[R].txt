@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Chocolate Porter &6[R]&0
+
+Effects:
+  &owither
+  &ostrength
+  &ospeed
+
+It is somewhat challenging to create!
+
+<NextPage>
+Chocolate Porter &6[R]&0
+
+Ingredients:
+  &o25 wheat
+  &o23 cocoa beans
+  &o14 sugar
+  &o4 brown dye
+  &o1 &6&oLevain
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Chocolate Porter &6[R]&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 1 days.
+
+Properly brewed, this will have an alcohol density of 6.

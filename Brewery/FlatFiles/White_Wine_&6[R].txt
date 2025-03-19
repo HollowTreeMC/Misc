@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+White Wine &6[R]&0
+
+Effects:
+  &owither
+  &ostrength
+  &ospeed
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+White Wine &6[R]&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o5 azure bluet
+  &o2 &6&oLevain
+&0&o
+Ferment for 16 min(s)
+<NextPage>
+White Wine &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

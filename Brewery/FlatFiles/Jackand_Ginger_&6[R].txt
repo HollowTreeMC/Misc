@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Jackand Ginger &6[R]&0
+
+Effects:
+  &oslow_digging
+  &oluck
+  &odamage_resistance
+  &obad_omen
+
+It is easy to create!
+
+<NextPage>
+Jackand Ginger &6[R]&0
+
+Ingredients:
+  &o10 ice
+  &o5 sugar
+  &o1 &6&oPaleAle
+  &o1 &6&oWhiskey
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Jackand Ginger &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

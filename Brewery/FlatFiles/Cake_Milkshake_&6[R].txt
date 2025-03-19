@@ -1,0 +1,26 @@
+<AutoPage><AutoAlias><ReqPermission>
+Cake Milkshake &6[R]&0
+
+Effects:
+  &ospeed
+
+It is relatively straightforward to create!
+
+<NextPage>
+Cake Milkshake &6[R]&0
+
+Ingredients:
+  &o8 milk bucket
+  &o4 sugar
+  &o2 cake
+  &o1 &6&oiceCream
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+Cake Milkshake &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

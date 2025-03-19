@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Sea Cucumber &6[R]&0
+
+Effects:
+  &ojump
+  &owither
+  &oluck
+
+It is somewhat challenging to create!
+
+<NextPage>
+Sea Cucumber &6[R]&0
+
+Ingredients:
+  &o10 ice
+  &o5 sugar
+  &o3 sea pickle
+  &o2 fern
+  &o2 &6&oGin
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Sea Cucumber &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

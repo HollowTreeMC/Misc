@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Peach Tea &6[R]&0
+
+Effects:
+  &oregeneration
+  &osaturation
+  &oslow_falling
+
+It is relatively straightforward to create!
+
+<NextPage>
+Peach Tea &6[R]&0
+
+Ingredients:
+  &o25 oak leaves
+  &o1 golden apple
+  &o6 pink dye
+  &o11 sugar
+&0&o
+Ferment for 12 min(s)
+<NextPage>
+Peach Tea &6[R]&0
+
+Distill this brew 3 time(s) for 12 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

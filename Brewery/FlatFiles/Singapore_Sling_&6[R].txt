@@ -1,0 +1,30 @@
+<AutoPage><AutoAlias><ReqPermission>
+Singapore Sling &6[R]&0
+
+Effects:
+  &owither
+  &ospeed
+  &oabsorption
+  &ounluck
+
+It is rather difficult to create!
+
+<NextPage>
+Singapore Sling &6[R]&0
+
+Ingredients:
+  &o10 blue ice
+  &o5 sugar
+  &o1 red dye
+  &o1 &6&oLimeSoda
+  &o2 &6&oGin
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Singapore Sling &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

@@ -1,0 +1,30 @@
+<AutoPage><AutoAlias><ReqPermission>
+Porter &6[R]&0
+
+Effects:
+  &oweakness
+  &oslowness
+  &ostrength
+  &osaturation
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+Porter &6[R]&0
+
+Ingredients:
+  &o30 wheat
+  &o21 black dye
+  &o8 cocoa beans
+  &o2 sugar
+  &o1 &6&oLevain
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Porter &6[R]&0
+
+No distilling is required for this brew.
+
+One can use any type of barrel, but must age for 2 days.
+
+Properly brewed, this will have an alcohol density of 7.

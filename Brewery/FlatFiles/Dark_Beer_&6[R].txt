@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Dark Beer &6[R]&0
+
+Effects:
+  &oslowness
+
+It is rather difficult to create!
+
+<NextPage>
+Dark Beer &6[R]&0
+
+Ingredients:
+  &o53 wheat
+  &o42 wheat seeds
+  &o8 black dye
+  &o15 cocoa beans
+  &o1 &6&oLevain
+&0&o
+Ferment for 8 min(s)
+<NextPage>
+Dark Beer &6[R]&0
+
+No distilling is required for this brew.
+
+It is best to age with a dark oak wood barrel for 8 days.
+
+Properly brewed, this will have an alcohol density of 7.

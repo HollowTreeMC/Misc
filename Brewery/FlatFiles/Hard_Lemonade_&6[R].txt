@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Hard Lemonade &6[R]&0
+
+Effects:
+  &ohunger
+
+It is rather simple to create!
+
+<NextPage>
+Hard Lemonade &6[R]&0
+
+Ingredients:
+  &o8 honey bottle
+  &o10 sugar
+  &o5 wheat
+  &o2 sunflower
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 1 min(s)
+<NextPage>
+Hard Lemonade &6[R]&0
+
+Distill this brew 3 time(s) for 12 seconds or so...
+
+One can use any type of barrel, but must age for 1 days.
+
+Properly brewed, this will have an alcohol density of 5.

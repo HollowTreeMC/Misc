@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Rootbeer Float &6[R]&0
+
+Effects:
+  &ofire_resistance
+  &ospeed
+  &ofast_digging
+
+It is relatively straightforward to create!
+
+<NextPage>
+Rootbeer Float &6[R]&0
+
+Ingredients:
+  &o8 milk bucket
+  &o4 sugar
+  &o1 &6&orootbeer
+  &o1 &6&oiceCream
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+Rootbeer Float &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

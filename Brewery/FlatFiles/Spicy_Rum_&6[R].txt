@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Spicy Rum &6[R]&0
+
+Effects:
+  &oconfusion
+  &ounluck
+  &oabsorption
+  &ohealth_boost
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Spicy Rum &6[R]&0
+
+Ingredients:
+  &o24 sugar
+  &o6 blaze powder
+  &o8 packed ice
+  &o1 &6&oLevain
+&0&o
+Ferment for 6 min(s)
+<NextPage>
+Spicy Rum &6[R]&0
+
+Distill this brew 2 time(s) for 180 seconds or so...
+
+It is best to age with a jungle wood barrel for 4 days.
+
+Properly brewed, this will have an alcohol density of 60.

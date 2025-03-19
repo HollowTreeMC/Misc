@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Blooming Tea &6[R]&0
+
+Effects:
+  &ohero_of_the_village
+
+It is one of the most difficult to create!
+
+<NextPage>
+Blooming Tea &6[R]&0
+
+Ingredients:
+  &o8 red tulip
+  &o8 orange tulip
+  &o8 white tulip
+  &o8 pink tulip
+  &o64 birch leaves
+  &o15 lilac
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+Blooming Tea &6[R]&0
+
+Distill this brew 1 time(s) for 4 seconds or so...
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

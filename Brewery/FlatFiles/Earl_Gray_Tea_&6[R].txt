@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Earl Gray Tea &6[R]&0
+
+Effects:
+  &oincrease_damage
+  &ojump
+  &ospeed
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Earl Gray Tea &6[R]&0
+
+Ingredients:
+  &o22 dark oak leaves
+  &o2 sugar
+  &o2 milk bucket
+&0&o
+Ferment for 6 min(s)
+<NextPage>
+Earl Gray Tea &6[R]&0
+
+Distill this brew 2 time(s) for 5 seconds or so...
+
+It is best to age with a dark oak wood barrel for 2 days.
+
+Properly brewed, this will have an alcohol density of 0.

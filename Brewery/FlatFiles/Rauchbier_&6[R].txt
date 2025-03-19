@@ -1,0 +1,31 @@
+<AutoPage><AutoAlias><ReqPermission>
+Rauchbier &6[R]&0
+
+Effects:
+  &obad_omen
+  &oslowness
+  &ofire_resistance
+  &ostrength
+
+It is of moderate difficulty to create!
+
+<NextPage>
+Rauchbier &6[R]&0
+
+Ingredients:
+  &o20 wheat seeds
+  &o34 wheat
+  &o1 campfire
+  &o5 sugar
+  &o1 charcoal
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Rauchbier &6[R]&0
+
+No distilling is required for this brew.
+
+It is best to age with a dark oak wood barrel for 2 days.
+
+Properly brewed, this will have an alcohol density of 6.

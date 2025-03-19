@@ -1,0 +1,30 @@
+<AutoPage><AutoAlias><ReqPermission>
+XOCognac &6[R]&0
+
+Effects:
+  &oconfusion
+  &owither
+  &oresistance
+  &ostrength
+  &ospeed
+
+It is quite hard to create!
+
+<NextPage>
+XOCognac &6[R]&0
+
+Ingredients:
+  &o24 sweet berries
+  &o16 sugar
+  &o8 oak sapling
+  &o1 &6&oLevain
+&0&o
+Ferment for 20 min(s)
+<NextPage>
+XOCognac &6[R]&0
+
+Distill this brew 5 time(s) for 400 seconds or so...
+
+It is best to age with a dark oak wood barrel for 32 days.
+
+Properly brewed, this will have an alcohol density of 85.

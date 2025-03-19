@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Banana Milkshake &6[R]&0
+
+Effects:
+  &ospeed
+  &odamage_resistance
+  &ohealth_boost
+  &oheal
+
+It is relatively straightforward to create!
+
+<NextPage>
+Banana Milkshake &6[R]&0
+
+Ingredients:
+  &o8 milk bucket
+  &o4 sugar
+  &o4 blaze rod
+  &o1 &6&oiceCream
+&0&o
+Ferment for 3 min(s)
+<NextPage>
+Banana Milkshake &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

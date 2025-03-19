@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Rum &6[R]&0
+
+Effects:
+  &ofire_resistance
+  &opoison
+  &odolphins_grace
+
+It is somewhat challenging to create!
+
+<NextPage>
+Rum &6[R]&0
+
+Ingredients:
+  &o24 sugar
+  &o8 packed ice
+  &o8 oak wood
+  &o1 &6&oneutralSpirit
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+Rum &6[R]&0
+
+Distill this brew 2 time(s) for 120 seconds or so...
+
+It is best to age with a jungle wood barrel for 3 days.
+
+Properly brewed, this will have an alcohol density of 60.

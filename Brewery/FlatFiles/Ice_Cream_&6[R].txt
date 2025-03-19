@@ -1,0 +1,21 @@
+<AutoPage><AutoAlias><ReqPermission>
+Ice Cream &6[R]&0
+
+
+It is easy to create!
+
+<NextPage>
+Ice Cream &6[R]&0
+
+Ingredients:
+  &o8 sugar
+  &o2 milk bucket
+&0&o
+Ferment for 1 min(s)
+<NextPage>
+Ice Cream &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+

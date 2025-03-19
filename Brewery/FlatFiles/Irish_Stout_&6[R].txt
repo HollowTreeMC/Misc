@@ -1,0 +1,27 @@
+<AutoPage><AutoAlias><ReqPermission>
+Irish Stout &6[R]&0
+
+Effects:
+  &oslowness
+
+It is somewhat challenging to create!
+
+<NextPage>
+Irish Stout &6[R]&0
+
+Ingredients:
+  &o20 wheat
+  &o15 cocoa beans
+  &o16 brown dye
+  &o8 sugar
+  &o1 &6&oLevain
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Irish Stout &6[R]&0
+
+Distill this brew 20 time(s) for 84 seconds or so...
+
+It is best to age with an oak wood barrel for 1 days.
+
+Properly brewed, this will have an alcohol density of 4.

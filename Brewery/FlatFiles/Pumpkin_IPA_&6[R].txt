@@ -1,0 +1,28 @@
+<AutoPage><AutoAlias><ReqPermission>
+Pumpkin IPA &6[R]&0
+
+Effects:
+  &oslowness
+  &ofire_resistance
+
+It is of intermediate difficulty to create!
+
+<NextPage>
+Pumpkin IPA &6[R]&0
+
+Ingredients:
+  &o10 pumpkin
+  &o4 pumpkin seeds
+  &o8 wheat
+  &o3 orange dye
+  &o1 &6&oLevain
+&0&o
+Ferment for 5 min(s)
+<NextPage>
+Pumpkin IPA &6[R]&0
+
+Distill this brew 6 time(s) for 10 seconds or so...
+
+It is best to age with an acacia wood barrel for 11 days.
+
+Properly brewed, this will have an alcohol density of 4.

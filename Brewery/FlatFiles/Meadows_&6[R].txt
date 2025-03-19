@@ -1,0 +1,34 @@
+<AutoPage><AutoAlias><ReqPermission>
+Meadows &6[R]&0
+
+Effects:
+  &ospeed
+  &oluck
+  &oblindness
+  &oslow_digging
+  &ohunger
+  &opoison
+
+It is one of the most difficult to create!
+
+<NextPage>
+Meadows &6[R]&0
+
+Ingredients:
+  &o10 blue ice
+  &o8 sweet berries
+  &o1 pink petals
+  &o2 golden apple
+  &o1 &6&oEmpressGin
+  &o1 &6&oRussianVodka
+  &o1 &6&oSweetAppleRum
+&0&o
+Ferment for 10 min(s)
+<NextPage>
+Meadows &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 50.

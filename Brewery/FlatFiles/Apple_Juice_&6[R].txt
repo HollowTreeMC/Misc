@@ -1,0 +1,25 @@
+<AutoPage><AutoAlias><ReqPermission>
+Apple Juice &6[R]&0
+
+Effects:
+  &ojump
+  &oslow_falling
+
+It is relatively straightforward to create!
+
+<NextPage>
+Apple Juice &6[R]&0
+
+Ingredients:
+  &o10 apple
+  &o5 sugar
+&0&o
+Ferment for 7 min(s)
+<NextPage>
+Apple Juice &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.

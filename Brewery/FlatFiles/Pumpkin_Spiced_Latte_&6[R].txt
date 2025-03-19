@@ -1,0 +1,29 @@
+<AutoPage><AutoAlias><ReqPermission>
+Pumpkin Spiced Latte &6[R]&0
+
+Effects:
+  &oinvisibility
+  &ohero_of_the_village
+  &obad_omen
+  &owither
+
+It is somewhat challenging to create!
+
+<NextPage>
+Pumpkin Spiced Latte &6[R]&0
+
+Ingredients:
+  &o8 cocoa beans
+  &o1 pumpkin
+  &o4 sugar
+  &o2 milk bucket
+&0&o
+Ferment for 6 min(s)
+<NextPage>
+Pumpkin Spiced Latte &6[R]&0
+
+No distilling is required for this brew.
+
+No aging is required for this brew.
+
+Properly brewed, this will have an alcohol density of 0.
