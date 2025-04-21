@@ -1112,6 +1112,7 @@ Levain:
   difficulty: 3
   ingredients:
     - wheat/25
+  wood: 0 # Any
   age: 3
   alcohol: 3
   color: ebe1d2
@@ -1124,6 +1125,7 @@ NeutralSpirit:
   ingredients:
     - wheat/10
     - beetroot/10
+  wood: 0 # Any
   age: 3
   alcohol: 10
   color: ebe1d2
@@ -1274,6 +1276,7 @@ AppleSoda:
     - Brewery:carbonatedWater/1
   distilltime: 10
   distillruns: 2
+  wood: 0 # Any
   age: 3
   alcohol: 0
   color: RED
@@ -1626,7 +1629,6 @@ RedWine:
     - sugar/16
     - nether_wart/8
     - Brewery:Levain/2
-  distillruns: 0
   wood: 0 # Any
   age: 20
   alcohol: 8

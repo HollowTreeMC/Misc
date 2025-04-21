@@ -20,7 +20,7 @@ Ferment for 18 min(s)
 <NextPage>
 Red Wine &6[R]&0
 
-Distill this brew 0 time(s) for None seconds or so...
+No distilling is required for this brew.
 
 One can use any type of barrel, but must age for 20 days.
 
