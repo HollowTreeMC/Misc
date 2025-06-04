@@ -18,8 +18,10 @@ items:
     material: placeholder-%denizen_<server.flag[xur_shop_slot1].material.name>%
     display_name: "%denizen_<server.flag[xur_shop_slot1].display>%"
     lore:
-      - "&a$1,000,000"
-      - "&b100 EXP Levels"
+      - "<server.flag[xur_shop_slot1].enchantment_map.to_list[ ].formatted>"
+      - "<server.flag[xur_shop_slot1].lore>"
+      - "&6150⚙ Sigils"
+      - "&b75 Levels"
     # purchase item behavior
     left_click_requirement:
       deny_commands:
@@ -28,18 +30,19 @@ items:
       requirements:
         stop_at_success: false
         perm1:
-          type: has money
-          amount: 1000000
+          type: '>'
+          input: '%tne_currency_sigils%'
+          output: '150'
         perm2:
           type: '>'
-          input: '%player_total_exp%'
-          output: '30970'
+          input: '%player_level%'
+          output: '75'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot1]> player:<server.match_player[%player_name%]>"
-      - "[console] eco take %player_name% 1000000"
-      - "[console] experience add %player_name% -100 levels"
+      - "[console] money take %player_name% 150 sigils"
+      - "[console] experience add %player_name% -75 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
-      - "[console] ex flag %player_name% xur_obtained expire:3d"
+      - "[console] ex flag player:<server.match_player[%player_name%]> xur_obtained expire:3d"
       - "[close]"
 
   # Xur Slot Shop 2, Rare Black Market Item
@@ -51,8 +54,10 @@ items:
     material: placeholder-%denizen_<server.flag[xur_shop_slot2].material.name>%
     display_name: "%denizen_<server.flag[xur_shop_slot2].display>%"
     lore:
-      - "&a$1,000,000"
-      - "&b100 EXP Levels"
+      - "<server.flag[xur_shop_slot2].enchantment_map.to_list[ ].formatted>"
+      - "<server.flag[xur_shop_slot2].lore>"
+      - "&6150⚙ Sigils"
+      - "&b75 Levels"
     # purchase item behavior
     left_click_requirement:
       deny_commands:
@@ -61,18 +66,19 @@ items:
       requirements:
         stop_at_success: false
         perm1:
-          type: has money
-          amount: 1000000
+          type: '>'
+          input: '%tne_currency_sigils%'
+          output: '150'
         perm2:
           type: '>'
-          input: '%player_total_exp%'
-          output: '30970'
+          input: '%player_level%'
+          output: '75'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot2]> player:<server.match_player[%player_name%]>"
-      - "[console] eco take %player_name% 1000000"
-      - "[console] experience add %player_name% -100 levels"
+      - "[console] money take %player_name% 150 sigils"
+      - "[console] experience add %player_name% -75 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
-      - "[console] ex flag %player_name% xur_obtained expire:3d"
+      - "[console] ex flag player:<server.match_player[%player_name%]> xur_obtained expire:3d"
       - "[close]"
 
   # Xur Slot Shop 3, Tier 3 Crate Item
@@ -84,8 +90,10 @@ items:
     material: placeholder-%denizen_<server.flag[xur_shop_slot3].material.name>%
     display_name: "%denizen_<server.flag[xur_shop_slot3].display>%"
     lore:
-      - "&a$25,000"
-      - "&b50 EXP Levels"
+      - "<server.flag[xur_shop_slot3].enchantment_map.to_list[ ].formatted>"
+      - "<server.flag[xur_shop_slot3].lore>"
+      - "&660⚙ Sigils"
+      - "&b40 Levels"
     # purchase item behavior
     left_click_requirement:
       deny_commands:
@@ -94,18 +102,19 @@ items:
       requirements:
         stop_at_success: false
         perm1:
-          type: has money
-          amount: 75000
+          type: '>'
+          input: '%tne_currency_sigils%'
+          output: '60'
         perm2:
           type: '>'
-          input: '%player_total_exp%'
-          output: '2920'
+          input: '%player_level%'
+          output: '40'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot3]> player:<server.match_player[%player_name%]>"
-      - "[console] eco take %player_name% 75000"
-      - "[console] experience add %player_name% -50 levels"
+      - "[console] money take %player_name% 60 sigils"
+      - "[console] experience add %player_name% -40 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
-      - "[console] ex flag %player_name% xur_obtained expire:3d"
+      - "[console] ex flag player:<server.match_player[%player_name%]> xur_obtained expire:3d"
       - "[close]"
 
   # Xur Slot Shop 4, Tier 3 Crate Item
@@ -117,8 +126,10 @@ items:
     material: placeholder-%denizen_<server.flag[xur_shop_slot4].material.name>%
     display_name: "%denizen_<server.flag[xur_shop_slot4].display>%"
     lore:
-      - "&a$25,000"
-      - "&b50 EXP Levels"
+      - "<server.flag[xur_shop_slot4].enchantment_map.to_list[ ].formatted>"
+      - "<server.flag[xur_shop_slot4].lore>"
+      - "&660⚙ Sigils"
+      - "&b40 Levels"
     # purchase item behavior
     left_click_requirement:
       deny_commands:
@@ -127,18 +138,19 @@ items:
       requirements:
         stop_at_success: false
         perm1:
-          type: has money
-          amount: 75000
+          type: '>'
+          input: '%tne_currency_sigils%'
+          output: '60'
         perm2:
           type: '>'
-          input: '%player_total_exp%'
-          output: '2920'
+          input: '%player_level%'
+          output: '40'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot4]> player:<server.match_player[%player_name%]>"
-      - "[console] eco take %player_name% 75000"
-      - "[console] experience add %player_name% -50 levels"
+      - "[console] money take %player_name% 60 sigils"
+      - "[console] experience add %player_name% -40 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
-      - "[console] ex flag %player_name% xur_obtained expire:3d"
+      - "[console] ex flag player:<server.match_player[%player_name%]> xur_obtained expire:3d"
       - "[close]"
 
   # Xur Slot Shop 5, Tier 3 Crate Item
@@ -150,8 +162,10 @@ items:
     material: placeholder-%denizen_<server.flag[xur_shop_slot5].material.name>%
     display_name: "%denizen_<server.flag[xur_shop_slot5].display>%"
     lore:
-      - "&a$25,000"
-      - "&b50 EXP Levels"
+      - "<server.flag[xur_shop_slot5].enchantment_map.to_list[ ].formatted>"
+      - "<server.flag[xur_shop_slot5].lore>"
+      - "&660⚙ Sigils"
+      - "&b40 Levels"
     # purchase item behavior
     left_click_requirement:
       deny_commands:
@@ -160,16 +174,17 @@ items:
       requirements:
         stop_at_success: false
         perm1:
-          type: has money
-          amount: 75000
+          type: '>'
+          input: '%tne_currency_sigils%'
+          output: '60'
         perm2:
           type: '>'
-          input: '%player_total_exp%'
-          output: '2920'
+          input: '%player_level%'
+          output: '40'
     left_click_commands:
       - "[console] ex give <server.flag[xur_shop_slot5]> player:<server.match_player[%player_name%]>"
-      - "[console] eco take %player_name% 75000"
-      - "[console] experience add %player_name% -50 levels"
+      - "[console] money take %player_name% 60 sigils"
+      - "[console] experience add %player_name% -40 levels"
       - "[message] %denizen_<server.flag[pfx_xur]>% Take it... may it serve you better than it did its last owner."
-      - "[console] ex flag %player_name% xur_obtained expire:3d"
+      - "[console] ex flag player:<server.match_player[%player_name%]> xur_obtained expire:3d"
       - "[close]"
